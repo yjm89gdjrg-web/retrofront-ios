@@ -1,0 +1,30 @@
+import { mkdir,writeFile } from 'node:fs/promises';
+// Stable Xcode project, with no CocoaPods, SPM or XcodeGen dependency.
+const id=n=>'A'+n.toString(16).padStart(23,'0').toUpperCase();
+const objects=[];const put=(n,text)=>{
+  text=text.replace(/= \(([^()]*)\);/g,(_,items)=>`= (${items.trim()?items+',':''});`);
+  objects.push(`${id(n)} = { ${text} };`);
+};
+put(1,`isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = ${id(20)}; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, zh_CN, Base); mainGroup = ${id(2)}; productRefGroup = ${id(3)}; projectDirPath = ""; projectRoot = ""; targets = (${id(4)});`);
+put(2,`isa = PBXGroup; children = (${id(5)}, ${id(3)}); sourceTree = "<group>";`);
+put(3,`isa = PBXGroup; children = (${id(6)}); name = Products; sourceTree = "<group>";`);
+put(4,`isa = PBXNativeTarget; buildConfigurationList = ${id(21)}; buildPhases = (${id(10)}, ${id(11)}, ${id(12)}); buildRules = (); dependencies = (); name = RetroFront; productName = RetroFront; productReference = ${id(6)}; productType = "com.apple.product-type.application";`);
+put(5,`isa = PBXGroup; children = (${id(7)},${id(8)},${id(9)},${id(13)},${id(14)}); path = RetroFront; sourceTree = "<group>";`);
+put(6,'isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroFront.app; sourceTree = BUILT_PRODUCTS_DIR;');
+put(7,'isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>";');
+put(8,'isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>";');
+put(9,'isa = PBXFileReference; lastKnownFileType = folder; path = Game; sourceTree = "<group>";');
+put(13,'isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>";');
+put(14,'isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>";');
+put(10,`isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (${id(15)}); runOnlyForDeploymentPostprocessing = 0;`);
+put(11,'isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;');
+put(12,`isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (${id(16)},${id(17)},${id(18)}); runOnlyForDeploymentPostprocessing = 0;`);
+for(const [a,b] of [[15,7],[16,9],[17,13],[18,14]])put(a,`isa = PBXBuildFile; fileRef = ${id(b)};`);
+for(const [n,a,b]of [[20,22,23],[21,24,25]])put(n,`isa = XCConfigurationList; buildConfigurations = (${id(a)},${id(b)}); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;`);
+for(const [n,name]of [[22,'Debug'],[23,'Release']])put(n,`isa = XCBuildConfiguration; name = ${name}; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; ${name==='Debug'?'SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf;':'SWIFT_COMPILATION_MODE = wholemodule; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";'} };`);
+for(const [n,name]of [[24,'Debug'],[25,'Release']])put(n,`isa = XCBuildConfiguration; name = ${name}; buildSettings = { PRODUCT_NAME = "$(TARGET_NAME)"; PRODUCT_BUNDLE_IDENTIFIER = com.example.retrofront; INFOPLIST_FILE = RetroFront/Info.plist; GENERATE_INFOPLIST_FILE = NO; TARGETED_DEVICE_FAMILY = "1,2"; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 1.0; CODE_SIGN_STYLE = Automatic; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; SWIFT_EMIT_LOC_STRINGS = NO; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; };`);
+const root='ios/RetroFront.xcodeproj';await mkdir(`${root}/xcshareddata/xcschemes`,{recursive:true});
+await writeFile(`${root}/project.pbxproj`,`// !$*UTF8*$!\n{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {\n${objects.join('\n')}\n}; rootObject = ${id(1)}; }\n`);
+const ref=`<BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="${id(4)}" BuildableName="RetroFront.app" BlueprintName="RetroFront" ReferencedContainer="container:RetroFront.xcodeproj"/>`;
+await writeFile(`${root}/xcshareddata/xcschemes/RetroFront.xcscheme`,`<?xml version="1.0" encoding="UTF-8"?><Scheme LastUpgradeVersion="1600" version="1.3"><BuildAction parallelizeBuildables="YES" buildImplicitDependencies="YES"><BuildActionEntries><BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">${ref}</BuildActionEntry></BuildActionEntries></BuildAction><TestAction buildConfiguration="Debug" shouldUseLaunchSchemeArgsEnv="YES"/><LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" allowLocationSimulation="YES"><BuildableProductRunnable runnableDebuggingMode="0">${ref}</BuildableProductRunnable></LaunchAction><ProfileAction buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES"><BuildableProductRunnable runnableDebuggingMode="0">${ref}</BuildableProductRunnable></ProfileAction><AnalyzeAction buildConfiguration="Debug"/><ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"/></Scheme>`);
+console.log('Xcode project ready.');

@@ -1,0 +1,7 @@
+export class Audio {
+  constructor(){this.enabled=true;this.context=null;}
+  unlock(){if(!this.context){const Context=window.AudioContext||window.webkitAudioContext;if(Context)this.context=new Context();}this.context?.resume().catch(()=>{});}
+  tone(freq=440,duration=.1,type='sine',volume=.08){if(!this.enabled||!this.context)return;const c=this.context,o=c.createOscillator(),g=c.createGain();o.type=type;o.frequency.setValueAtTime(freq,c.currentTime);g.gain.setValueAtTime(volume,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+duration);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+duration);}
+  shot(id){if(!this.enabled||!this.context)return;const c=this.context,duration=id==='awm'?.28:.12,b=c.createBuffer(1,Math.floor(c.sampleRate*duration),c.sampleRate),data=b.getChannelData(0);for(let i=0;i<data.length;i++)data[i]=(Math.random()*2-1)*Math.exp(-i/data.length*6);const s=c.createBufferSource(),f=c.createBiquadFilter(),g=c.createGain();s.buffer=b;f.type='lowpass';f.frequency.value=id==='usp'?1900:1100;g.gain.value=.22;s.connect(f);f.connect(g);g.connect(c.destination);s.start();this.tone(id==='awm'?70:105,.12,'triangle',.12);}
+  event(e){if(e.type==='shot')this.shot(e.weapon);else if(e.type==='hit')this.tone(1150,.055,'triangle',.06);else if(e.type==='plant')this.tone(850,.35);else if(e.type==='roundEnd'||e.type==='matchEnd'){this.tone(440,.25);setTimeout(()=>this.tone(660,.4),180);}else if(e.type==='reload')this.tone(220,.13,'sawtooth',.025);else if(e.type==='botShot')this.tone(85,.08,'sawtooth',.03);}
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#141b1b">
+  <title>旧战线 · RETRO FRONT</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <canvas id="scene" aria-label="3D 场景"></canvas>
+  <div id="app">
+    <section id="menu" class="screen">
+      <div class="grain"></div>
+      <header class="topbar">
+        <div class="brand"><span class="insignia">Ⅲ</span><div><h1>旧战线<span>RETRO FRONT</span></h1></div><small>经典行动 / 2008</small></div>
+        <div class="account"><span class="status-dot"></span> 离线作战 <span class="divider"></span> <span class="rank">Ⅰ</span> 新兵 · PLAYER 01 <button id="settings-open" class="icon-button" aria-label="设置">⚙</button></div>
+      </header>
+      <nav class="tabs" aria-label="主导航"><button id="tab-lobby" class="active">作战大厅 <small>LOBBY</small></button><button id="tab-warehouse">个人仓库 <small>ARSENAL</small></button><div class="nav-note">没有英雄，只有战友。<span>CLASSIC EQUIPMENT ONLY</span></div></nav>
+      <main id="lobby">
+        <aside class="left-rail">
+          <div class="eyebrow">TACTICAL OPERATIONS</div>
+          <h2>熟悉的战场。<br><em>重新出发。</em></h2>
+          <p class="intro">一把步枪，一次交锋。<br>回到纯粹的战术时刻。</p>
+          <button class="mode-card selected" id="mode-bomb"><span class="mode-icon">⌖</span><div><strong>单机爆破</strong><small>DEMOLITION · OFFLINE</small></div><span class="arrow">↗</span></button>
+          <div class="mode-detail"><span>01 / CLASSIC MODE</span><p>独自迎战 3 名电脑对手<br>攻守可选 · 先得 3 分获胜</p></div>
+          <button id="help-open" class="text-button">操作指南 <span>↗</span></button>
+        </aside>
+        <div class="operator-label"><div class="eyebrow">ACTIVE OPERATOR</div><strong id="operator-name">边境巡卫</strong><span id="operator-sub">BORDER RANGER</span><div class="operator-line"></div></div>
+        <aside class="mission-card"><div class="eyebrow">MISSION BRIEF <span>07</span></div><div class="map-art"><div class="map-lines"></div><span class="map-point a">A</span><span class="map-point b">B</span><span class="map-caption">N ↑ &nbsp; BORDER ZONE</span></div><div class="mission-body"><div class="map-heading"><h3>边境货场</h3><span>爆破</span></div><p>交错的仓房、双点位与狭长侧道。<br>选择路线，掌握交火主动权。</p><div class="side-pick"><button id="side-attack" class="active">进攻方</button><button id="side-defend">防守方</button></div><div class="brief-row"><span>回合时限</span><b>95 秒</b></div><div class="brief-row"><span>电脑强度</span><button id="difficulty-cycle">标准 ↻</button></div></div></aside>
+      </main>
+      <main id="warehouse" hidden>
+        <aside class="inventory"><div class="eyebrow">YOUR EQUIPMENT</div><h2>基础装备库</h2><div class="inventory-tabs"><button id="inventory-guns" class="active">枪械</button><button id="inventory-operators">角色</button></div><div id="item-list"></div><div class="inventory-foot">永久拥有 · 无属性加成</div></aside>
+        <div class="preview-caption">拖动以旋转展示 <span>360° INSPECTION</span></div>
+        <aside class="item-detail"><div class="eyebrow" id="item-type">突击步枪</div><h2 id="item-name">M4A1</h2><p id="item-desc">均衡 · 稳定</p><div id="item-stats"></div><div class="included-note" id="item-note">固定副武器 USP<br>固定近战武器 战术匕首</div><button id="equip" class="primary-button">装备到主武器 <span>→</span></button></aside>
+      </main>
+      <footer class="bottom-bar"><div class="loadout"><span class="loadout-symbol">⌁</span><div><small>当前配装 / LOADOUT 01</small><strong id="loadout-name">M4A1 <span>/ USP / 战术匕首</span></strong></div></div><div class="build-label">LOCAL PROTOTYPE <b>V 0.1</b><span id="record">0 场完成 · 0 场胜利</span></div><button id="start" class="start-button">进入战场 <span>DEPLOY →</span></button></footer>
+    </section>
+    <section id="hud" class="screen" hidden>
+      <div id="look-zone" aria-label="拖动转动视角"></div>
+      <div class="hud-top"><div class="radar-wrap"><canvas id="radar" width="220" height="220" aria-label="战术小地图"></canvas><span>边境货场 / SECTOR 07</span></div><div class="scoreboard"><div><span class="attack-label">进攻</span><b id="score-a">0</b><span id="round">ROUND 01</span><b id="score-d">0</b><span class="defend-label">防守</span></div><strong id="timer">01:35</strong><span id="objective"></span></div><button id="pause" class="hud-button" aria-label="暂停">Ⅱ</button></div>
+      <div id="feed"></div><div id="crosshair"><i></i><i></i><i></i><i></i></div><div id="hit-marker">×</div><div id="scope" hidden><div></div></div><div id="damage-overlay"></div>
+      <div id="center-message"></div>
+      <div class="hud-bottom"><div class="health"><small>生命值</small><strong><span>＋</span> <b id="hp">100</b></strong><div><i id="hp-bar"></i></div></div><div class="weapon-info"><small id="weapon-name">M4A1</small><strong><b id="ammo">30</b><span id="reserve">/ 120</span></strong><span id="reload-state"></span></div></div>
+      <div id="joystick" aria-label="移动摇杆"><div id="stick"></div><span>移动</span></div>
+      <div id="combat-buttons"><button id="aim" class="touch-button" aria-label="瞄准">⊕<small>瞄准</small></button><button id="reload" class="touch-button" aria-label="换弹">↻<small>换弹</small></button><button id="fire" class="fire-button" aria-label="开火">⌖<small>开火</small></button><button id="switch" class="touch-button" aria-label="切换武器">⇄<small>切枪</small></button></div>
+      <button id="interact" hidden><span id="interact-label">长按安放</span><i id="interact-progress"></i></button>
+      <div id="desktop-hint">WASD 移动 · 按住左键开火 · 右键瞄准 · R 换弹 · 1/2/3 切枪 · 长按 E 安放/拆除 · Esc 暂停</div>
+    </section>
+    <div id="modal" hidden role="dialog" aria-modal="true"><div class="modal-card"><button id="modal-close" class="modal-close" aria-label="关闭">×</button><div class="eyebrow" id="modal-eyebrow">FIELD MANUAL</div><h2 id="modal-title"></h2><div id="modal-body"></div></div></div>
+    <div id="rotate"><span>↻</span><h2>横屏，进入战场</h2><p>请旋转设备以获得完整的操作视野</p></div>
+    <div id="toast" role="status"></div>
+    <div id="fatal" hidden></div>
+  </div>
+  <script src="./game.js"></script>
+</body>
+</html>
