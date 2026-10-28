@@ -1,0 +1,13 @@
+{
+  "actualMinifiedBundle": true,
+  "testHookAbsent": true,
+  "soundEnabled": true,
+  "aimWorks": true,
+  "diagnosticsRecorded": true,
+  "copyFallback": true,
+  "pauseResume": true,
+  "returnedToLobby": true,
+  "errors": [],
+  "externalRequests": [],
+  "browserOnlyNotIPhone": true
+}

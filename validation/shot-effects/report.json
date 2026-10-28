@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-04",
+  "tests": {
+    "total": 164,
+    "passed": 164,
+    "failed": 0,
+    "durationMs": 148290.9714
+  },
+  "gripAlignment": {
+    "primaryWeapons": 7,
+    "characterSideVariants": 6,
+    "animations": [
+      "idle",
+      "run",
+      "shoot"
+    ],
+    "samplesPerAnimation": 9,
+    "posesChecked": 1134,
+    "maximumAllowedPalmErrorMeters": 0.03
+  },
+  "browser": {
+    "viewport": [
+      844,
+      390
+    ],
+    "firearms": 11,
+    "nativeMuzzlePositions": "passed",
+    "travellingShortTracers": "passed",
+    "nearWallClipping": "passed",
+    "botMuzzlePosition": "passed",
+    "scopeSwitchMeleeRoundCleanup": "passed",
+    "pause": "passed",
+    "errors": []
+  },
+  "actualOfflineBundle": {
+    "sha256": "7f55745103291f86c56264ca97762bada0ff9e12493f9d871adb5f3ee3b506b5",
+    "warehouseCharacters": [
+      "omoh",
+      "fox",
+      "star"
+    ],
+    "primaryWeapon": "ak",
+    "startup": "passed",
+    "fireTouch": "dispatched",
+    "pauseResume": "passed",
+    "externalRequests": [],
+    "errors": []
+  },
+  "limitations": [
+    "Desktop Chrome mobile viewport; iPhone and Safari/WebKit not verified.",
+    "No new GitHub upload or IPA build performed."
+  ]
+}

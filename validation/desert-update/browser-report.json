@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "models": 26,
+    "faces": 13395,
+    "triangles": 39105,
+    "meshes": 97,
+    "textures": 44,
+    "litFaces": 12945,
+    "lightmapAtlases": 1,
+    "solidTriangles": 37587,
+    "floorTriangles": 8711
+  },
+  "meshes": 102,
+  "errors": [],
+  "allies": 4,
+  "enemies": 5,
+  "externalRequests": []
+}

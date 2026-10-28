@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-28",
+  "targetDevice": "iPhone 15; physical device not attached",
+  "environment": "Chrome headless SwiftShader, not iPhone hardware",
+  "tests": {
+    "total": 244,
+    "passed": 244,
+    "failed": 0
+  },
+  "gameScriptBytes": {
+    "before": 68986592,
+    "after": 35601352
+  },
+  "sceneCreationMs": {
+    "before": 3272,
+    "after": 434.5
+  },
+  "heavyScene": {
+    "drawCallsBefore": 207,
+    "drawCallsAfter": 120,
+    "texturesBefore": 123,
+    "texturesAfter": 87,
+    "jsHeapBefore": 332776179,
+    "jsHeapAfter": 205139839,
+    "stainsBefore": 64,
+    "stainsAfter": 64
+  },
+  "same600TickOutcome": true,
+  "cycles": [
+    {
+      "cycle": 0,
+      "ms": 1303.1000000014901,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 211102403
+    },
+    {
+      "cycle": 1,
+      "ms": 904.3999999985099,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210460027
+    },
+    {
+      "cycle": 2,
+      "ms": 820.7000000029802,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210525083
+    },
+    {
+      "cycle": 3,
+      "ms": 899.3999999985099,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210625835
+    }
+  ],
+  "exit": {
+    "supported": true,
+    "before": {
+      "geometries": 127,
+      "textures": 86
+    },
+    "after": {
+      "geometries": 24,
+      "textures": 7
+    },
+    "worldCleared": true,
+    "gunCleared": true,
+    "pending": 0,
+    "heap": 199467227
+  },
+  "losslessModelSHA256": "9e429f96cba5d9ea6c8ae7c2126fe7920257746a76570eab90ffaa04cda91994",
+  "ui": {
+    "initialMutations": 8,
+    "repeatedMutations": 0,
+    "centerNodesPreserved": true,
+    "externalWritesRestored": true,
+    "radarIdleRedraws": 1,
+    "onlinePausedMovementRedraw": true,
+    "bombBlinkRedraw": true,
+    "radarTotalRedraws": 4,
+    "beforeBlink": 3
+  },
+  "bspRayLoop": {
+    "beforeMs": 61.70919999999998,
+    "afterMs": 26.9332
+  },
+  "limits": [
+    "Chrome/Node measurements are not physical iPhone FPS, thermal or battery measurements.",
+    "Simulation wall time includes JIT/GC and varied across runs; no whole-game CPU speedup claim is made.",
+    "No Xcode archive or signed IPA was generated in this performance pass."
+  ],
+  "endurance": {
+    "passed": true,
+    "simulatedSeconds": 1200,
+    "renderHz": 10,
+    "matches": 4,
+    "rounds": 10,
+    "shots": 664,
+    "hits": 437,
+    "afterExit": {
+      "geometries": 25,
+      "textures": 7
+    },
+    "sharedSpriteGeometry": true
+  }
+}

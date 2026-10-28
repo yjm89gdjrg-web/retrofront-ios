@@ -1,0 +1,1103 @@
+[
+  {
+    "name": "middle",
+    "p": {
+      "x": 9.6,
+      "y": 0,
+      "z": -12.4
+    },
+    "b": {
+      "x": 11.262983158520315,
+      "y": 0,
+      "z": -11.711169821742839
+    },
+    "goals": [
+      {
+        "x": 14.4,
+        "y": 0,
+        "z": -11.2
+      },
+      {
+        "x": 5.6,
+        "y": 0,
+        "z": -11.2
+      }
+    ],
+    "routes": [
+      {
+        "points": [
+          {
+            "x": 14.4,
+            "y": 0,
+            "z": -11.2
+          }
+        ],
+        "goal": {
+          "x": 14.4,
+          "y": 0,
+          "z": -11.2
+        },
+        "complete": true,
+        "length": 4.947726750741193
+      },
+      {
+        "points": [
+          {
+            "x": 5.6,
+            "y": 0,
+            "z": -11.2
+          }
+        ],
+        "goal": {
+          "x": 5.6,
+          "y": 0,
+          "z": -11.2
+        },
+        "complete": true,
+        "length": 5.6860067569732395
+      }
+    ],
+    "minGap": 0.937273769924573,
+    "maxStep": 0.11741224452642147,
+    "invalid": 0,
+    "bots": [
+      {
+        "id": 6,
+        "x": 22.713541730519253,
+        "y": 2.4,
+        "z": -34.393431749965806,
+        "recoveries": 0,
+        "assignment": {
+          "site": 0,
+          "lane": {
+            "x": 14.4,
+            "y": 0,
+            "z": -11.2
+          },
+          "stage": 1,
+          "role": "entry"
+        },
+        "state": "advance"
+      },
+      {
+        "id": 7,
+        "x": 19.675147753637983,
+        "y": 2.4,
+        "z": -34.07868595357441,
+        "recoveries": 0,
+        "assignment": {
+          "site": 0,
+          "lane": {
+            "x": 5.6,
+            "y": 0,
+            "z": -11.2
+          },
+          "stage": 1,
+          "role": "entry"
+        },
+        "state": "take-site"
+      }
+    ],
+    "trail": [
+      [
+        {
+          "id": 6,
+          "x": 9.681491970012207,
+          "y": 0,
+          "z": -12.379627007496948,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        },
+        {
+          "id": 7,
+          "x": 11.17932328865957,
+          "y": 0,
+          "z": -11.703618254032557,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 11.597921727718738,
+          "y": 0,
+          "z": -12.038831880779542,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        },
+        {
+          "id": 7,
+          "x": 9.285501883163414,
+          "y": 0,
+          "z": -11.289972514454147,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 11.698446115884288,
+          "y": 0,
+          "z": -12.416089974840272,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 7.857941669656979,
+          "y": 0,
+          "z": -11.23933649187434,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 11.43192496197077,
+          "y": 0.8,
+          "z": -14.473404354491267,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 9.518062443066537,
+          "y": 0,
+          "z": -11.754352218703149,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 11.556154983433514,
+          "y": 1.99,
+          "z": -16.552049772483834,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 10.029124649069036,
+          "y": 0.4,
+          "z": -13.791216333364678,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 11.902074716108817,
+          "y": 2.4,
+          "z": -18.62336325396019,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 10.540186855071536,
+          "y": 1.59,
+          "z": -15.828080448026208,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 12.31363879857753,
+          "y": 2.4,
+          "z": -20.68229386080788,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 11.051249061074035,
+          "y": 2.4,
+          "z": -17.864944562687736,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 12.72960492211833,
+          "y": 2.4,
+          "z": -22.739706169093857,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 11.562311267076534,
+          "y": 2.4,
+          "z": -19.901808677349266,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 13.164857844240904,
+          "y": 2.4,
+          "z": -24.79410508210559,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 12.073373473079034,
+          "y": 2.4,
+          "z": -21.938672792010795,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 13.60011076636347,
+          "y": 2.4,
+          "z": -26.848503995117326,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 12.584435679081533,
+          "y": 2.4,
+          "z": -23.975536906672325,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 14.035363688486035,
+          "y": 2.4,
+          "z": -28.90290290812906,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 13.095497885084033,
+          "y": 2.4,
+          "z": -26.012401021333854,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 14.470616610608602,
+          "y": 2.4,
+          "z": -30.957301821140796,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 13.606560091086548,
+          "y": 2.4,
+          "z": -28.049265135995384,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 14.905869532731158,
+          "y": 2.4,
+          "z": -33.011700734152484,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 14.117622297089072,
+          "y": 2.4,
+          "z": -30.086129250656914,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 16.531484099106862,
+          "y": 2.4,
+          "z": -33.74472577504641,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 14.628684503091597,
+          "y": 2.4,
+          "z": -32.122993365318436,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 18.62001708269213,
+          "y": 2.4,
+          "z": -33.96388319900567,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 15.581461599191472,
+          "y": 2.4,
+          "z": -33.65067933108714,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": 20.708550066277397,
+          "y": 2.4,
+          "z": -34.18304062296493,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": 17.670076984113162,
+          "y": 2.4,
+          "z": -33.86905005684595,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "take-site",
+          "stage": 1
+        }
+      ]
+    ]
+  },
+  {
+    "name": "cave",
+    "p": {
+      "x": -46.8,
+      "y": 0.4,
+      "z": 15
+    },
+    "b": {
+      "x": -45,
+      "y": 0.4,
+      "z": 15
+    },
+    "goals": [
+      {
+        "x": -41.8,
+        "y": 0.4,
+        "z": 15
+      },
+      {
+        "x": -48,
+        "y": 0.39,
+        "z": 15.2
+      }
+    ],
+    "routes": [
+      {
+        "points": [
+          {
+            "x": -41.8,
+            "y": 0.4,
+            "z": 15
+          }
+        ],
+        "goal": {
+          "x": -41.8,
+          "y": 0.4,
+          "z": 15
+        },
+        "complete": true,
+        "length": 5
+      },
+      {
+        "points": [
+          {
+            "x": -48,
+            "y": 0.39,
+            "z": 15.2
+          }
+        ],
+        "goal": {
+          "x": -48,
+          "y": 0.39,
+          "z": 15.2
+        },
+        "complete": true,
+        "length": 3.006659275674582
+      }
+    ],
+    "minGap": 0.9094718347045003,
+    "maxStep": 0.11672761018040505,
+    "invalid": 0,
+    "bots": [
+      {
+        "id": 6,
+        "x": -25.186815725602308,
+        "y": -1.01,
+        "z": -2.1144847489296215,
+        "recoveries": 0,
+        "assignment": {
+          "site": 0,
+          "lane": {
+            "x": -41.8,
+            "y": 0.4,
+            "z": 15
+          },
+          "stage": 1,
+          "role": "entry"
+        },
+        "state": "advance"
+      },
+      {
+        "id": 7,
+        "x": -25.7813761181135,
+        "y": -0.4099999999999999,
+        "z": -1.0127073820843924,
+        "yields": 1,
+        "recoveries": 0,
+        "assignment": {
+          "site": 0,
+          "lane": {
+            "x": -48,
+            "y": 0.39,
+            "z": 15.2
+          },
+          "stage": 1,
+          "role": "entry"
+        },
+        "state": "take-site"
+      }
+    ],
+    "trail": [
+      [
+        {
+          "id": 6,
+          "x": -46.74213333333333,
+          "y": 0.4,
+          "z": 15,
+          "traffic": {
+            "mode": "queue",
+            "other": 7
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        },
+        {
+          "id": 7,
+          "x": -45.0044700775072,
+          "y": 0.4,
+          "z": 14.932948837392036,
+          "traffic": {
+            "mode": "yield",
+            "other": 6
+          },
+          "yields": 1,
+          "state": "advance",
+          "stage": 0
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -44.64213333333325,
+          "y": 0.4,
+          "z": 15,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 0
+        },
+        {
+          "id": 7,
+          "x": -45.089401550143954,
+          "y": 0.8,
+          "z": 13.658976747840725,
+          "traffic": {
+            "mode": "yield",
+            "other": 6
+          },
+          "yields": 1,
+          "state": "advance",
+          "stage": 0
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -43.05120946046205,
+          "y": 0.8,
+          "z": 14.031398664158214,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -45.77363521480916,
+          "y": 0.79,
+          "z": 14.494484479237977,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -41.86027397319211,
+          "y": 0.8,
+          "z": 12.301753421583596,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -44.08924946445091,
+          "y": 0.8,
+          "z": 13.24035344781027,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -40.669338485922125,
+          "y": 0.8,
+          "z": 10.572108179009016,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -42.404863714092656,
+          "y": 0.8,
+          "z": 11.986222416382562,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -40.04610266566584,
+          "y": 0.8,
+          "z": 8.590900108104242,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -40.7204779637344,
+          "y": 0.8,
+          "z": 10.732091384954854,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -39.564791762163054,
+          "y": 0.8,
+          "z": 6.546801330116901,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -40.094131623829384,
+          "y": 0.8,
+          "z": 8.782945792727995,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -39.083480858660295,
+          "y": 0.8,
+          "z": 4.502702552129555,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -39.61206338534984,
+          "y": 0.8,
+          "z": 6.739025487664888,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -38.60216995515753,
+          "y": 0.8,
+          "z": 2.458603774142208,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -39.1299951468703,
+          "y": 0.8,
+          "z": 4.695105182601781,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -37.145338273745246,
+          "y": 0.8,
+          "z": 1.240270199776498,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -38.647926908390765,
+          "y": 0.8,
+          "z": 2.651184877538681,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -35.07344250695177,
+          "y": 0.8,
+          "z": 0.8978553467933499,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -37.46940385027222,
+          "y": 0.8,
+          "z": 1.2681906738385533,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -33.0015467401583,
+          "y": 0.8,
+          "z": 0.5554404938101999,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -35.39683742789648,
+          "y": 0.8,
+          "z": 0.9298588473117528,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -30.92965097336487,
+          "y": 0.8,
+          "z": 0.21302564082704806,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -33.324271005520735,
+          "y": 0.8,
+          "z": 0.5915270207849488,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -28.857755206571483,
+          "y": 0.8,
+          "z": -0.12938921215610188,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -31.251704583145028,
+          "y": 0.8,
+          "z": 0.25319519425814174,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -26.785859439778097,
+          "y": 0.19,
+          "z": -0.47180406513924816,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -29.179138160769373,
+          "y": 0.8,
+          "z": -0.08513663226866573,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ],
+      [
+        {
+          "id": 6,
+          "x": -25.883807908694518,
+          "y": -0.4099999999999999,
+          "z": -1.3894077536409373,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 0,
+          "state": "advance",
+          "stage": 1
+        },
+        {
+          "id": 7,
+          "x": -27.10657173839372,
+          "y": 0.49,
+          "z": -0.42346845879547285,
+          "traffic": {
+            "mode": "clear",
+            "other": null
+          },
+          "yields": 1,
+          "state": "take-site",
+          "stage": 1
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+    "_sName": "CF GR Fox",
+    "_sLicense": "SmileGate and Nexon are on the porting whitelist. DO NOT FLAG, WITHHELD OR TRASH!",
+    "_aFiles": [
+        {
+            "_idRow": 217780,
+            "_sFile": "cf_fox_gr.rar",
+            "_nFilesize": 1119286,
+            "_tsDateAdded": 1396171542,
+            "_nDownloadCount": 13476,
+            "_sDownloadUrl": "https:\/\/gamebanana.com\/dl\/217780",
+            "_sMd5Checksum": "1b24f4c14aa9ade6688ee33f6050bb3c",
+            "_sAnalysisState": "done",
+            "_sAnalysisResult": "ok",
+            "_sAnalysisResultVerbose": "File passed preliminary analysis",
+            "_sAvState": "done",
+            "_sAvResult": "clean",
+            "_bIsArchived": false,
+            "_bHasContents": true
+        }
+    ]
+}

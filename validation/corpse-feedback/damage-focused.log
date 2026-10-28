@@ -1,0 +1,90 @@
+TAP version 13
+# Subtest: confirmed head hits report the exact entering surface, incoming direction and actual damage
+ok 1 - confirmed head hits report the exact entering surface, incoming direction and actual damage
+  ---
+  duration_ms: 3.8617
+  ...
+# Subtest: body hits preserve ordinary damage and melee hits identify their close impact
+ok 2 - body hits preserve ordinary damage and melee hits identify their close impact
+  ---
+  duration_ms: 0.8289
+  ...
+# Subtest: fatal weapon impact precedes death and round end, and direct corpse damage remains ignored
+ok 3 - fatal weapon impact precedes death and round end, and direct corpse damage remains ignored
+  ---
+  duration_ms: 0.4992
+  ...
+# Subtest: friendly blockers, a wall, a missed aim and inactive combat never emit actorHit
+ok 4 - friendly blockers, a wall, a missed aim and inactive combat never emit actorHit
+  ---
+  duration_ms: 0.9021
+  ...
+# Subtest: environmental, unconfirmed, nonpositive and malformed impacts do not create blood events
+ok 5 - environmental, unconfirmed, nonpositive and malformed impacts do not create blood events
+  ---
+  duration_ms: 0.4727
+  ...
+# Subtest: bot-on-bot confirmed hits emit surface impacts while probabilistic misses emit only a shot
+ok 6 - bot-on-bot confirmed hits emit surface impacts while probabilistic misses emit only a shot
+  ---
+  duration_ms: 4.3389
+  ...
+# Subtest: a bot hit on the player retains hurt feedback and victim identity
+ok 7 - a bot hit on the player retains hurt feedback and victim identity
+  ---
+  duration_ms: 0.5973
+  ...
+# Subtest: a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+ok 8 - a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+  ---
+  duration_ms: 0.9756
+  ...
+# Subtest: repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+ok 9 - repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+  ---
+  duration_ms: 0.861
+  ...
+# Subtest: friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+ok 10 - friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+  ---
+  duration_ms: 0.709
+  ...
+# Subtest: native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+ok 11 - native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+  ---
+  duration_ms: 0.4398
+  ...
+# Subtest: knife hits support friendly corpse feedback only within the actual melee range
+ok 12 - knife hits support friendly corpse feedback only within the actual melee range
+  ---
+  duration_ms: 0.3615
+  ...
+# Subtest: missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+ok 13 - missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+  ---
+  duration_ms: 0.4433
+  ...
+# Subtest: inactive combat never runs corpse queries or consumes ammunition
+ok 14 - inactive combat never runs corpse queries or consumes ammunition
+  ---
+  duration_ms: 0.3694
+  ...
+# Subtest: a round reset rejects stale corpse ids that now refer to living actors
+ok 15 - a round reset rejects stale corpse ids that now refer to living actors
+  ---
+  duration_ms: 0.3827
+  ...
+# Subtest: the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+ok 16 - the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+  ---
+  duration_ms: 0.3338
+  ...
+1..16
+# tests 16
+# suites 0
+# pass 16
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 38.5135

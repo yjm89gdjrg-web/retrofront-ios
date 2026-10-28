@@ -1,0 +1,150 @@
+TAP version 13
+# Subtest: each room member replaces one bot and sees their own actor as zero
+ok 1 - each room member replaces one bot and sees their own actor as zero
+  ---
+  duration_ms: 2.5485
+  ...
+# Subtest: round clock advances once and bots do not take over remote humans
+ok 2 - round clock advances once and bots do not take over remote humans
+  ---
+  duration_ms: 90.7653
+  ...
+# Subtest: per-player fire, damage, ammo, kill feedback and event remapping are isolated
+ok 3 - per-player fire, damage, ammo, kill feedback and event remapping are isolated
+  ---
+  duration_ms: 2.4952
+  ...
+# Subtest: weapon commands, jumping and stale input timeout apply only to sender
+ok 4 - weapon commands, jumping and stale input timeout apply only to sender
+  ---
+  duration_ms: 0.7907
+  ...
+# Subtest: remote player can plant and defuse, and new rounds restore human identities
+ok 5 - remote player can plant and defuse, and new rounds restore human identities
+  ---
+  duration_ms: 9.724
+  ...
+# Subtest: client pause keeps receiving authoritative updates without locally advancing combat
+ok 6 - client pause keeps receiving authoritative updates without locally advancing combat
+  ---
+  duration_ms: 1.4964
+  ...
+# Subtest: server URL normalization works for browser, IPA and secure origins
+ok 7 - server URL normalization works for browser, IPA and secure origins
+  ---
+  duration_ms: 0.6826
+  ...
+# Subtest: client positions and health cannot override authority and backpack choice survives a round
+ok 8 - client positions and health cannot override authority and backpack choice survives a round
+  ---
+  duration_ms: 3.8471
+  ...
+# Subtest: online corpse feedback is visual only and does not double a fresh lethal hit
+ok 9 - online corpse feedback is visual only and does not double a fresh lethal hit
+  ---
+  duration_ms: 1.5368
+  ...
+# Subtest: real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+ok 10 - real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+  ---
+  duration_ms: 462.1261
+  ...
+# Subtest: rooms cap teams at five, reject the eleventh player and stay isolated
+ok 11 - rooms cap teams at five, reject the eleventh player and stay isolated
+  ---
+  duration_ms: 236.4262
+  ...
+# Subtest: legacy loadout migrates intact into bag one; all five bags survive native JSON storage
+ok 12 - legacy loadout migrates intact into bag one; all five bags survive native JSON storage
+  ---
+  duration_ms: 0.7083
+  ...
+# Subtest: editing one bag changes no other bag or profile; cross-slot equips and invalid indices are rejected
+ok 13 - editing one bag changes no other bag or profile; cross-slot equips and invalid indices are rejected
+  ---
+  duration_ms: 0.2777
+  ...
+# Subtest: corrupt bag records and selection recover to five valid independent loadouts
+ok 14 - corrupt bag records and selection recover to five valid independent loadouts
+  ---
+  duration_ms: 0.3549
+  ...
+# Subtest: ready and untouched spawn can equip all five bags; active weapon, magazines and next round agree
+ok 15 - ready and untouched spawn can equip all five bags; active weapon, magazines and next round agree
+  ---
+  duration_ms: 0.8472
+  ...
+# Subtest: firing every weapon slot locks all backpacks so switching cannot refill ammunition
+ok 16 - firing every weapon slot locks all backpacks so switching cannot refill ammunition
+  ---
+  duration_ms: 0.7009
+  ...
+# Subtest: injury and leaving spawn lock the bag until the next round, including returning to spawn
+ok 17 - injury and leaving spawn lock the bag until the next round, including returning to spawn
+  ---
+  duration_ms: 0.5142
+  ...
+# Subtest: paused, airborne, dead, round-end, finished and invalid swaps have no side effects
+ok 18 - paused, airborne, dead, round-end, finished and invalid swaps have no side effects
+  ---
+  duration_ms: 0.4439
+  ...
+# Subtest: free camera moves independently of a dead body and cannot shoot or interact
+ok 19 - free camera moves independently of a dead body and cannot shoot or interact
+  ---
+  duration_ms: 0.5088
+  ...
+# Subtest: free camera remains within the map and height bounds; living players cannot enter it
+ok 20 - free camera remains within the map and height bounds; living players cannot enter it
+  ---
+  duration_ms: 0.5841
+  ...
+# Subtest: round result locks combat but permits movement for exactly three seconds before resetting
+ok 21 - round result locks combat but permits movement for exactly three seconds before resetting
+  ---
+  duration_ms: 1.0463
+  ...
+# Subtest: round-end movement still respects collision and pause while dead players can fly until reset
+ok 22 - round-end movement still respects collision and pause while dead players can fly until reset
+  ---
+  duration_ms: 0.4946
+  ...
+# Subtest: a fatal hit emits one positional death event with the equipped player character
+ok 23 - a fatal hit emits one positional death event with the equipped player character
+  ---
+  duration_ms: 0.2604
+  ...
+# Subtest: the last enemy death retains character metadata before round completion
+ok 24 - the last enemy death retains character metadata before round completion
+  ---
+  duration_ms: 0.2412
+  ...
+# Subtest: a bot shot identifies its displayed weapon and source position for spatial audio
+ok 25 - a bot shot identifies its displayed weapon and source position for spatial audio
+  ---
+  duration_ms: 1.5356
+  ...
+# Subtest: music preference migrates old saves and remains separate from the master sound switch
+ok 26 - music preference migrates old saves and remains separate from the master sound switch
+  ---
+  duration_ms: 0.1578
+  ...
+# Subtest: world rifle geometry puts the barrel forward and the magazine below the receiver
+ok 27 - world rifle geometry puts the barrel forward and the magazine below the receiver
+  ---
+  duration_ms: 450.1572
+  ...
+# Subtest: all character variants keep the held rifle forward and upright through animation and yaw
+ok 28 - all character variants keep the held rifle forward and upright through animation and yaw
+  ---
+  duration_ms: 3774.402
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5057.5619

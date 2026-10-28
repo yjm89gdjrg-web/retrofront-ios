@@ -1,0 +1,38 @@
+{
+  "viewport": [
+    844,
+    390
+  ],
+  "victimDead": true,
+  "phase": "live",
+  "corpseHit": true,
+  "corpseFlag": true,
+  "position": [
+    27.959885822025687,
+    0.35841909095438595,
+    3.9504324786028757
+  ],
+  "corpseSurfaceY": 0.2954389245357991,
+  "settledBoundsMaxY": 0.4536630142400595,
+  "bursts": 1,
+  "frame": 3,
+  "hasDamage": false,
+  "unchangedKills": true,
+  "unchangedChain": true,
+  "unchangedScore": true,
+  "friendlyCorpse": {
+    "friendlyCorpseEvents": 1,
+    "bursts": 1,
+    "kills": 1
+  },
+  "oldStandingMiss": {
+    "corpseEvents": 0,
+    "bursts": 0
+  },
+  "newRound": {
+    "bursts": 0,
+    "oldCorpseHits": 0,
+    "pending": 0
+  },
+  "errors": []
+}

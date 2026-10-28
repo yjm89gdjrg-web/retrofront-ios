@@ -1,0 +1,240 @@
+{
+  "sources": [
+    {
+      "url": "https://gamebanana.com/mods/464141",
+      "name": "Crossfire Weapons Pack Vol.2",
+      "credits": [
+        {
+          "_sGroupName": "Key Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "Model extraction & conversion",
+              "_idRow": 2295802,
+              "_sName": "HLXX50",
+              "_sProfileUrl": "https://gamebanana.com/members/2295802",
+              "_sAvatarUrl": "https://images.gamebanana.com/img/av/6458c7bd99645.jpg",
+              "_bIsOnline": false
+            }
+          ]
+        },
+        {
+          "_sGroupName": "Original Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "Original models, textures, animations, sound effects",
+              "_sName": "Smilegate"
+            }
+          ]
+        }
+      ],
+      "license": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.",
+      "archive": "crossfire-pack-vol2-v20_a763d.rar",
+      "download": "https://gamebanana.com/dl/1062934",
+      "bytes": 32817793,
+      "md5": "035921fab5070261a2be716fbee1fd48",
+      "sha256": "0ec51e317aae4d40fed5db396d23ab6e4469e79d5c5834f057e7d2bff3fd8247"
+    },
+    {
+      "url": "https://gamebanana.com/mods/475372",
+      "name": "Crossfire Weapons Pack Vol.3",
+      "credits": [
+        {
+          "_sGroupName": "Key Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "Model extract & convert",
+              "_idRow": 2295802,
+              "_sName": "HLXX50",
+              "_sProfileUrl": "https://gamebanana.com/members/2295802",
+              "_sAvatarUrl": "https://images.gamebanana.com/img/av/6458c7bd99645.jpg",
+              "_bIsOnline": false
+            }
+          ]
+        },
+        {
+          "_sGroupName": "Original Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "Original models",
+              "_sName": "Smilegate"
+            }
+          ]
+        }
+      ],
+      "license": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.",
+      "archive": "crossfire-pack-vol3.rar",
+      "download": "https://gamebanana.com/dl/1075994",
+      "bytes": 35633172,
+      "md5": "bfa8287f11abb976b87ee25e4f2dd026",
+      "sha256": "cdc275c351809f549e84c51214c7c0bdffb6e7a1cd0c8a7d2b20171b75004e41"
+    },
+    {
+      "url": "https://gamebanana.com/mods/222948",
+      "name": "[Crossfire] AWM Jade",
+      "credits": [
+        {
+          "_sGroupName": "Key Authors",
+          "_aAuthors": [
+            {
+              "_sName": "kilimangiero"
+            },
+            {
+              "_sName": "kili skiner"
+            }
+          ]
+        },
+        {
+          "_sGroupName": "Original Authors",
+          "_aAuthors": [
+            {
+              "_sName": "smilegate"
+            },
+            {
+              "_sName": "z8games"
+            }
+          ]
+        },
+        {
+          "_sGroupName": "Contributors",
+          "_aAuthors": [
+            {
+              "_sRole": "port to cs 1.6",
+              "_idRow": "1388278",
+              "_sName": "-=$|TAGAMTAM|$=-",
+              "_sUpicUrl": "https://images.gamebanana.com/img/upic/57c911383bf58.png",
+              "_sProfileUrl": "https://gamebanana.com/members/1388278",
+              "_sAvatarUrl": "https://images.gamebanana.com/img/av/57b285e8bb515.gif",
+              "_bIsOnline": false,
+              "_aAffiliatedStudio": {
+                "_sProfileUrl": "https://gamebanana.com/studios/34498",
+                "_sName": "Filipino Makers",
+                "_sFlagUrl": "https://images.gamebanana.com/img/flags/studios/5369af6e73c96.gif",
+                "_sBannerUrl": "https://images.gamebanana.com/img/banners/studios/5780a81940f78.gif"
+              }
+            }
+          ]
+        }
+      ],
+      "license": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.",
+      "archive": "cf_awm_jade.zip",
+      "download": "https://gamebanana.com/dl/207007",
+      "bytes": 718738,
+      "md5": "cdec364cce65c67f7ec8cc7e1a0e7226",
+      "sha256": "587b27e5e3402609dc69f522c6f85d0a8097f6fec29740f1552e4272d5f32c02"
+    },
+    {
+      "url": "https://gamebanana.com/mods/227138",
+      "name": "Crossfire Type Desert Eagle 50.AE PacK V1",
+      "credits": [
+        {
+          "_sGroupName": "Key Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "retexturer and hacking model (%50)",
+              "_sName": "lazhack"
+            },
+            {
+              "_sRole": "compiler",
+              "_sName": " -|KriS|-LegendrY"
+            },
+            {
+              "_sRole": "hacking model (%50) and compile(2nd)",
+              "_sName": "Bobito "
+            }
+          ]
+        },
+        {
+          "_sGroupName": "Original Authors",
+          "_aAuthors": [
+            {
+              "_sRole": "model",
+              "_sName": "VALVE"
+            }
+          ]
+        }
+      ],
+      "license": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.",
+      "archive": "lazhack_sdeagle.rar",
+      "download": "https://gamebanana.com/dl/233185",
+      "bytes": 719273,
+      "md5": "cce695e064525fb63e6fcbf65bedcd0f",
+      "sha256": "0598396f5b94f227c6a8686b473f4a87ac78de5cbd022a2ae1c127fdbdd3d10b"
+    }
+  ],
+  "files": {
+    "an94-view.mdl": "2eab90f835b7e5b19d0fe081c6e3cf9aba8129223cd80cc78d177304480d1d38",
+    "an94-world.mdl": "f63b466dc598496a34917fa98b573cc46f2678782536c422b0a81c48b7589a30",
+    "anaconda-view.mdl": "ec4052ad277395e4372feb7865c8a241d66ed369bf3b42c55909fc7c139197c2",
+    "anaconda-world.mdl": "0144d1410889964ab227195cf88737ecb7874f1ff3c2f448e77f032d975cacbb",
+    "awm-view.mdl": "3dc9fe418ed9ba8caa9a18ce7e839dc023870ec505a95b9a278079fdcaa2d4bb",
+    "awm-world.mdl": "a309f05a97e5c74f32ed7c8e8eecbea9c8965f4359c1c4c3bd8ba88c1eaa348a",
+    "axe-view.mdl": "82a4c28e7690d16130685e451a6c7680af4e49e45abc94048847436d06fa488a",
+    "colt1911-view.mdl": "e7f3feb1a4c6c8a72528a62d750c6ec95ca35218672e9b0456a6b6764da4c3e9",
+    "colt1911-world.mdl": "13b97d5a765eb0988f2005bc861e3518633cd71cf690a98152121b4b974de82f",
+    "deagle-view.mdl": "790b1b449d517b96144252193f14bcd2089ceabdcce6e42668acc24d3cc4eed7",
+    "FVIEW_ARM_NEW_OMOH_BL.bmp": "599432752963382e523a31414d194e6af90d9e5a6a92148d8171627131c9cdd5",
+    "FVIEW_HAND_NEW_OMOH_BL.bmp": "4d6bb9607c66b16a6a8ab27f89cd2850cdc30318982bd5c2e1127238d77cb922",
+    "m700-view.mdl": "e9a86327daa5abadee2701e277f7d2d0cd6fedbc6307cbb1bc09bfe06277a869",
+    "m700-world.mdl": "9cb536a91023741df62e6df83a99e9565eaac5a3948dcb0be59364b9383984e6",
+    "mp5-view.mdl": "7e727ed20ae9935dd15f2222cbc3ed71ee0192b86f5aac9b50f040fdb6798d55",
+    "mp5-world.mdl": "6dfe4b6718f7325a48c3cc3a01253f44dfc4caf2c491e9fea23655d2fcc9520f",
+    "scar-view.mdl": "5acb2994c084592dd1e0a319aecb3cc2bd864e8318ac7b75638aceec49cc7c1d",
+    "scar-world.mdl": "e0682e366a902ba570fc5240542626bd24e00f2ae3e71be811023122f788eeaf",
+    "shovel-view.mdl": "267f5650e9682af057dbf33f7239babb584c83ef5635c994947f853390a83260",
+    "usp-view.mdl": "44debaa907c9541d6c704d954b68052938da74f3f481c62d7ba4d8f589f29219",
+    "usp-world.mdl": "7cd0e8b8ee8a9a20fa80e233eb2d115740e82e00251080e1ccfaa9f0c4da8e77",
+    "audio/ak_draw.wav": "7c6b2936a0d10e99ba64ccdcb90df4378bc2a23f6cb3130187c20a6a79f5f729",
+    "audio/an94_ak47-1.wav": "2d1d2f6fa93071e3c92b4870e43c37754f9570d82dd9eb0822dc7f89072d06a4",
+    "audio/an94_an94_select1.wav": "8c851b0627813541401ac724f521cf39f7c1740fdfec30b2ad2b5f73fe934262",
+    "audio/an94_an94_select2.wav": "81ca8d2823884eb3656adb6a6e94aaf5d131b6d9602af2a2572d4cff7ecfda3b",
+    "audio/an94_g_mzc_an94_clipin.wav": "723dd285770bf6058be4de62aa80f5ebb94d97851d7a474082b8b4c633b7bb36",
+    "audio/an94_g_mzc_an94_clipout.wav": "45c87c13faaebcf31d99bdee7d7943b71762d95442b32c4debfb24f778b1fc8d",
+    "audio/an94_g_reload_an94.wav": "81d9f98167598711668f294c3da082a63e96431d767f1f31fddd805256374452",
+    "audio/anaconda_deagle-1.wav": "e3f0167915655ac7079f286cd430eaa1c15e74d6f65d7755baebc7299c764b68",
+    "audio/anaconda_g_mzc_anaconda_bcback.wav": "06f8fa252a0d0d2f5113dff33e48213de86f40399e201fca26583af75c519744",
+    "audio/anaconda_g_mzc_anaconda_clipin.wav": "f7b9d3025bec6ef164fbc5dfb7b56de52075761fdc11b9fad0c31e90b456a3aa",
+    "audio/anaconda_g_mzc_anaconda_clipout.wav": "3967b2d7cc57668a2a7c769dc214dae86dafccd87949f2a304c93221d84abad4",
+    "audio/anaconda_g_reload2_anaconda.wav": "61bc4e7c02f63f34da8637f3cc10179e04df001d1433016a0a2c975df90bc5ad",
+    "audio/anaconda_g_reload_anaconda.wav": "7ae2b41ecec6265deaa821edfa80101ef2ce108995c6efa697349d59bfbde765",
+    "audio/awm_awp1.wav": "549454453ae2de0df1eaeb3fc74e1bf334fcabd7eb6b03d02121c3dc5a3360c7",
+    "audio/awm_awp_clipin.wav": "88d560c3aed438ab47c8397f91676ef456a51efb2a2c6d5e6a91e409acd237ce",
+    "audio/awm_awp_clipout.wav": "46daa5cf5ec2e0eeffbc909b45cfca95d6f04343f1c927daf8ca9c61e80e7714",
+    "audio/awm_awp_draw.wav": "e0384be428e4a4aca00b58e01a1a7a862252cd8d7de3992058aafbf02c4407ff",
+    "audio/axe_knife_deploy1.wav": "aa2e5c96f77ae933d8796497805e74b032e7555730a7ca2270b2ba44a8223132",
+    "audio/axe_knife_slash1.wav": "fc152045139107b658fe0075af17de088f473a3e32aac846a75b001b19dc8b96",
+    "audio/colt1911_deagle-1.wav": "4e3541f30eb9b4302db3a23b58ce2fada74a6ee87518ddd2e5f94500f4ccc4d7",
+    "audio/colt1911_g_mzc_colt1911_bback.wav": "3851232c8985f6a97ae35d0625545b9e10aa705ce4f01e32a96c4aef7e978d2f",
+    "audio/colt1911_g_mzc_colt1911_bcback.wav": "a786636226317399eab631e8027cab0ae3932f6515f6fb8d1a0aaeadb4b23679",
+    "audio/colt1911_g_mzc_colt1911_clipin.wav": "8f05c8eb1d31f3946de97326489facfbbede61e15a52402c707e54214a887484",
+    "audio/colt1911_g_mzc_colt1911_clipout.wav": "03c8a0ae4016610ebda139dffe10732070e0bed5bffc6f7bbfd8ce1d68ea3593",
+    "audio/colt1911_g_reload_colt1911.wav": "5aaf7186cd3b77dc5a95406f89b28688db193acecd99812391b349d413887452",
+    "audio/deagle_dual_desert_clipin.wav": "554a18e1db28b00aaadc794ad3c8b403e73e2c6a786e7a94d5e9452c387c7961",
+    "audio/deagle_dual_desert_clipout.wav": "784b688b68af702064d4a5533033d525c60c9c9326e579631153ba1ccb0d886f",
+    "audio/deagle_dual_desert_select.wav": "7f58424112783165d9e8a8b08f3c2cccd0bd95d12fb0270edbc516adc2a9c050",
+    "audio/deagle_elite_fire.wav": "fe451012cbc9f324f27071bdd7a9bf4c3e22d4b199912736b046f333622bc913",
+    "audio/knife_draw.wav": "aa2e5c96f77ae933d8796497805e74b032e7555730a7ca2270b2ba44a8223132",
+    "audio/knife_swing.wav": "fc152045139107b658fe0075af17de088f473a3e32aac846a75b001b19dc8b96",
+    "audio/m4_draw.wav": "fc6fdedb63496bc192afecbfc240483a29be0ecda4c74834dd0d2efb26c901c8",
+    "audio/m700_g_mzc_m700.wav": "505d77d71904be93f67392fffdfe12755f25cc8a01028c2169dc99bd687d818c",
+    "audio/m700_g_mzc_m700_clipin.wav": "b380fbfae26d1f4835827b4c5c1751c0bdbda44f5a785a8f84a7fb66c022a3cc",
+    "audio/m700_g_mzc_m700_clipout.wav": "4e5fc15ea76e283a2db38254cff992203fad4a91a3dfac47b0d5f4796c3ff8dd",
+    "audio/m700_g_reload_m700.wav": "ee29eeb66adcbd3486d70836d7680fefa0ec8334e3ccacd9477c1c27c685bae2",
+    "audio/m700_scout_fire-1.wav": "4a10c2fdc6fc49898ed8c9a873b6ec66df31370a3fd9fa33a43d523ba3d2b4db",
+    "audio/mp5_g_mzc_mp5_clipin.wav": "24d59452b52b2db201eb2f9cbf6b5d3aa2b5d4721ed0c675531394ce10491a25",
+    "audio/mp5_g_mzc_mp5_clipout.wav": "d5f8a270c796fe9f4a12295219794d1820fcbb283944d2022d7bb939fa650c96",
+    "audio/mp5_g_reload_mp5.wav": "fc6fdedb63496bc192afecbfc240483a29be0ecda4c74834dd0d2efb26c901c8",
+    "audio/mp5_tmp-1.wav": "5b930df32c880ea347e0767ff15c35aa4a412d4221500bdcd6b4bd63c14725b2",
+    "audio/scar_g_mzc_galil_clipin.wav": "1d75eceeeb26d0341b7d3b80dde25dc2d67a5844aa3202fbc42d26ab5dd52a7f",
+    "audio/scar_g_mzc_galil_clipout.wav": "771303bf4c427566951c50e8acf7c438f6265ab5ca6032d11ee6b53a90913f0e",
+    "audio/scar_g_reload_galil.wav": "7a71dc02770b6881b1b9929e8ae7f3a441dccf2046f13254d39f1fca6052aa66",
+    "audio/shovel_knife_deploy1.wav": "5d9caa1fc00482cc4d8cc873920e2e2ab1efbf87327da7acd57e01ea9642579b",
+    "audio/shovel_knife_slash1.wav": "c259afe7321f254ae0bccc7d591a18092fb4097db1a38f1accfb56b06775c72a",
+    "audio/shovel_shovel_bigshot.wav": "26e924b8004354c8f40e4e669c941cd79064ad0d9f8bedfd1f7c87f2e5d5bb8a",
+    "audio/usp_g_mzc_usp_bback.wav": "2de0a8469bff595a9792f501c2cc11f7cb0c5290a8e1411afe849ef36a8c646f",
+    "audio/usp_g_mzc_usp_bcback.wav": "b735bf99ad828454af871a9b366eafbe2b3a270bd8f2a2da8ae71ac7bf9c22e5",
+    "audio/usp_g_mzc_usp_clipin.wav": "f8c8531669d5d9c96152034d923928ed3438c8feffd82314bf638bc3645343fb",
+    "audio/usp_g_mzc_usp_clipout.wav": "0044eb66d8d01e1f8e40eb10384ccc4b9305a13d325b17dd4433b0348435f547",
+    "audio/usp_g_reload_usp.wav": "8caaf7aa51c95892f5686401131bc5b0bdee60bb5617ff1856c902c3ea8c9ec6",
+    "audio/usp_p228-1.wav": "1eccc70b0e12b2fd4ced295cf71f7fef638a290b1bc4fee05b17e5daba041d77"
+  }
+}

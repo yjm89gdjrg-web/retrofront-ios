@@ -1,0 +1,18 @@
+{
+  "models": 28,
+  "jsonBytes": 48193467,
+  "sha256": "9e429f96cba5d9ea6c8ae7c2126fe7920257746a76570eab90ffaa04cda91994",
+  "source": {
+    "compression": "zlib",
+    "encoding": "string-table-v1",
+    "jsonBytes": 48193467,
+    "encodedJSONBytes": 34184259,
+    "packedBytes": 11084239,
+    "strings": 416,
+    "sha256": "9e429f96cba5d9ea6c8ae7c2126fe7920257746a76570eab90ffaa04cda91994"
+  },
+  "coldAddScriptMs": 1142.9130999999998,
+  "bundleBytes": 14784912,
+  "errors": [],
+  "externalRequests": []
+}

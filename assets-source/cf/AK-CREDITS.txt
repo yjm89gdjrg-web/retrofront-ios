@@ -1,0 +1,22 @@
+=========================================
+Crossfire AK47 Reanimation
+-----------------------------------------
+
+Model, UV, Textures  - Smilegate
+
+Port                 - Unknown
+
+Sound                - Strelok
+
+Compile, Animations, - Bobito Pawner
+
+-----------------------------------------
+NOTE:
+ANIMATIONS made in MS3D.
+
+The names of each bone were arranged and
+renamed by Bobito Pawner
+
+Animations made and finished on:
+May 28-30, 2013
+=========================================

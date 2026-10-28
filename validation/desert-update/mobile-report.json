@@ -1,0 +1,51 @@
+{
+  "reports": [
+    {
+      "side": "attack",
+      "before": {
+        "x": 27,
+        "y": 0,
+        "z": 10
+      },
+      "after": {
+        "x": 27,
+        "y": 0.3637500000000001,
+        "z": 9.894265734265733
+      },
+      "aim": true,
+      "ammo": 29,
+      "vy": 7.275,
+      "allies": 4,
+      "enemies": 5,
+      "jumpSize": 44,
+      "mapErrors": [],
+      "touchCount": 4,
+      "customJumpSaved": true
+    },
+    {
+      "side": "defend",
+      "before": {
+        "x": 27,
+        "y": 0,
+        "z": 10
+      },
+      "after": {
+        "x": 27,
+        "y": 0.3637500000000001,
+        "z": 9.894265734265733
+      },
+      "aim": true,
+      "ammo": 29,
+      "vy": 7.275,
+      "allies": 4,
+      "enemies": 5,
+      "jumpSize": 44,
+      "mapErrors": [],
+      "touchCount": 4,
+      "customJumpSaved": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "mapFileRequests": 0
+}

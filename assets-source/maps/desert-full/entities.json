@@ -1,0 +1,1985 @@
+{
+  "entities": [
+    {
+      "compiler": "ZHLT v3.4 VL34 (Aug 17 2015)",
+      "_generator": "J.A.C.K. 1.1.2800 (vpHalfLife)",
+      "wad": "halflife.wad;CF_Dust2.wad;",
+      "mapversion": "220",
+      "angles": "0 0 0",
+      "skyname": "mountain",
+      "MaxRange": "8192",
+      "classname": "worldspawn",
+      "id": 0,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-2000 1216 256",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 1,
+      "position": [
+        -47.6,
+        6.4,
+        -32
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1984 328 112",
+      "angles": "0 0 0",
+      "_light": "224 224 224 60",
+      "classname": "light",
+      "id": 2,
+      "position": [
+        -47.2,
+        2.8000000000000003,
+        -9.8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-2000 1408 256",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 3,
+      "position": [
+        -47.6,
+        6.4,
+        -36.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1984 568 112",
+      "angles": "0 0 0",
+      "_light": "224 224 224 60",
+      "classname": "light",
+      "id": 4,
+      "position": [
+        -47.2,
+        2.8000000000000003,
+        -15.8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-2000 1600 256",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 5,
+      "position": [
+        -47.6,
+        6.4,
+        -41.6
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1984 448 112",
+      "angles": "0 0 0",
+      "_light": "224 224 224 60",
+      "classname": "light",
+      "id": 6,
+      "position": [
+        -47.2,
+        2.8000000000000003,
+        -12.8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-2000 1792 256",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 7,
+      "position": [
+        -47.6,
+        6.4,
+        -46.400000000000006
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "640 -512 152",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 8,
+      "position": [
+        18.400000000000002,
+        3.8000000000000003,
+        11.200000000000001
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-608 192 -32",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 9,
+      "position": [
+        -12.8,
+        -0.8,
+        -6.4
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "640 -736 152",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 10,
+      "position": [
+        18.400000000000002,
+        3.8000000000000003,
+        16.8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-608 320 -32",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 11,
+      "position": [
+        -12.8,
+        -0.8,
+        -9.600000000000001
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "384 1248 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 12,
+      "position": [
+        12,
+        -0.6000000000000001,
+        -32.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-736 320 -32",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 13,
+      "position": [
+        -16,
+        -0.8,
+        -9.600000000000001
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "192 1248 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 14,
+      "position": [
+        7.2,
+        -0.6000000000000001,
+        -32.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-736 192 -32",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 15,
+      "position": [
+        -16,
+        -0.8,
+        -6.4
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "448 1024 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 16,
+      "position": [
+        13.600000000000001,
+        -0.6000000000000001,
+        -27.200000000000003
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "288 1024 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 17,
+      "position": [
+        9.600000000000001,
+        -0.6000000000000001,
+        -27.200000000000003
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-64 1024 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 18,
+      "position": [
+        0.8,
+        -0.6000000000000001,
+        -27.200000000000003
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "120 1024 -24",
+      "angles": "0 0 0",
+      "_light": "224 224 224 80",
+      "classname": "light",
+      "id": 19,
+      "position": [
+        5.4,
+        -0.6000000000000001,
+        -27.200000000000003
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*1",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_b",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 20,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*2",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_b",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 21,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*3",
+      "angles": "0 0 0",
+      "team": "2",
+      "classname": "func_buyzone",
+      "id": 22,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*4",
+      "angles": "0 0 0",
+      "team": "1",
+      "classname": "func_buyzone",
+      "id": 23,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*5",
+      "angles": "0 0 0",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_a",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "classname": "func_breakable",
+      "id": 24,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*6",
+      "angles": "0 0 0",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_a",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "classname": "func_breakable",
+      "id": 25,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "448 1312 -74",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 26,
+      "position": [
+        13.600000000000001,
+        -1.85,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 1312 -78",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 27,
+      "position": [
+        11.200000000000001,
+        -1.9500000000000002,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "256 1312 -82",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 28,
+      "position": [
+        8.8,
+        -2.0500000000000003,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "448 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 29,
+      "position": [
+        13.600000000000001,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "160 1312 -88",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 30,
+      "position": [
+        6.4,
+        -2.2,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 31,
+      "position": [
+        11.200000000000001,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "256 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 32,
+      "position": [
+        8.8,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "160 960 -88",
+      "angles": "0 105 0",
+      "classname": "info_player_start",
+      "id": 33,
+      "position": [
+        6.4,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": -0.2617993877991496
+    },
+    {
+      "origin": "48 960 -88",
+      "angles": "0 105 0",
+      "classname": "info_player_start",
+      "id": 34,
+      "position": [
+        3.6,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": -0.2617993877991496
+    },
+    {
+      "origin": "48 1056 -88",
+      "angles": "0 215 0",
+      "classname": "info_player_start",
+      "id": 35,
+      "position": [
+        3.6,
+        -2.2,
+        -28
+      ],
+      "gameYaw": -2.1816615649929116
+    },
+    {
+      "origin": "448 1088 -88",
+      "angles": "0 41 0",
+      "classname": "info_player_start",
+      "id": 36,
+      "position": [
+        13.600000000000001,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": 0.8552113334772216
+    },
+    {
+      "origin": "352 1088 -88",
+      "angles": "0 333 0",
+      "classname": "info_player_start",
+      "id": 37,
+      "position": [
+        11.200000000000001,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -4.241150082346221
+    },
+    {
+      "origin": "256 1088 -88",
+      "angles": "0 178 0",
+      "classname": "info_player_start",
+      "id": 38,
+      "position": [
+        8.8,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -1.5358897417550104
+    },
+    {
+      "origin": "160 1088 -88",
+      "angles": "0 186 0",
+      "classname": "info_player_start",
+      "id": 39,
+      "position": [
+        6.4,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -1.675516081914556
+    },
+    {
+      "origin": "-48 1088 -89.8182",
+      "angles": "0 200 0",
+      "classname": "info_player_start",
+      "id": 40,
+      "position": [
+        1.2000000000000002,
+        -2.245455,
+        -28.8
+      ],
+      "gameYaw": -1.9198621771937625
+    },
+    {
+      "origin": "-48 963.336 -89.8182",
+      "angles": "0 200 0",
+      "classname": "info_player_start",
+      "id": 41,
+      "position": [
+        1.2000000000000002,
+        -2.245455,
+        -25.683400000000002
+      ],
+      "gameYaw": -1.9198621771937625
+    },
+    {
+      "origin": "160 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 42,
+      "position": [
+        6.4,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "256 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 43,
+      "position": [
+        8.8,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 44,
+      "position": [
+        11.200000000000001,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "448 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 45,
+      "position": [
+        13.600000000000001,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "model": "*7",
+      "angles": "0 0 0",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_a",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "classname": "func_breakable",
+      "id": 46,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*8",
+      "angles": "0 0 0",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_a",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "classname": "func_breakable",
+      "id": 47,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*9",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_a",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 48,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*10",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_b",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 49,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*11",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_b",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 50,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*12",
+      "angles": "0 0 0",
+      "target": "tgt_b",
+      "classname": "func_bomb_target",
+      "id": 51,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*13",
+      "angles": "0 0 0",
+      "explodemagnitude": "100",
+      "material": "2",
+      "health": "1",
+      "targetname": "tgt_b",
+      "rendercolor": "0 0 0",
+      "spawnflags": "1",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "classname": "func_breakable",
+      "id": 52,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-832 -1856 176",
+      "angles": "0 159 0",
+      "classname": "info_player_deathmatch",
+      "id": 53,
+      "position": [
+        -18.400000000000002,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -1.2042771838760875
+    },
+    {
+      "origin": "-832 -1952 176",
+      "angles": "0 10 0",
+      "classname": "info_player_deathmatch",
+      "id": 54,
+      "position": [
+        -18.400000000000002,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.3962634015954636
+    },
+    {
+      "origin": "-832 -2048 192",
+      "angles": "0 159 0",
+      "classname": "info_player_deathmatch",
+      "id": 55,
+      "position": [
+        -18.400000000000002,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -1.2042771838760875
+    },
+    {
+      "origin": "-736 -2048 192",
+      "angles": "0 170 0",
+      "classname": "info_player_deathmatch",
+      "id": 56,
+      "position": [
+        -16,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -1.3962634015954638
+    },
+    {
+      "origin": "-736 -1952 176",
+      "angles": "0 356 0",
+      "classname": "info_player_deathmatch",
+      "id": 57,
+      "position": [
+        -16,
+        4.4,
+        47.2
+      ],
+      "gameYaw": -4.642575810304917
+    },
+    {
+      "origin": "-736 -1856 176",
+      "angles": "0 0 0",
+      "classname": "info_player_deathmatch",
+      "id": 58,
+      "position": [
+        -16,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-640 -2048 192",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 59,
+      "position": [
+        -13.600000000000001,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-640 -1952 176",
+      "angles": "0 22 0",
+      "classname": "info_player_deathmatch",
+      "id": 60,
+      "position": [
+        -13.600000000000001,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.186823891356144
+    },
+    {
+      "origin": "-640 -1856 176",
+      "angles": "0 170 0",
+      "classname": "info_player_deathmatch",
+      "id": 61,
+      "position": [
+        -13.600000000000001,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -1.3962634015954638
+    },
+    {
+      "origin": "-544 -2048 192",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 62,
+      "position": [
+        -11.200000000000001,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-544 -1952 176",
+      "angles": "0 165 0",
+      "classname": "info_player_deathmatch",
+      "id": 63,
+      "position": [
+        -11.200000000000001,
+        4.4,
+        47.2
+      ],
+      "gameYaw": -1.308996938995747
+    },
+    {
+      "origin": "-544 -1856 176",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 64,
+      "position": [
+        -11.200000000000001,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -2048 176",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 65,
+      "position": [
+        -8.8,
+        4.4,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -1952 160",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 66,
+      "position": [
+        -8.8,
+        4,
+        47.2
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -1856 160",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 67,
+      "position": [
+        -8.8,
+        4,
+        44.800000000000004
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-924.585 -1918.53 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 68,
+      "position": [
+        -20.714625,
+        4.4,
+        46.36325
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-924.585 -2014.53 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 69,
+      "position": [
+        -20.714625,
+        4.4,
+        48.76325
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-1024 -1952 176",
+      "angles": "0 21 0",
+      "classname": "info_player_deathmatch",
+      "id": 70,
+      "position": [
+        -23.200000000000003,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.2042771838760873
+    },
+    {
+      "origin": "-1024 -1856 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 71,
+      "position": [
+        -23.200000000000003,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-1024 -2048 192",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 72,
+      "position": [
+        -23.200000000000003,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-1120 -40 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 73,
+      "position": [
+        -25.6,
+        2,
+        -0.6000000000000001
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*14",
+      "angles": "0 0 0",
+      "gibmodel": "models/mil_crategibs.mdl",
+      "targetname": "tgt_b",
+      "health": "1",
+      "material": "2",
+      "explosion": "0",
+      "delay": "0",
+      "spawnobject": "0",
+      "explodemagnitude": "0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "spawnflags": "1",
+      "classname": "func_breakable",
+      "id": 74,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*15",
+      "angles": "0 0 0",
+      "target": "tgt_a",
+      "classname": "func_bomb_target",
+      "id": 75,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1088 256 -32",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 76,
+      "position": [
+        -24.8,
+        -0.8,
+        -8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "1424 -976 -74",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 77,
+      "position": [
+        38,
+        -1.85,
+        22.8
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-448 -1088 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 50",
+      "classname": "light",
+      "id": 78,
+      "position": [
+        -8.8,
+        2,
+        25.6
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-448 -1568 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 50",
+      "classname": "light",
+      "id": 79,
+      "position": [
+        -8.8,
+        2,
+        37.6
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1664 -320 144",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 80,
+      "position": [
+        -39.2,
+        3.6,
+        6.4
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "0 0 840",
+      "angles": "-60 315 0",
+      "_fade": "1.0",
+      "_falloff": "0",
+      "_light": "255 255 255 60",
+      "classname": "light_environment",
+      "id": 81,
+      "position": [
+        2.4000000000000004,
+        21,
+        -1.6
+      ],
+      "gameYaw": -3.9269908169872414
+    },
+    {
+      "origin": "-448 -1472 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 50",
+      "classname": "light",
+      "id": 82,
+      "position": [
+        -8.8,
+        2,
+        35.2
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-448 -1184 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 30",
+      "classname": "light",
+      "id": 83,
+      "position": [
+        -8.8,
+        2,
+        28
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-448 -1376 80",
+      "angles": "0 0 0",
+      "_light": "224 224 224 30",
+      "classname": "light",
+      "id": 84,
+      "position": [
+        -8.8,
+        2,
+        32.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1088 32 0",
+      "angles": "0 0 0",
+      "_light": "224 224 224 70",
+      "classname": "light",
+      "id": 85,
+      "position": [
+        -24.8,
+        0,
+        -2.4000000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*16",
+      "angles": "0 0 0",
+      "target": "tgt_a",
+      "classname": "func_bomb_target",
+      "id": 86,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*17",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 87,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*18",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 88,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*19",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 89,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*20",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 90,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*21",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 91,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*22",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 92,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*23",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 93,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*24",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "0",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 94,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "model": "*25",
+      "angles": "0 0 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "rendercolor": "0 0 0",
+      "zhlt_lightflags": "2",
+      "skin": "-1",
+      "classname": "func_illusionary",
+      "id": 95,
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-1560 1512 2.02539",
+      "angles": "0 -90 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "renderamt": "255",
+      "rendercolor": "0 0 0",
+      "framerate": "3",
+      "scale": "1.0",
+      "model": "models/BOOMSITE.mdl",
+      "classname": "cycler_sprite",
+      "id": 96,
+      "position": [
+        -36.6,
+        0.05063475,
+        -39.400000000000006
+      ],
+      "gameYaw": 3.141592653589793
+    },
+    {
+      "origin": "1144 1304 98.0254",
+      "angles": "0 270 0",
+      "renderfx": "0",
+      "rendermode": "0",
+      "renderamt": "255",
+      "rendercolor": "0 0 0",
+      "framerate": "3",
+      "scale": "1.0",
+      "model": "models/BOOMSITE.mdl",
+      "classname": "cycler_sprite",
+      "id": 97,
+      "position": [
+        31,
+        2.450635,
+        -34.2
+      ],
+      "gameYaw": -3.141592653589793
+    }
+  ],
+  "spawns": [
+    {
+      "origin": "448 1312 -74",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 26,
+      "position": [
+        13.600000000000001,
+        -1.85,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 1312 -78",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 27,
+      "position": [
+        11.200000000000001,
+        -1.9500000000000002,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "256 1312 -82",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 28,
+      "position": [
+        8.8,
+        -2.0500000000000003,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "448 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 29,
+      "position": [
+        13.600000000000001,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "160 1312 -88",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 30,
+      "position": [
+        6.4,
+        -2.2,
+        -34.4
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 31,
+      "position": [
+        11.200000000000001,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "256 960 -88",
+      "angles": "0 72 0",
+      "classname": "info_player_start",
+      "id": 32,
+      "position": [
+        8.8,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": 0.3141592653589793
+    },
+    {
+      "origin": "160 960 -88",
+      "angles": "0 105 0",
+      "classname": "info_player_start",
+      "id": 33,
+      "position": [
+        6.4,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": -0.2617993877991496
+    },
+    {
+      "origin": "48 960 -88",
+      "angles": "0 105 0",
+      "classname": "info_player_start",
+      "id": 34,
+      "position": [
+        3.6,
+        -2.2,
+        -25.6
+      ],
+      "gameYaw": -0.2617993877991496
+    },
+    {
+      "origin": "48 1056 -88",
+      "angles": "0 215 0",
+      "classname": "info_player_start",
+      "id": 35,
+      "position": [
+        3.6,
+        -2.2,
+        -28
+      ],
+      "gameYaw": -2.1816615649929116
+    },
+    {
+      "origin": "448 1088 -88",
+      "angles": "0 41 0",
+      "classname": "info_player_start",
+      "id": 36,
+      "position": [
+        13.600000000000001,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": 0.8552113334772216
+    },
+    {
+      "origin": "352 1088 -88",
+      "angles": "0 333 0",
+      "classname": "info_player_start",
+      "id": 37,
+      "position": [
+        11.200000000000001,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -4.241150082346221
+    },
+    {
+      "origin": "256 1088 -88",
+      "angles": "0 178 0",
+      "classname": "info_player_start",
+      "id": 38,
+      "position": [
+        8.8,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -1.5358897417550104
+    },
+    {
+      "origin": "160 1088 -88",
+      "angles": "0 186 0",
+      "classname": "info_player_start",
+      "id": 39,
+      "position": [
+        6.4,
+        -2.2,
+        -28.8
+      ],
+      "gameYaw": -1.675516081914556
+    },
+    {
+      "origin": "-48 1088 -89.8182",
+      "angles": "0 200 0",
+      "classname": "info_player_start",
+      "id": 40,
+      "position": [
+        1.2000000000000002,
+        -2.245455,
+        -28.8
+      ],
+      "gameYaw": -1.9198621771937625
+    },
+    {
+      "origin": "-48 963.336 -89.8182",
+      "angles": "0 200 0",
+      "classname": "info_player_start",
+      "id": 41,
+      "position": [
+        1.2000000000000002,
+        -2.245455,
+        -25.683400000000002
+      ],
+      "gameYaw": -1.9198621771937625
+    },
+    {
+      "origin": "160 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 42,
+      "position": [
+        6.4,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "256 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 43,
+      "position": [
+        8.8,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "352 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 44,
+      "position": [
+        11.200000000000001,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "448 1216 -84",
+      "angles": "0 255 0",
+      "classname": "info_player_start",
+      "id": 45,
+      "position": [
+        13.600000000000001,
+        -2.1,
+        -32
+      ],
+      "gameYaw": -2.879793265790644
+    },
+    {
+      "origin": "-832 -1856 176",
+      "angles": "0 159 0",
+      "classname": "info_player_deathmatch",
+      "id": 53,
+      "position": [
+        -18.400000000000002,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -1.2042771838760875
+    },
+    {
+      "origin": "-832 -1952 176",
+      "angles": "0 10 0",
+      "classname": "info_player_deathmatch",
+      "id": 54,
+      "position": [
+        -18.400000000000002,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.3962634015954636
+    },
+    {
+      "origin": "-832 -2048 192",
+      "angles": "0 159 0",
+      "classname": "info_player_deathmatch",
+      "id": 55,
+      "position": [
+        -18.400000000000002,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -1.2042771838760875
+    },
+    {
+      "origin": "-736 -2048 192",
+      "angles": "0 170 0",
+      "classname": "info_player_deathmatch",
+      "id": 56,
+      "position": [
+        -16,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -1.3962634015954638
+    },
+    {
+      "origin": "-736 -1952 176",
+      "angles": "0 356 0",
+      "classname": "info_player_deathmatch",
+      "id": 57,
+      "position": [
+        -16,
+        4.4,
+        47.2
+      ],
+      "gameYaw": -4.642575810304917
+    },
+    {
+      "origin": "-736 -1856 176",
+      "angles": "0 0 0",
+      "classname": "info_player_deathmatch",
+      "id": 58,
+      "position": [
+        -16,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": 1.5707963267948966
+    },
+    {
+      "origin": "-640 -2048 192",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 59,
+      "position": [
+        -13.600000000000001,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-640 -1952 176",
+      "angles": "0 22 0",
+      "classname": "info_player_deathmatch",
+      "id": 60,
+      "position": [
+        -13.600000000000001,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.186823891356144
+    },
+    {
+      "origin": "-640 -1856 176",
+      "angles": "0 170 0",
+      "classname": "info_player_deathmatch",
+      "id": 61,
+      "position": [
+        -13.600000000000001,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -1.3962634015954638
+    },
+    {
+      "origin": "-544 -2048 192",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 62,
+      "position": [
+        -11.200000000000001,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-544 -1952 176",
+      "angles": "0 165 0",
+      "classname": "info_player_deathmatch",
+      "id": 63,
+      "position": [
+        -11.200000000000001,
+        4.4,
+        47.2
+      ],
+      "gameYaw": -1.308996938995747
+    },
+    {
+      "origin": "-544 -1856 176",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 64,
+      "position": [
+        -11.200000000000001,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -2048 176",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 65,
+      "position": [
+        -8.8,
+        4.4,
+        49.6
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -1952 160",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 66,
+      "position": [
+        -8.8,
+        4,
+        47.2
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-448 -1856 160",
+      "angles": "0 43 0",
+      "classname": "info_player_deathmatch",
+      "id": 67,
+      "position": [
+        -8.8,
+        4,
+        44.800000000000004
+      ],
+      "gameYaw": 0.8203047484373349
+    },
+    {
+      "origin": "-924.585 -1918.53 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 68,
+      "position": [
+        -20.714625,
+        4.4,
+        46.36325
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-924.585 -2014.53 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 69,
+      "position": [
+        -20.714625,
+        4.4,
+        48.76325
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-1024 -1952 176",
+      "angles": "0 21 0",
+      "classname": "info_player_deathmatch",
+      "id": 70,
+      "position": [
+        -23.200000000000003,
+        4.4,
+        47.2
+      ],
+      "gameYaw": 1.2042771838760873
+    },
+    {
+      "origin": "-1024 -1856 176",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 71,
+      "position": [
+        -23.200000000000003,
+        4.4,
+        44.800000000000004
+      ],
+      "gameYaw": -0.8726646259971647
+    },
+    {
+      "origin": "-1024 -2048 192",
+      "angles": "0 140 0",
+      "classname": "info_player_deathmatch",
+      "id": 72,
+      "position": [
+        -23.200000000000003,
+        4.800000000000001,
+        49.6
+      ],
+      "gameYaw": -0.8726646259971647
+    }
+  ],
+  "bombSites": [
+    {
+      "id": 12,
+      "minSource": [
+        -1728,
+        1296,
+        0
+      ],
+      "maxSource": [
+        -1344,
+        1680,
+        152
+      ],
+      "originSource": [
+        0,
+        0,
+        0
+      ],
+      "headnodes": [
+        4330,
+        11985,
+        11991,
+        11997
+      ],
+      "firstFace": 13171,
+      "faceCount": 0,
+      "entity": {
+        "model": "*12",
+        "angles": "0 0 0",
+        "target": "tgt_b",
+        "classname": "func_bomb_target"
+      },
+      "classname": "func_bomb_target",
+      "solid": false,
+      "hidden": true,
+      "bounds": {
+        "min": [
+          -40.800000000000004,
+          0,
+          -43.6
+        ],
+        "max": [
+          -31.200000000000003,
+          3.8000000000000003,
+          -34
+        ]
+      },
+      "origin": [
+        2.4000000000000004,
+        0,
+        -1.6
+      ],
+      "meshIds": []
+    },
+    {
+      "id": 15,
+      "minSource": [
+        1008,
+        1168,
+        96
+      ],
+      "maxSource": [
+        1280,
+        1440,
+        224
+      ],
+      "originSource": [
+        0,
+        0,
+        0
+      ],
+      "headnodes": [
+        4348,
+        12051,
+        12057,
+        12063
+      ],
+      "firstFace": 13227,
+      "faceCount": 0,
+      "entity": {
+        "model": "*15",
+        "angles": "0 0 0",
+        "target": "tgt_a",
+        "classname": "func_bomb_target"
+      },
+      "classname": "func_bomb_target",
+      "solid": false,
+      "hidden": true,
+      "bounds": {
+        "min": [
+          27.6,
+          2.4000000000000004,
+          -37.6
+        ],
+        "max": [
+          34.4,
+          5.6000000000000005,
+          -30.8
+        ]
+      },
+      "origin": [
+        2.4000000000000004,
+        0,
+        -1.6
+      ],
+      "meshIds": []
+    },
+    {
+      "id": 16,
+      "minSource": [
+        1280,
+        1392,
+        96
+      ],
+      "maxSource": [
+        1296,
+        1440,
+        224
+      ],
+      "originSource": [
+        0,
+        0,
+        0
+      ],
+      "headnodes": [
+        4354,
+        12069,
+        12075,
+        12081
+      ],
+      "firstFace": 13227,
+      "faceCount": 0,
+      "entity": {
+        "model": "*16",
+        "angles": "0 0 0",
+        "target": "tgt_a",
+        "classname": "func_bomb_target"
+      },
+      "classname": "func_bomb_target",
+      "solid": false,
+      "hidden": true,
+      "bounds": {
+        "min": [
+          34.4,
+          2.4000000000000004,
+          -37.6
+        ],
+        "max": [
+          34.800000000000004,
+          5.6000000000000005,
+          -36.4
+        ]
+      },
+      "origin": [
+        2.4000000000000004,
+        0,
+        -1.6
+      ],
+      "meshIds": []
+    }
+  ],
+  "buyZones": [
+    {
+      "id": 3,
+      "minSource": [
+        -256,
+        832,
+        -128
+      ],
+      "maxSource": [
+        528,
+        1408,
+        -32
+      ],
+      "originSource": [
+        0,
+        0,
+        0
+      ],
+      "headnodes": [
+        4276,
+        11811,
+        11817,
+        11823
+      ],
+      "firstFace": 13003,
+      "faceCount": 0,
+      "entity": {
+        "model": "*3",
+        "angles": "0 0 0",
+        "team": "2",
+        "classname": "func_buyzone"
+      },
+      "classname": "func_buyzone",
+      "solid": false,
+      "hidden": true,
+      "bounds": {
+        "min": [
+          -4,
+          -3.2,
+          -36.800000000000004
+        ],
+        "max": [
+          15.600000000000001,
+          -0.8,
+          -22.400000000000002
+        ]
+      },
+      "origin": [
+        2.4000000000000004,
+        0,
+        -1.6
+      ],
+      "meshIds": []
+    },
+    {
+      "id": 4,
+      "minSource": [
+        -1088,
+        -2144,
+        0
+      ],
+      "maxSource": [
+        -384,
+        -1792,
+        288
+      ],
+      "originSource": [
+        0,
+        0,
+        0
+      ],
+      "headnodes": [
+        4282,
+        11829,
+        11835,
+        11841
+      ],
+      "firstFace": 13003,
+      "faceCount": 0,
+      "entity": {
+        "model": "*4",
+        "angles": "0 0 0",
+        "team": "1",
+        "classname": "func_buyzone"
+      },
+      "classname": "func_buyzone",
+      "solid": false,
+      "hidden": true,
+      "bounds": {
+        "min": [
+          -24.8,
+          0,
+          43.2
+        ],
+        "max": [
+          -7.2,
+          7.2,
+          52
+        ]
+      },
+      "origin": [
+        2.4000000000000004,
+        0,
+        -1.6
+      ],
+      "meshIds": []
+    }
+  ]
+}

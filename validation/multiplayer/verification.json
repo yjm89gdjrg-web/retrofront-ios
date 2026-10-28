@@ -1,0 +1,17 @@
+{
+  "fullRegression": {
+    "passed": 215,
+    "failed": 0
+  },
+  "finalTargetedRegression": {
+    "passed": 28,
+    "failed": 0
+  },
+  "multiplayerTests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "browser": "browser-report.json",
+  "publicDeployment": "pending: SSH connection closes before protocol handshake",
+  "iphoneDeviceTest": "not performed on Windows"
+}

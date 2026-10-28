@@ -1,0 +1,420 @@
+{
+  "usp": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "prefire": [],
+      "reload": [
+        {
+          "file": "usp_g_mzc_usp_bback.wav",
+          "time": 0,
+          "fraction": 0
+        },
+        {
+          "file": "usp_g_mzc_usp_clipout.wav",
+          "time": 0.4,
+          "fraction": 0.14084507042253522
+        },
+        {
+          "file": "usp_g_mzc_usp_clipin.wav",
+          "time": 1.36,
+          "fraction": 0.4788732394366197
+        },
+        {
+          "file": "usp_g_mzc_usp_bcback.wav",
+          "time": 2.04,
+          "fraction": 0.7183098591549296
+        }
+      ],
+      "select": [
+        {
+          "file": "usp_g_reload_usp.wav",
+          "time": 0.03333333333333333,
+          "fraction": 0.043478260869565216
+        }
+      ]
+    },
+    "fire": "usp_p228-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "mp5": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "reload": [
+        {
+          "file": "mp5_g_mzc_mp5_clipout.wav",
+          "time": 0.2413793103448276,
+          "fraction": 0.11864406779661017
+        },
+        {
+          "file": "mp5_g_mzc_mp5_clipin.wav",
+          "time": 0.8275862068965517,
+          "fraction": 0.4067796610169492
+        },
+        {
+          "file": "mp5_g_reload_mp5.wav",
+          "time": 1.3103448275862069,
+          "fraction": 0.6440677966101694
+        }
+      ],
+      "select": [
+        {
+          "file": "mp5_g_reload_mp5.wav",
+          "time": 0.17142857142857143,
+          "fraction": 0.20689655172413793
+        }
+      ],
+      "prefire": []
+    },
+    "fire": "mp5_tmp-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "scar": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "reload": [
+        {
+          "file": "scar_g_mzc_galil_clipout.wav",
+          "fraction": 0.1
+        },
+        {
+          "file": "scar_g_mzc_galil_clipin.wav",
+          "fraction": 0.52
+        },
+        {
+          "file": "scar_g_reload_galil.wav",
+          "fraction": 0.78
+        }
+      ],
+      "select": [],
+      "prefire": []
+    },
+    "fire": "m4a1_unsil-1.wav",
+    "draw": "scar_g_reload_galil.wav",
+    "world": true
+  },
+  "anaconda": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "prefire": [],
+      "reload": [
+        {
+          "file": "anaconda_g_mzc_anaconda_clipout.wav",
+          "time": 0.2,
+          "fraction": 0.10112359550561797
+        },
+        {
+          "file": "anaconda_g_mzc_anaconda_clipin.wav",
+          "time": 0.8888888888888888,
+          "fraction": 0.449438202247191
+        },
+        {
+          "file": "anaconda_g_mzc_anaconda_bcback.wav",
+          "time": 1.1777777777777778,
+          "fraction": 0.5955056179775281
+        }
+      ],
+      "select": [
+        {
+          "file": "anaconda_g_reload_anaconda.wav",
+          "time": 0.06666666666666667,
+          "fraction": 0.06896551724137931
+        }
+      ],
+      "select2": [
+        {
+          "file": "anaconda_g_reload2_anaconda.wav",
+          "time": 0.06666666666666667,
+          "fraction": 0.05263157894736842
+        }
+      ]
+    },
+    "fire": "anaconda_deagle-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "axe": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "select": [],
+      "bigshot": [],
+      "combo_1": [],
+      "combo_2": []
+    },
+    "fire": "axe_knife_slash1.wav",
+    "draw": "axe_knife_deploy1.wav",
+    "mirror": false
+  },
+  "m700": {
+    "source": "vol2",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "prefire": [
+        {
+          "file": "m700_g_reload_m700.wav",
+          "time": 0.5666666666666667,
+          "fraction": 0.5151515151515151
+        }
+      ],
+      "reload": [
+        {
+          "file": "m700_g_mzc_m700_clipout.wav",
+          "time": 0.2,
+          "fraction": 0.11290322580645161
+        },
+        {
+          "file": "m700_g_mzc_m700_clipin.wav",
+          "time": 0.6571428571428571,
+          "fraction": 0.3709677419354839
+        },
+        {
+          "file": "m700_g_reload_m700.wav",
+          "time": 1.457142857142857,
+          "fraction": 0.8225806451612904
+        }
+      ],
+      "select": [
+        {
+          "file": "m700_g_mzc_m700.wav",
+          "time": 0.03333333333333333,
+          "fraction": 0.03125
+        }
+      ]
+    },
+    "fire": "m700_scout_fire-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "an94": {
+    "source": "vol3",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "reload": [
+        {
+          "file": "an94_g_mzc_an94_clipout.wav",
+          "time": 0.06060606060606061,
+          "fraction": 0.024691358024691357
+        },
+        {
+          "file": "an94_g_mzc_an94_clipin.wav",
+          "time": 1.1515151515151516,
+          "fraction": 0.4691358024691358
+        },
+        {
+          "file": "an94_g_reload_an94.wav",
+          "time": 1.7575757575757576,
+          "fraction": 0.7160493827160493
+        }
+      ],
+      "select": [
+        {
+          "file": "an94_an94_select1.wav",
+          "time": 0.02857142857142857,
+          "fraction": 0.027777777777777776
+        },
+        {
+          "file": "an94_an94_select2.wav",
+          "time": 0.34285714285714286,
+          "fraction": 0.3333333333333333
+        }
+      ],
+      "prefire": []
+    },
+    "fire": "an94_ak47-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "colt1911": {
+    "source": "vol3",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "prefire": [],
+      "reload": [
+        {
+          "file": "colt1911_g_mzc_colt1911_bback.wav",
+          "time": 0.02702702702702703,
+          "fraction": 0.012987012987012988
+        },
+        {
+          "file": "colt1911_g_mzc_colt1911_clipout.wav",
+          "time": 0.32432432432432434,
+          "fraction": 0.15584415584415584
+        },
+        {
+          "file": "colt1911_g_mzc_colt1911_clipin.wav",
+          "time": 1.0810810810810811,
+          "fraction": 0.5194805194805194
+        },
+        {
+          "file": "colt1911_g_mzc_colt1911_bcback.wav",
+          "time": 1.5135135135135136,
+          "fraction": 0.7272727272727273
+        }
+      ],
+      "select": [
+        {
+          "file": "colt1911_g_reload_colt1911.wav",
+          "time": 0.1,
+          "fraction": 0.21428571428571427
+        }
+      ]
+    },
+    "fire": "colt1911_deagle-1.wav",
+    "draw": null,
+    "world": true
+  },
+  "shovel": {
+    "source": "vol3",
+    "armParts": [
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle_0": [],
+      "select": [],
+      "bigshot": [
+        {
+          "file": "shovel_shovel_bigshot.wav",
+          "time": 0.16666666666666666,
+          "fraction": 0.20833333333333334
+        }
+      ],
+      "combo_1": [],
+      "combo_2": []
+    },
+    "fire": "shovel_knife_slash1.wav",
+    "draw": "shovel_knife_deploy1.wav",
+    "mirror": false
+  },
+  "awm": {
+    "source": "awm",
+    "armParts": [
+      0
+    ],
+    "sequenceNames": [
+      "idle",
+      "shoot1",
+      "shoot2",
+      "shoot3",
+      "reload",
+      "draw"
+    ],
+    "audio": {
+      "idle": [],
+      "shoot1": [
+        {
+          "file": "awm_awp_draw.wav",
+          "time": 0.9491525423728814,
+          "fraction": 0.6829268292682927
+        }
+      ],
+      "shoot2": [
+        {
+          "file": "awm_awp_draw.wav",
+          "time": 0.9491525423728814,
+          "fraction": 0.6829268292682927
+        }
+      ],
+      "shoot3": [
+        {
+          "file": "awm_awp_draw.wav",
+          "time": 0.9491525423728814,
+          "fraction": 0.6829268292682927
+        }
+      ],
+      "reload": [
+        {
+          "file": "awm_awp_clipout.wav",
+          "time": 0.4576271186440678,
+          "fraction": 0.15517241379310345
+        },
+        {
+          "file": "awm_awp_clipin.wav",
+          "time": 1.3898305084745763,
+          "fraction": 0.47126436781609193
+        },
+        {
+          "file": "awm_awp_draw.wav",
+          "time": 2.457627118644068,
+          "fraction": 0.8333333333333334
+        }
+      ],
+      "draw": [
+        {
+          "file": "awm_awp_draw.wav",
+          "time": 0.7,
+          "fraction": 0.5753424657534246
+        }
+      ]
+    },
+    "fire": "awm_awp1.wav",
+    "draw": null,
+    "world": true,
+    "omitAdditive": true
+  },
+  "deagle": {
+    "source": "deagle",
+    "armParts": [
+      0,
+      1
+    ],
+    "sequenceNames": null,
+    "audio": {
+      "idle1": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot_empty": [],
+      "reload": [
+        {
+          "file": "deagle_dual_desert_clipout.wav",
+          "fraction": 0.2
+        },
+        {
+          "file": "deagle_dual_desert_clipin.wav",
+          "fraction": 0.52
+        }
+      ],
+      "draw": []
+    },
+    "fire": "deagle_elite_fire.wav",
+    "draw": "deagle_dual_desert_select.wav"
+  }
+}

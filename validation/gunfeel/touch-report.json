@@ -1,0 +1,35 @@
+{
+  "browser": "Chrome CDP touch input, iPhone-sized 844x390 viewport at DPR3; not physical iPhone",
+  "simultaneous": {
+    "input": {
+      "x": 0,
+      "z": -1,
+      "fire": true,
+      "trigger": true
+    },
+    "looks": [
+      [
+        -4,
+        8.999969482421875
+      ],
+      [
+        10,
+        5
+      ]
+    ],
+    "fireOwned": true
+  },
+  "secondLookFingerIgnored": true,
+  "aimSecondaryTouchWorks": true,
+  "afterLookRelease": {
+    "fire": true,
+    "moving": -1
+  },
+  "blurCleared": {
+    "x": 0,
+    "z": 0,
+    "fire": false,
+    "trigger": false
+  },
+  "errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "viewport": [
+    844,
+    390
+  ],
+  "realPlayerHit": true,
+  "victim": 1,
+  "damage": 35,
+  "headshot": false,
+  "position": [
+    27,
+    1.1427865991790302,
+    5.427865991790301
+  ],
+  "burstCount": 1,
+  "firstFrame": 0,
+  "anchorDistance": 0.04500000000000019,
+  "atlasWidth": 512,
+  "atlasHeight": 512,
+  "depthTest": true,
+  "pause": {
+    "before": 3,
+    "after": 3,
+    "expired": 0
+  },
+  "miss": {
+    "hitEvents": 0,
+    "bursts": 0
+  },
+  "fatal": {
+    "headshot": true,
+    "fatal": true,
+    "dead": true,
+    "phase": "over",
+    "bursts": 1,
+    "frame": 1
+  },
+  "newRound": {
+    "bursts": 0,
+    "pending": 0
+  },
+  "localPlayer": {
+    "hiddenBodyBursts": 0,
+    "fatalBodyBursts": 1,
+    "dead": true
+  },
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,121 @@
+{
+  "retrieved": "2026-10-08",
+  "model": {
+    "title": "云悠悠",
+    "author": "窝瓜先生",
+    "page": "https://www.lxres.com/RenWuWuQi/ZiZhiRenWu/2411.html",
+    "download": "https://www.lxres.com/d/file/RenWuWuQi/ZiZhiRenWu/2022-12-04/云悠悠.7z",
+    "date": "2022-12-04",
+    "format": "SKC + BNC + TGA",
+    "outfit": "保卫者，紫发、蓝紫裙装、黑色长袜；社区移植文件，并非官方客户端原档",
+    "comparison": "https://steamcommunity.com/sharedfiles/filedetails/?id=2947299500",
+    "triangles": 11748,
+    "bones": 30
+  },
+  "voice": {
+    "publishedfileid": "3809605150",
+    "result": 1,
+    "creator": "76561199476645444",
+    "creator_app_id": 550,
+    "consumer_app_id": 550,
+    "filename": "yzh30_动画包.vpk",
+    "file_size": "27164158",
+    "file_url": "https://cdn.steamusercontent.com/ugc/16665950477641876433/0E13DB7C2BC68639938BDC0235BA6C44D9CCA6CF/",
+    "hcontent_file": "16665950477641876433",
+    "preview_url": "https://images.steamusercontent.com/ugc/11002663297218300367/EF0F309698D85EF6C8D1D5938922994AAF6B57C3/",
+    "hcontent_preview": "11002663297218300367",
+    "title": "「skeeto」CF云悠悠连杀语音 战壕风云消灭音效\n",
+    "description": "需要skeeto平台\n需要把文件从workshop文件夹拖入addons文件夹\n",
+    "time_created": 1790587782,
+    "time_updated": 1791122302,
+    "visibility": 0,
+    "banned": 0,
+    "ban_reason": "",
+    "subscriptions": 140,
+    "favorited": 28,
+    "lifetime_subscriptions": 315,
+    "lifetime_favorited": 32,
+    "views": 618,
+    "tags": []
+  },
+  "modelArchiveSha256": "29590c1342b1525c0cbc633a5465fd5223c853b220d1ce3ba4f4e20a2edc1480",
+  "voiceArchiveSha256": "61e4550b3711f89a5a9d533d0e1f2058421565db4ba9552527909f0aa32b6508",
+  "entries": [
+    {
+      "event": "kill_1",
+      "member": "sound/skeeto/si/yzh/kill.mp3",
+      "file": "assets-source/cf/audio/yun_kill_1.mp3",
+      "bytes": 38920,
+      "sha256": "2769434fb8b8ddfbe07b0c7c2c50f0c2412a93561f8386331308d6220bb42f82"
+    },
+    {
+      "event": "kill_2",
+      "member": "sound/skeeto/si/yzh/bw2.mp3",
+      "file": "assets-source/cf/audio/yun_kill_2.mp3",
+      "bytes": 40801,
+      "sha256": "f2c7f32e32558d04e1faebf18b5bda601ef99afb48aaf0b279c70275bb3e0bf7"
+    },
+    {
+      "event": "kill_3",
+      "member": "sound/skeeto/si/yzh/bw3.mp3",
+      "file": "assets-source/cf/audio/yun_kill_3.mp3",
+      "bytes": 40801,
+      "sha256": "d399c27d7efac512d8b7d7ba11ca256f2225590e458b16b5010aad37fb2e4518"
+    },
+    {
+      "event": "kill_4",
+      "member": "sound/skeeto/si/yzh/bw4.mp3",
+      "file": "assets-source/cf/audio/yun_kill_4.mp3",
+      "bytes": 40801,
+      "sha256": "f3cdea052f9e3aad8d9c3a03432b3b02ef8c3375cff52df294ed096843e97840"
+    },
+    {
+      "event": "kill_5",
+      "member": "sound/skeeto/si/yzh/bw5.mp3",
+      "file": "assets-source/cf/audio/yun_kill_5.mp3",
+      "bytes": 40801,
+      "sha256": "806e4a6f39ab39e7164d756bbca1d2c3a10d9887c252b8d29fbf65aabce6c4f5"
+    },
+    {
+      "event": "headshot",
+      "member": "sound/skeeto/si/yzh/bwhs.mp3",
+      "file": "assets-source/cf/audio/yun_headshot.mp3",
+      "bytes": 66505,
+      "sha256": "669f039cbeff96d71afefc7606fc5a951834d8730607ac848f24710ea3be4ee7"
+    },
+    {
+      "event": "knife",
+      "member": "sound/skeeto/si/yzh/bwk.mp3",
+      "file": "assets-source/cf/audio/yun_knife.mp3",
+      "bytes": 43935,
+      "sha256": "eff1ab3ec23ce8e753ffacc749da6194a4ef08e2ac6e7e9f64098fdf77367f83"
+    }
+  ],
+  "modelFiles": [
+    {
+      "file": "assets-source/cf/yunyouyou/p1.skc",
+      "bytes": 1136618,
+      "sha256": "3aa90a0173f74fc53b791e1cca40560bbdb17292652bbf7689793eace64b745a"
+    },
+    {
+      "file": "assets-source/cf/yunyouyou/p1.bnc",
+      "bytes": 5080,
+      "sha256": "0497a514bed6afe6775d2126e5d39ccebd1b087ff1cdcf4f1883c066f81e3ae7"
+    },
+    {
+      "file": "assets-source/cf/yunyouyou/yun_body.tga",
+      "bytes": 1048620,
+      "sha256": "38a27dda87f3d41390843daa32d7437a129db1cb44a76a15153dc3488c3a313a"
+    },
+    {
+      "file": "assets-source/cf/yunyouyou/yun_hair.tga",
+      "bytes": 262188,
+      "sha256": "c4a0fdcf1f314a81779f812bd76da86a8d6f2f30be15222b27c3740fbc6bd82f"
+    },
+    {
+      "file": "assets-source/cf/yunyouyou/yun_hair1.tga",
+      "bytes": 262188,
+      "sha256": "f59cb0a4f64282bbed561080dee2b1e9dc1b7ea418877ab1195d66917954657f"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "browser": "Chrome CDP mobile 852x393 DPR3; not physical iPhone 15",
+  "settingsStored": [
+    1.25,
+    0.45,
+    0.2
+  ],
+  "legacyAimPreserved": true,
+  "smallSettingsReachable": true,
+  "calibration": {
+    "hip": 0.41250000000000003,
+    "aim": 0.1485,
+    "scope": 0.066,
+    "profile": [
+      1.25,
+      0.45,
+      0.2
+    ]
+  },
+  "multitouch": {
+    "x": 0,
+    "z": -0.8391608391608392,
+    "fire": true,
+    "aim": true,
+    "yaw": 0.04125,
+    "clip": 28
+  },
+  "lookReleaseKeepsFire": {
+    "fire": true,
+    "z": -0.8391608391608392
+  },
+  "jumpWhileMovingAndFiring": true,
+  "fireReleaseKeepsMovement": {
+    "fire": false,
+    "z": -0.8391608391608392
+  },
+  "frameMeter": "15 FPS",
+  "settingsSurviveReload": true,
+  "pauseSettingsResume": true,
+  "errors": []
+}

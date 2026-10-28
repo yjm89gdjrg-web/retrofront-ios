@@ -1,0 +1,60 @@
+{
+  "browser": "Chrome mobile 852x393 DPR3 and 568x320, software rendering; not an iPhone benchmark",
+  "audio": {
+    "state": "running",
+    "createdPanners": 2,
+    "first": [
+      -1,
+      1
+    ],
+    "afterTurn": [
+      1,
+      -1
+    ],
+    "pending": 2
+  },
+  "diagnostics": {
+    "version": 1,
+    "mode": "单机",
+    "frames": 12,
+    "activeSeconds": 0.5,
+    "averageFPS": 26.6,
+    "p95FrameMs": 66.1,
+    "p95Capped": false,
+    "maxFrameMs": 66.1,
+    "framesOver33ms": 8,
+    "stutters50ms": 2,
+    "severe100ms": 0,
+    "recentStutters": [
+      {
+        "atSeconds": 0.1,
+        "frameMs": 50.5
+      },
+      {
+        "atSeconds": 0.2,
+        "frameMs": 66.1
+      }
+    ],
+    "currentQuality": "low",
+    "currentViewport": [
+      852,
+      393
+    ],
+    "currentRenderSize": [
+      724,
+      334
+    ],
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+    "scope": "Foreground live/round-end completed draw intervals; excludes loading, menus, pause and background. P95 uses 1ms buckets capped at 1000ms."
+  },
+  "emptyBeforeGame": true,
+  "pauseExcluded": true,
+  "copyFallback": true,
+  "clipboardRejectionAfterCloseSafe": true,
+  "smallScreenReachable": true,
+  "resumeCounts": true,
+  "lobbyRetainsLastSession": true,
+  "resetWorks": true,
+  "errors": [],
+  "externalRequests": []
+}

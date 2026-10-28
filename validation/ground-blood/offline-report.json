@@ -1,0 +1,16 @@
+{
+  "actualMinifiedOfflineBundle": true,
+  "viewport": [
+    844,
+    390
+  ],
+  "warehouseAndStartup": true,
+  "bloodAtlasLoaded": {
+    "width": 512,
+    "height": 512
+  },
+  "touchFireDispatched": true,
+  "pausedAndResumed": true,
+  "errors": [],
+  "externalRequests": []
+}

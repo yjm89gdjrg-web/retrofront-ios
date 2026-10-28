@@ -1,0 +1,18 @@
+{
+  "actualOfflineBundle": true,
+  "viewport": [
+    844,
+    390
+  ],
+  "warehouseCharacters": [
+    "omoh",
+    "fox",
+    "star"
+  ],
+  "warehousePrimary": "ak",
+  "started": true,
+  "fireTouchDispatched": true,
+  "pausedAndResumed": true,
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,23 @@
+{
+  "environment": "Chrome mobile viewport 844x390 SwiftShader; not physical iPhone",
+  "reports": [
+    {
+      "stage": "baseline",
+      "scriptBytes": 68986592,
+      "menuMs": 3010,
+      "enterGameMs": 6281,
+      "returnedToLobby": true,
+      "heapAfterExit": 270514099,
+      "errors": []
+    },
+    {
+      "stage": "optimized",
+      "scriptBytes": 35601352,
+      "menuMs": 2513,
+      "enterGameMs": 2171,
+      "returnedToLobby": true,
+      "heapAfterExit": 237175518,
+      "errors": []
+    }
+  ]
+}

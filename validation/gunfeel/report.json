@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "tests": 269,
+  "passed": 269,
+  "failed": 0,
+  "offlineBuild": true,
+  "actualMinifiedBundleChecked": true,
+  "settingsPersist": true,
+  "multitouchChecked": true,
+  "smallScreenChecked": true,
+  "physicalIPhoneValidated": false,
+  "serverDeployed": false,
+  "newIPAGenerated": false,
+  "browser": "Windows Chrome CDP 852x393 DPR3; 568x320 small screen; software rendering",
+  "notes": "FPS in browser reports is not an iPhone 15 benchmark."
+}

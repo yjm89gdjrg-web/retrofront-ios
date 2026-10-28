@@ -1,0 +1,103 @@
+{
+  "shippedBundle": {
+    "hiddenInitially": true,
+    "emptyAndWrongCodeRejected": true,
+    "correctCodeUnlocks": true,
+    "duplicateCodeDoesNotDuplicate": true,
+    "equippable": true,
+    "savedAfterReload": true,
+    "smallScreenRedemptionFits": true
+  },
+  "audio": [
+    {
+      "name": "yun_kill_1.mp3",
+      "duration": 1.6195833333333334,
+      "channels": 2,
+      "rms": 0.21187517462622232,
+      "peak": 1.1236158609390259
+    },
+    {
+      "name": "yun_headshot.mp3",
+      "duration": 2.7689791666666665,
+      "channels": 2,
+      "rms": 0.14594009708741618,
+      "peak": 1.057382583618164
+    },
+    {
+      "name": "yun_kill_2.mp3",
+      "duration": 1.6979583333333332,
+      "channels": 2,
+      "rms": 0.1816276883055484,
+      "peak": 0.992215633392334
+    },
+    {
+      "name": "yun_kill_3.mp3",
+      "duration": 1.6979583333333332,
+      "channels": 2,
+      "rms": 0.18726888614338796,
+      "peak": 1.031775712966919
+    },
+    {
+      "name": "yun_kill_4.mp3",
+      "duration": 1.6979583333333332,
+      "channels": 2,
+      "rms": 0.18656897717143364,
+      "peak": 1.011117935180664
+    },
+    {
+      "name": "yun_kill_5.mp3",
+      "duration": 1.6979583333333332,
+      "channels": 2,
+      "rms": 0.19019103676425697,
+      "peak": 1.0071425437927246
+    },
+    {
+      "name": "yun_knife.mp3",
+      "duration": 1.8285625,
+      "channels": 2,
+      "rms": 0.23850313403654017,
+      "peak": 1.0308985710144043
+    }
+  ],
+  "previewSample": true,
+  "viewports": [
+    {
+      "width": 844,
+      "height": 390,
+      "buttonsWithinViewport": true
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "buttonsWithinViewport": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "buttonsWithinViewport": true
+    }
+  ],
+  "combat": {
+    "player": "yun",
+    "bots": [
+      "omoh",
+      "fox",
+      "star",
+      "omoh",
+      "fox",
+      "fox",
+      "star",
+      "omoh",
+      "fox"
+    ],
+    "model": "yun-gr",
+    "arms": "yun-gr",
+    "playerDeathAnimated": true
+  },
+  "killVoice": {
+    "character": "yun",
+    "voice": "kill_1",
+    "selected": true
+  },
+  "errors": []
+}

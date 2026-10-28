@@ -1,0 +1,25 @@
+{
+  "stage": "after",
+  "weapons": [
+    "ak",
+    "m4",
+    "awm",
+    "mp5",
+    "scar",
+    "an94",
+    "m700",
+    "usp",
+    "deagle",
+    "anaconda",
+    "colt1911",
+    "knife",
+    "axe",
+    "shovel"
+  ],
+  "actions": [
+    "idle",
+    "draw",
+    "reload"
+  ],
+  "errors": []
+}

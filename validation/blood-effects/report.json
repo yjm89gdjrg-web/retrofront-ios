@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-04",
+  "tests": {
+    "total": 176,
+    "passed": 176,
+    "failed": 0,
+    "newBloodTests": 12,
+    "durationMs": 147079.0972
+  },
+  "asset": {
+    "author": "para",
+    "license": "CC0-1.0",
+    "source": "https://opengameart.org/content/animated-particle-effects-2",
+    "file": "blood_hit_03.png",
+    "sha256": "772881ae173e39f488e7ef5cbbc60ae70515460c0faa28db4f6236dfdacd3270",
+    "frames": 16,
+    "fps": 30,
+    "simultaneousBurstLimit": 24
+  },
+  "browser": {
+    "viewport": [
+      844,
+      390
+    ],
+    "actualPlayerBodyShot": "passed",
+    "fatalHeadHitWithDeath": "passed",
+    "exactHitAnchor": "passed",
+    "sharedAtlasLoaded": "passed",
+    "missCreatesNoBlood": "passed",
+    "pauseExpiryAndRoundCleanup": "passed",
+    "hiddenLocalPlayerAndVisibleDeath": "passed",
+    "errors": [],
+    "externalRequests": []
+  },
+  "actualMinifiedOfflineBundle": {
+    "sha256": "4d91cbc44d2d7acc00a24c51a5ff319c0ea1dd4cbd833e70757338cc8453e576",
+    "warehouseAndStartup": "passed",
+    "bloodAtlasDecoded": [
+      512,
+      512
+    ],
+    "fireTouch": "dispatched",
+    "pauseResume": "passed",
+    "externalRequests": [],
+    "errors": []
+  },
+  "limitations": [
+    "Desktop Chrome mobile viewport; iPhone and Safari/WebKit not verified.",
+    "Minified bundle smoke checks startup and atlas loading; confirmed body/head hit visual checks use a bundle exporting the same source Renderer/Game.",
+    "No new GitHub upload or IPA build performed."
+  ]
+}

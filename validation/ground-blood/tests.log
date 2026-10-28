@@ -1,0 +1,175 @@
+TAP version 13
+# Subtest: blood lands on the nearest floor below the hit, not the overhead floor or a zero-height plane
+ok 1 - blood lands on the nearest floor below the hit, not the overhead floor or a zero-height plane
+  ---
+  duration_ms: 7.1953
+  ...
+# Subtest: ground projection follows a ramp and clips at its edge
+ok 2 - ground projection follows a ramp and clips at its edge
+  ---
+  duration_ms: 1.2135
+  ...
+# Subtest: corpse hits and local-player damage stain the ground; misses and invalid damage do not
+ok 3 - corpse hits and local-player damage stain the ground; misses and invalid damage do not
+  ---
+  duration_ms: 1.1413
+  ...
+# Subtest: blood has a landing delay, freezes while paused, fades, and releases bounded geometry
+ok 4 - blood has a landing delay, freezes while paused, fades, and releases bounded geometry
+  ---
+  duration_ms: 2.4703
+  ...
+# Subtest: the offline atlas preserves the downloaded CC0 original and its 16-frame layout
+ok 5 - the offline atlas preserves the downloaded CC0 original and its 16-frame layout
+  ---
+  duration_ms: 107.3779
+  ...
+# Subtest: blood spawns at the actual character hit point with depth occlusion and rejects invalid hits
+ok 6 - blood spawns at the actual character hit point with depth occlusion and rejects invalid hits
+  ---
+  duration_ms: 0.8738
+  ...
+# Subtest: animation reads the source top-left first and each simultaneous hit keeps its own frame
+ok 7 - animation reads the source top-left first and each simultaneous hit keeps its own frame
+  ---
+  duration_ms: 0.6648
+  ...
+# Subtest: pause freezes blood frame, size and opacity; resume fades and expires without texture disposal
+ok 8 - pause freezes blood frame, size and opacity; resume fades and expires without texture disposal
+  ---
+  duration_ms: 1.1192
+  ...
+# Subtest: repeated automatic hits have a hard budget and clear releases materials and all shared maps once
+ok 9 - repeated automatic hits have a hard budget and clear releases materials and all shared maps once
+  ---
+  duration_ms: 1.1305
+  ...
+# Subtest: a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+ok 10 - a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+  ---
+  duration_ms: 3.7999
+  ...
+# Subtest: repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+ok 11 - repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+  ---
+  duration_ms: 1.3261
+  ...
+# Subtest: friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+ok 12 - friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+  ---
+  duration_ms: 0.6087
+  ...
+# Subtest: native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+ok 13 - native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+  ---
+  duration_ms: 0.802
+  ...
+# Subtest: knife hits support friendly corpse feedback only within the actual melee range
+ok 14 - knife hits support friendly corpse feedback only within the actual melee range
+  ---
+  duration_ms: 0.4472
+  ...
+# Subtest: missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+ok 15 - missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+  ---
+  duration_ms: 0.6882
+  ...
+# Subtest: inactive combat never runs corpse queries or consumes ammunition
+ok 16 - inactive combat never runs corpse queries or consumes ammunition
+  ---
+  duration_ms: 0.5862
+  ...
+# Subtest: a round reset rejects stale corpse ids that now refer to living actors
+ok 17 - a round reset rejects stale corpse ids that now refer to living actors
+  ---
+  duration_ms: 0.484
+  ...
+# Subtest: the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+ok 18 - the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+  ---
+  duration_ms: 0.525
+  ...
+# Subtest: each room member replaces one bot and sees their own actor as zero
+ok 19 - each room member replaces one bot and sees their own actor as zero
+  ---
+  duration_ms: 1.2889
+  ...
+# Subtest: round clock advances once and bots do not take over remote humans
+ok 20 - round clock advances once and bots do not take over remote humans
+  ---
+  duration_ms: 97.7438
+  ...
+# Subtest: per-player fire, damage, ammo, kill feedback and event remapping are isolated
+ok 21 - per-player fire, damage, ammo, kill feedback and event remapping are isolated
+  ---
+  duration_ms: 1.9001
+  ...
+# Subtest: weapon commands, jumping and stale input timeout apply only to sender
+ok 22 - weapon commands, jumping and stale input timeout apply only to sender
+  ---
+  duration_ms: 0.7524
+  ...
+# Subtest: remote player can plant and defuse, and new rounds restore human identities
+ok 23 - remote player can plant and defuse, and new rounds restore human identities
+  ---
+  duration_ms: 10.6946
+  ...
+# Subtest: client pause keeps receiving authoritative updates without locally advancing combat
+ok 24 - client pause keeps receiving authoritative updates without locally advancing combat
+  ---
+  duration_ms: 2.2767
+  ...
+# Subtest: server URL normalization works for browser, IPA and secure origins
+ok 25 - server URL normalization works for browser, IPA and secure origins
+  ---
+  duration_ms: 0.7946
+  ...
+# Subtest: client positions and health cannot override authority and backpack choice survives a round
+ok 26 - client positions and health cannot override authority and backpack choice survives a round
+  ---
+  duration_ms: 3.4606
+  ...
+# Subtest: online corpse feedback is visual only and does not double a fresh lethal hit
+ok 27 - online corpse feedback is visual only and does not double a fresh lethal hit
+  ---
+  duration_ms: 0.7416
+  ...
+# Subtest: real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+ok 28 - real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+  ---
+  duration_ms: 411.679
+  ...
+# Subtest: rooms cap teams at five, reject the eleventh player and stay isolated
+ok 29 - rooms cap teams at five, reject the eleventh player and stay isolated
+  ---
+  duration_ms: 256.1661
+  ...
+# Subtest: corpse raycasts use current deformed skin and refresh bounds after a bone moves
+ok 30 - corpse raycasts use current deformed skin and refresh bounds after a bone moves
+  ---
+  duration_ms: 4.8097
+  ...
+# Subtest: a corpse gun, living model, hidden body and a wall-limited ray cannot trigger blood
+ok 31 - a corpse gun, living model, hidden body and a wall-limited ray cannot trigger blood
+  ---
+  duration_ms: 1.1818
+  ...
+# Subtest: all six character variants can be hit on their displayed falling and settled death poses
+ok 32 - all six character variants can be hit on their displayed falling and settled death poses
+  ---
+  duration_ms: 1003.2245
+  ...
+# Subtest: corpse feedback plays the same blood animation without fabricating positive damage
+ok 33 - corpse feedback plays the same blood animation without fabricating positive damage
+  ---
+  duration_ms: 1.0851
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 33
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1938.4842

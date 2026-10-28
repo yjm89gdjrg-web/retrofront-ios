@@ -1,0 +1,195 @@
+{
+  "viewport": [
+    844,
+    390
+  ],
+  "reports": [
+    {
+      "weapon": "m4",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.34999968251174346,
+      "fullPathLength": 12.947363458990074,
+      "projection": [
+        0.0944683069137816,
+        -0.19559962145087628,
+        0.9712666436364179
+      ],
+      "hitDistance": 13.600068791289928
+    },
+    {
+      "weapon": "ak",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.34999954433595865,
+      "fullPathLength": 12.619268318761632,
+      "projection": [
+        0.11627254747870615,
+        -0.18458144785929165,
+        0.9812767218726601
+      ],
+      "hitDistance": 13.600426182072766
+    },
+    {
+      "weapon": "awm",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.3500003224893793,
+      "fullPathLength": 13.13417704357794,
+      "projection": [
+        0.14746549084630906,
+        0.28311395806474376,
+        0.9597573808491288
+      ],
+      "hitDistance": 13.600683375683055
+    },
+    {
+      "weapon": "mp5",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.35000015326996575,
+      "fullPathLength": 13.102725938024811,
+      "projection": [
+        0.08064915602454635,
+        -0.21486671373944238,
+        0.9605039898441302
+      ],
+      "hitDistance": 13.600224030006714
+    },
+    {
+      "weapon": "usp",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.3499996013951273,
+      "fullPathLength": 13.139491881823258,
+      "projection": [
+        0.2973240140276133,
+        -0.2365978965072047,
+        0.9585456374309631
+      ],
+      "hitDistance": 13.600008280656034
+    },
+    {
+      "weapon": "scar",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.35000061341135463,
+      "fullPathLength": 12.845024425162254,
+      "projection": [
+        0.15122441271785309,
+        -0.21232536943879832,
+        0.9754732426469779
+      ],
+      "hitDistance": 13.600036273085891
+    },
+    {
+      "weapon": "an94",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.35000052203463106,
+      "fullPathLength": 12.693128684826807,
+      "projection": [
+        0.11878956967045737,
+        -0.1833319859912205,
+        0.9795518362004437
+      ],
+      "hitDistance": 13.600038755140556
+    },
+    {
+      "weapon": "m700",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.35000054222919935,
+      "fullPathLength": 12.572537383748525,
+      "projection": [
+        0.12048326214279596,
+        -0.10446978903592712,
+        0.9824881377826296
+      ],
+      "hitDistance": 13.600226118471353
+    },
+    {
+      "weapon": "deagle",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.3500001818794072,
+      "fullPathLength": 13.276794641567006,
+      "projection": [
+        0.31213539184380196,
+        0.011726645190106575,
+        0.940272598720392
+      ],
+      "hitDistance": 13.600261328475478
+    },
+    {
+      "weapon": "anaconda",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.3500002407931293,
+      "fullPathLength": 12.991677402506987,
+      "projection": [
+        0.18682357252441245,
+        -0.2898358008499372,
+        0.9688903169787302
+      ],
+      "hitDistance": 13.600119365689983
+    },
+    {
+      "weapon": "colt1911",
+      "flashCount": 1,
+      "flashAge": 0,
+      "flashOpacity": 1,
+      "muzzleError": 0,
+      "trailMuzzleError": 0,
+      "trailLength": 0.3499994589081568,
+      "fullPathLength": 13.352319294476601,
+      "projection": [
+        0.38966721321107667,
+        -0.3740376761287761,
+        0.9208474013338408
+      ],
+      "hitDistance": 13.60002025030207
+    }
+  ],
+  "checks": {
+    "scopeFlashes": 0,
+    "switchFlashes": 0,
+    "meleeEffects": 0,
+    "closeWallTrails": 0,
+    "botError": 0,
+    "age": 0,
+    "pausedAge": 0,
+    "clearedOnRound": 0
+  },
+  "errors": []
+}

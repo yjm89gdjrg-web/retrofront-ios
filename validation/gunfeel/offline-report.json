@@ -1,0 +1,16 @@
+{
+  "actualMinifiedBundle": true,
+  "viewport": [
+    852,
+    393
+  ],
+  "independentSettings": true,
+  "scopedShot": true,
+  "scopedReloadExitsAim": true,
+  "reaimBlockedDuringReload": true,
+  "magazineRestored": true,
+  "pauseSettingsFPSOff": true,
+  "returnedToLobby": true,
+  "errors": [],
+  "externalRequests": []
+}

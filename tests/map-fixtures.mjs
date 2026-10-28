@@ -1,0 +1,10 @@
+import { MAP } from '../src/map.js';
+export const zonePoint = name => {const p=MAP.zones.find(p=>p.name===name);if(!p)throw Error(name);return {x:p.x,y:p.y,z:p.z};};
+export const openLane={x:27,y:0,z:6};
+export const fireOrigin={x:27,y:0,z:10};
+export const nearWarehouseWall={x:26,y:0,z:6};
+export const warehouse={x:-38,z:-36,w:2,d:2,h:3,kind:'building'};
+export const warehouseNorth={x:-38,y:0,z:-32};
+export const warehouseSouth={x:-38,y:0,z:-40};
+export const radarObserver=warehouseNorth;
+export const hiddenRadarTarget=warehouseSouth;

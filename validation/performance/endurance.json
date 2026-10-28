@@ -1,0 +1,196 @@
+{
+  "environment": "Chrome SwiftShader; 20 minutes simulated at 60Hz, rendering at 10Hz; not iPhone thermal/FPS test",
+  "simulatedSeconds": 1200,
+  "simulationHz": 60,
+  "renderHz": 10,
+  "draws": 12000,
+  "matches": 4,
+  "rounds": 10,
+  "shots": 664,
+  "hits": 437,
+  "wallMs": 504051.8999999985,
+  "maxGeometry": 118,
+  "maxTextures": 87,
+  "samples": [
+    {
+      "minute": 1,
+      "geometries": 113,
+      "textures": 84,
+      "heap": 306850872,
+      "stains": 42
+    },
+    {
+      "minute": 2,
+      "geometries": 112,
+      "textures": 85,
+      "heap": 234417957,
+      "stains": 0
+    },
+    {
+      "minute": 3,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 232085906,
+      "stains": 44
+    },
+    {
+      "minute": 4,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 240861758,
+      "stains": 0
+    },
+    {
+      "minute": 5,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 239704684,
+      "stains": 49
+    },
+    {
+      "minute": 6,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 257251534,
+      "stains": 0
+    },
+    {
+      "minute": 7,
+      "geometries": 113,
+      "textures": 84,
+      "heap": 279872756,
+      "stains": 44
+    },
+    {
+      "minute": 8,
+      "geometries": 112,
+      "textures": 85,
+      "heap": 284051600,
+      "stains": 0
+    },
+    {
+      "minute": 9,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 226837668,
+      "stains": 32
+    },
+    {
+      "minute": 10,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 220084564,
+      "stains": 0
+    },
+    {
+      "minute": 11,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 243467811,
+      "stains": 29
+    },
+    {
+      "minute": 12,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 235058855,
+      "stains": 0
+    },
+    {
+      "minute": 13,
+      "geometries": 113,
+      "textures": 84,
+      "heap": 271732620,
+      "stains": 2
+    },
+    {
+      "minute": 14,
+      "geometries": 112,
+      "textures": 85,
+      "heap": 268550156,
+      "stains": 0
+    },
+    {
+      "minute": 15,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 250355292,
+      "stains": 0
+    },
+    {
+      "minute": 16,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 276313584,
+      "stains": 11
+    },
+    {
+      "minute": 17,
+      "geometries": 114,
+      "textures": 87,
+      "heap": 283057596,
+      "stains": 0
+    },
+    {
+      "minute": 18,
+      "geometries": 115,
+      "textures": 87,
+      "heap": 182969333,
+      "stains": 31
+    },
+    {
+      "minute": 19,
+      "geometries": 108,
+      "textures": 79,
+      "heap": 197424081,
+      "stains": 0
+    },
+    {
+      "minute": 20,
+      "geometries": 113,
+      "textures": 85,
+      "heap": 221128141,
+      "stains": 49
+    }
+  ],
+  "afterExit": {
+    "geometries": 25,
+    "textures": 7
+  },
+  "worldCleared": true,
+  "gunCleared": true,
+  "pending": 0,
+  "heapAfterExit": 129837351,
+  "spriteCache": {
+    "cleanMenu": {
+      "geometries": 24,
+      "textures": 7
+    },
+    "cycles": [
+      {
+        "geometries": 25,
+        "textures": 7
+      },
+      {
+        "geometries": 25,
+        "textures": 7
+      },
+      {
+        "geometries": 25,
+        "textures": 7
+      },
+      {
+        "geometries": 25,
+        "textures": 7
+      }
+    ],
+    "sameSpriteGeometry": true,
+    "expectedWarmMenu": {
+      "geometries": 25,
+      "textures": 7
+    }
+  },
+  "initialThresholdInvestigation": "The first Sprite use creates one engine-shared geometry. Four fresh sprite/scene cycles retained exactly one, not one per match.",
+  "errors": [],
+  "passed": true
+}

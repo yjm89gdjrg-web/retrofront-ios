@@ -1,0 +1,61 @@
+{
+  "shippedBundle": {
+    "legacyMigration": true,
+    "allFiveEditable": true,
+    "backpacks": [
+      {
+        "primary": "m700",
+        "secondary": "deagle",
+        "melee": "axe"
+      },
+      {
+        "primary": "ak",
+        "secondary": "usp",
+        "melee": "knife"
+      },
+      {
+        "primary": "awm",
+        "secondary": "usp",
+        "melee": "shovel"
+      },
+      {
+        "primary": "ak",
+        "secondary": "colt1911",
+        "melee": "axe"
+      },
+      {
+        "primary": "scar",
+        "secondary": "anaconda",
+        "melee": "knife"
+      }
+    ],
+    "reloadPreservesBag5": true
+  },
+  "combat": {
+    "touchApply": true,
+    "keyboardBThen5": true,
+    "ordinaryDigitsStillSwitchWeapons": true,
+    "escapeResumes": true,
+    "noAmmoRefillAfterShot": true,
+    "nextRoundUnlocks": true,
+    "secondaryTouchClearsMovement": true
+  },
+  "customizableBackpackButton": true,
+  "viewports": [
+    {
+      "width": 568,
+      "height": 320,
+      "panelWithinViewport": true,
+      "thumbnailsLoaded": true,
+      "buttonOverlaps": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "panelWithinViewport": true,
+      "thumbnailsLoaded": true,
+      "buttonOverlaps": []
+    }
+  ],
+  "errors": []
+}

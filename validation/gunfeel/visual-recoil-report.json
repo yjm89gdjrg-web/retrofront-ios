@@ -1,0 +1,45 @@
+{
+  "viewport": [
+    844,
+    390
+  ],
+  "recoil": {
+    "mp5": {
+      "kick": 0.016463864052060993,
+      "pitchUnchanged": true,
+      "cf": "prefire"
+    },
+    "m4": {
+      "kick": 0.025567549107940547,
+      "pitchUnchanged": true,
+      "cf": "shoot1_unsil"
+    },
+    "ak": {
+      "kick": 0.037730055411665984,
+      "pitchUnchanged": true,
+      "cf": "shoot1"
+    },
+    "awm": {
+      "kick": 0.04703840984633806,
+      "pitchUnchanged": true,
+      "cf": "shoot1"
+    },
+    "deagle": {
+      "kick": 0.04070874399679752,
+      "pitchUnchanged": true,
+      "cf": "shoot1"
+    }
+  },
+  "actions": {
+    "paused": true,
+    "reloadCleared": true,
+    "staleIgnored": true,
+    "draw": "draw_unsil"
+  },
+  "frames": {
+    "menu": 30,
+    "paused": 15,
+    "active": 60
+  },
+  "errors": []
+}

@@ -1,0 +1,19 @@
+services:
+  game:
+    build: .
+    restart: unless-stopped
+    expose: ["8787"]
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment:
+      GAME_DOMAIN: ${GAME_DOMAIN:?Set GAME_DOMAIN to your domain}
+    volumes:
+      - ./server/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [game]
+volumes:
+  caddy_data:
+  caddy_config:

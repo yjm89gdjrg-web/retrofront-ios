@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-28",
+  "tests": 292,
+  "passed": 292,
+  "failed": 0,
+  "offlineBuild": true,
+  "actualMinifiedBundleChecked": true,
+  "realWebAudioStereoVerified": true,
+  "turnReversesChannels": true,
+  "syntheticFootstepsNotOfficialRecordings": true,
+  "realCaveYieldIntegrationTicks": 400,
+  "diagnosticsPauseExcluded": true,
+  "copyFallbackAndAsyncRejectionChecked": true,
+  "physicalIPhoneValidated": false,
+  "serverDeployed": false,
+  "newIPAGenerated": false,
+  "notes": "Chrome CDP software rendering is not an iPhone FPS or thermal benchmark. Local corridor proof does not guarantee all-map congestion resolution."
+}

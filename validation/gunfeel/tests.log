@@ -1,0 +1,1355 @@
+TAP version 13
+# Subtest: legacy sensitivity saves retain their previous hip and half-speed aim feel
+ok 1 - legacy sensitivity saves retain their previous hip and half-speed aim feel
+  ---
+  duration_ms: 1.3967
+  ...
+# Subtest: hip, aimed and sniper speeds stay independent and persist through profile sanitizing
+ok 2 - hip, aimed and sniper speeds stay independent and persist through profile sanitizing
+  ---
+  duration_ms: 0.4892
+  ...
+# Subtest: invalid settings cannot create a zero-speed, inverted or non-finite view
+ok 3 - invalid settings cannot create a zero-speed, inverted or non-finite view
+  ---
+  duration_ms: 0.9321
+  ...
+# Subtest: frame meter counts actual completed draws and resets after background gaps
+ok 4 - frame meter counts actual completed draws and resets after background gaps
+  ---
+  duration_ms: 0.2261
+  ...
+# Subtest: sniper reload cannot be hidden by re-opening aim while other rifle aim remains available
+ok 5 - sniper reload cannot be hidden by re-opening aim while other rifle aim remains available
+  ---
+  duration_ms: 0.287
+  ...
+# Subtest: model compression preserves every generated JSON byte and all 28 model exports
+ok 6 - model compression preserves every generated JSON byte and all 28 model exports
+  ---
+  duration_ms: 186.5196
+  ...
+# Subtest: browser-compatible decoder keeps unicode, integer and floating-point JSON values unchanged
+ok 7 - browser-compatible decoder keeps unicode, integer and floating-point JSON values unchanged
+  ---
+  duration_ms: 2.2794
+  ...
+# Subtest: string dictionary escapes all original object and array shapes plus short marker-like strings
+ok 8 - string dictionary escapes all original object and array shapes plus short marker-like strings
+  ---
+  duration_ms: 1.5135
+  ...
+# Subtest: invalid dictionary references, malformed nodes and unknown encodings are rejected
+ok 9 - invalid dictionary references, malformed nodes and unknown encodings are rejected
+  ---
+  duration_ms: 0.6483
+  ...
+# Subtest: Yun uses seven dedicated voice clips only for personal kills and respects pause and mute
+ok 10 - Yun uses seven dedicated voice clips only for personal kills and respects pause and mute
+  ---
+  duration_ms: 6.7193
+  ...
+# Subtest: personal kill rewards select all five male/female tiers and replace the previous announcement
+ok 11 - personal kill rewards select all five male/female tiers and replace the previous announcement
+  ---
+  duration_ms: 0.8204
+  ...
+# Subtest: all fourteen weapons draw with samples and fast switching cancels previous reload and draw sounds
+ok 12 - all fourteen weapons draw with samples and fast switching cancels previous reload and draw sounds
+  ---
+  duration_ms: 1.5762
+  ...
+# Subtest: menu music waits for decoding and one trusted unlock creates only one loop
+ok 13 - menu music waits for decoding and one trusted unlock creates only one loop
+  ---
+  duration_ms: 0.3464
+  ...
+# Subtest: late music decoding respects gameplay and a quick lobby return cannot stack fading loops
+ok 14 - late music decoding respects gameplay and a quick lobby return cannot stack fading loops
+  ---
+  duration_ms: 0.3911
+  ...
+# Subtest: decoding while muted or backgrounded never starts music, and settings resume a single loop
+ok 15 - decoding while muted or backgrounded never starts music, and settings resume a single loop
+  ---
+  duration_ms: 0.3845
+  ...
+# Subtest: mute and pause cancel all delayed reload sources without replaying them on resume
+ok 16 - mute and pause cancel all delayed reload sources without replaying them on resume
+  ---
+  duration_ms: 1.139
+  ...
+# Subtest: death dispatch chooses male/female voices, attenuates bots, and survives immediate round end
+ok 17 - death dispatch chooses male/female voices, attenuates bots, and survives immediate round end
+  ---
+  duration_ms: 0.4403
+  ...
+# Subtest: player death cancels a queued reload while AK and distant bot shots use sampled effects
+ok 18 - player death cancels a queued reload while AK and distant bot shots use sampled effects
+  ---
+  duration_ms: 0.6444
+  ...
+# Subtest: missing samples use short UI/death fallbacks and every generated source is cancellable
+ok 19 - missing samples use short UI/death fallbacks and every generated source is cancellable
+  ---
+  duration_ms: 1.8573
+  ...
+# Subtest: suspend/resume changes during a pending unlock finish in the current state without duplicate music
+ok 20 - suspend/resume changes during a pending unlock finish in the current state without duplicate music
+  ---
+  duration_ms: 0.3912
+  ...
+# Subtest: failed resume or decoding is quiet and a later trusted unlock can recover
+ok 21 - failed resume or decoding is quiet and a later trusted unlock can recover
+  ---
+  duration_ms: 0.4007
+  ...
+# Subtest: reload cancels stale draw and reload mechanics while preserving the firing tail
+ok 22 - reload cancels stale draw and reload mechanics while preserving the firing tail
+  ---
+  duration_ms: 1.0659
+  ...
+# Subtest: legacy loadout migrates intact into bag one; all five bags survive native JSON storage
+ok 23 - legacy loadout migrates intact into bag one; all five bags survive native JSON storage
+  ---
+  duration_ms: 2.1526
+  ...
+# Subtest: editing one bag changes no other bag or profile; cross-slot equips and invalid indices are rejected
+ok 24 - editing one bag changes no other bag or profile; cross-slot equips and invalid indices are rejected
+  ---
+  duration_ms: 0.2996
+  ...
+# Subtest: corrupt bag records and selection recover to five valid independent loadouts
+ok 25 - corrupt bag records and selection recover to five valid independent loadouts
+  ---
+  duration_ms: 0.5364
+  ...
+# Subtest: ready and untouched spawn can equip all five bags; active weapon, magazines and next round agree
+ok 26 - ready and untouched spawn can equip all five bags; active weapon, magazines and next round agree
+  ---
+  duration_ms: 1.386
+  ...
+# Subtest: firing every weapon slot locks all backpacks so switching cannot refill ammunition
+ok 27 - firing every weapon slot locks all backpacks so switching cannot refill ammunition
+  ---
+  duration_ms: 1.5238
+  ...
+# Subtest: injury and leaving spawn lock the bag until the next round, including returning to spawn
+ok 28 - injury and leaving spawn lock the bag until the next round, including returning to spawn
+  ---
+  duration_ms: 1.1296
+  ...
+# Subtest: paused, airborne, dead, round-end, finished and invalid swaps have no side effects
+ok 29 - paused, airborne, dead, round-end, finished and invalid swaps have no side effects
+  ---
+  duration_ms: 0.5605
+  ...
+# Subtest: the offline atlas preserves the downloaded CC0 original and its 16-frame layout
+ok 30 - the offline atlas preserves the downloaded CC0 original and its 16-frame layout
+  ---
+  duration_ms: 4.7422
+  ...
+# Subtest: blood spawns at the actual character hit point with depth occlusion and rejects invalid hits
+ok 31 - blood spawns at the actual character hit point with depth occlusion and rejects invalid hits
+  ---
+  duration_ms: 2.965
+  ...
+# Subtest: animation reads the source top-left first and each simultaneous hit keeps its own frame
+ok 32 - animation reads the source top-left first and each simultaneous hit keeps its own frame
+  ---
+  duration_ms: 0.9199
+  ...
+# Subtest: pause freezes blood frame, size and opacity; resume fades and expires without texture disposal
+ok 33 - pause freezes blood frame, size and opacity; resume fades and expires without texture disposal
+  ---
+  duration_ms: 1.0296
+  ...
+# Subtest: repeated automatic hits have a hard budget and clear releases materials and all shared maps once
+ok 34 - repeated automatic hits have a hard budget and clear releases materials and all shared maps once
+  ---
+  duration_ms: 1.1344
+  ...
+# Subtest: routes project blocked destinations and every segment clears the actor footprint
+ok 35 - routes project blocked destinations and every segment clears the actor footprint
+  ---
+  duration_ms: 85.5279
+  ...
+# Subtest: teammates advance on independent lanes when the player stays at spawn
+ok 36 - teammates advance on independent lanes when the player stays at spawn
+  ---
+  duration_ms: 827.4857
+  ...
+# Subtest: moving the player to another lane does not drag teammates or replace their assignments
+ok 37 - moving the player to another lane does not drag teammates or replace their assignments
+  ---
+  duration_ms: 513.623
+  ...
+# Subtest: defenders hold different site positions without continually recalculating paths
+ok 38 - defenders hold different site positions without continually recalculating paths
+  ---
+  duration_ms: 434.74
+  ...
+# Subtest: planting or defusing bots do not shoot during the interaction
+ok 39 - planting or defusing bots do not shoot during the interaction
+  ---
+  duration_ms: 22.4612
+  ...
+# Subtest: one defender defuses while teammates cover, and progress resets on reassignment
+ok 40 - one defender defuses while teammates cover, and progress resets on reassignment
+  ---
+  duration_ms: 16.3142
+  ...
+# Subtest: planting triggers immediate retake even when an old guard route is active
+ok 41 - planting triggers immediate retake even when an old guard route is active
+  ---
+  duration_ms: 92.0564
+  ...
+# Subtest: bots remember a seen position briefly, without tracking an enemy behind cover
+ok 42 - bots remember a seen position briefly, without tracking an enemy behind cover
+  ---
+  duration_ms: 32.1929
+  ...
+# Subtest: rear contacts need awareness or damage and firing has a reaction delay
+ok 43 - rear contacts need awareness or damage and firing has a reaction delay
+  ---
+  duration_ms: 11.1975
+  ...
+# Subtest: seeded rounds preserve walkability, finite positions and bounded replanning
+ok 44 - seeded rounds preserve walkability, finite positions and bounded replanning
+  ---
+  duration_ms: 88687.1008
+  ...
+# Subtest: short corner occlusions do not cause frame-by-frame combat and escort reversals
+ok 45 - short corner occlusions do not cause frame-by-frame combat and escort reversals
+  ---
+  duration_ms: 2372.0777
+  ...
+# Subtest: a stalled moving bot requests recovery then continues toward the objective
+ok 46 - a stalled moving bot requests recovery then continues toward the objective
+  ---
+  duration_ms: 116.1824
+  ...
+# Subtest: A-platform ledge corners remain mandatory until the next segment is walkable
+ok 47 - A-platform ledge corners remain mandatory until the next segment is walkable
+  ---
+  duration_ms: 13.7372
+  ...
+# Subtest: stationary shooters separate safely: coincident pair
+ok 48 - stationary shooters separate safely: coincident pair
+  ---
+  duration_ms: 4.2942
+  ...
+# Subtest: stationary shooters separate safely: near warehouse wall
+ok 49 - stationary shooters separate safely: near warehouse wall
+  ---
+  duration_ms: 3.1601
+  ...
+# Subtest: stationary shooters separate safely: coincident trio
+ok 50 - stationary shooters separate safely: coincident trio
+  ---
+  duration_ms: 4.5661
+  ...
+# Subtest: separation yields around a player without pushing the player or causing idle jitter
+ok 51 - separation yields around a player without pushing the player or causing idle jitter
+  ---
+  duration_ms: 471.4808
+  ...
+# Subtest: crowd separation preserves a defuser position and ignores dead bodies
+ok 52 - crowd separation preserves a defuser position and ignores dead bodies
+  ---
+  duration_ms: 13.7918
+  ...
+# Subtest: allocation-free BSP tracing matches the frozen tracer on 6000 deterministic random rays
+ok 53 - allocation-free BSP tracing matches the frozen tracer on 6000 deterministic random rays
+  ---
+  duration_ms: 57.3514
+  ...
+# Subtest: BSP boundaries, zero-length directions and starts inside solids preserve exact collision behavior
+ok 54 - BSP boundaries, zero-length directions and starts inside solids preserve exact collision behavior
+  ---
+  duration_ms: 31.3945
+  ...
+# Subtest: real spawn, lane and bomb-site visibility rays match the frozen collision oracle
+ok 55 - real spawn, lane and bomb-site visibility rays match the frozen collision oracle
+  ---
+  duration_ms: 2.6431
+  ...
+# Subtest: CF omoh: valid skins and finite animated geometry
+ok 56 - CF omoh: valid skins and finite animated geometry
+  ---
+  duration_ms: 74.8744
+  ...
+# Subtest: CF fox-bl: valid skins and finite animated geometry
+ok 57 - CF fox-bl: valid skins and finite animated geometry
+  ---
+  duration_ms: 41.4217
+  ...
+# Subtest: CF fox-gr: valid skins and finite animated geometry
+ok 58 - CF fox-gr: valid skins and finite animated geometry
+  ---
+  duration_ms: 30.6621
+  ...
+# Subtest: CF star-bl: valid skins and finite animated geometry
+ok 59 - CF star-bl: valid skins and finite animated geometry
+  ---
+  duration_ms: 32.2504
+  ...
+# Subtest: CF star-gr: valid skins and finite animated geometry
+ok 60 - CF star-gr: valid skins and finite animated geometry
+  ---
+  duration_ms: 30.9816
+  ...
+# Subtest: CF m4-view: valid skins and finite animated geometry
+ok 61 - CF m4-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 104.5098
+  ...
+# Subtest: CF m4-world: valid skins and finite animated geometry
+ok 62 - CF m4-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 70.7637
+  ...
+# Subtest: CF ak-view: valid skins and finite animated geometry
+ok 63 - CF ak-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 50.4646
+  ...
+# Subtest: CF yun-gr: valid skins and finite animated geometry
+ok 64 - CF yun-gr: valid skins and finite animated geometry
+  ---
+  duration_ms: 31.5547
+  ...
+# Subtest: CF usp-view: valid skins and finite animated geometry
+ok 65 - CF usp-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 46.6236
+  ...
+# Subtest: CF usp-world: valid skins and finite animated geometry
+ok 66 - CF usp-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 13.7504
+  ...
+# Subtest: CF mp5-view: valid skins and finite animated geometry
+ok 67 - CF mp5-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 58.7501
+  ...
+# Subtest: CF mp5-world: valid skins and finite animated geometry
+ok 68 - CF mp5-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 27.3751
+  ...
+# Subtest: CF scar-view: valid skins and finite animated geometry
+ok 69 - CF scar-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 43.1405
+  ...
+# Subtest: CF scar-world: valid skins and finite animated geometry
+ok 70 - CF scar-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 14.0353
+  ...
+# Subtest: CF anaconda-view: valid skins and finite animated geometry
+ok 71 - CF anaconda-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 42.4855
+  ...
+# Subtest: CF anaconda-world: valid skins and finite animated geometry
+ok 72 - CF anaconda-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 13.8549
+  ...
+# Subtest: CF axe-view: valid skins and finite animated geometry
+ok 73 - CF axe-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 41.7232
+  ...
+# Subtest: CF m700-view: valid skins and finite animated geometry
+ok 74 - CF m700-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 41.8173
+  ...
+# Subtest: CF m700-world: valid skins and finite animated geometry
+ok 75 - CF m700-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 15.7107
+  ...
+# Subtest: CF an94-view: valid skins and finite animated geometry
+ok 76 - CF an94-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 42.3801
+  ...
+# Subtest: CF an94-world: valid skins and finite animated geometry
+ok 77 - CF an94-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 14.8053
+  ...
+# Subtest: CF colt1911-view: valid skins and finite animated geometry
+ok 78 - CF colt1911-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 45.6894
+  ...
+# Subtest: CF colt1911-world: valid skins and finite animated geometry
+ok 79 - CF colt1911-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 13.1752
+  ...
+# Subtest: CF shovel-view: valid skins and finite animated geometry
+ok 80 - CF shovel-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 42.4147
+  ...
+# Subtest: CF awm-view: valid skins and finite animated geometry
+ok 81 - CF awm-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 35.7044
+  ...
+# Subtest: CF awm-world: valid skins and finite animated geometry
+ok 82 - CF awm-world: valid skins and finite animated geometry
+  ---
+  duration_ms: 3.716
+  ...
+# Subtest: CF deagle-view: valid skins and finite animated geometry
+ok 83 - CF deagle-view: valid skins and finite animated geometry
+  ---
+  duration_ms: 20.9838
+  ...
+# Subtest: viewmodel shooting and reload recover to idle, frozen time preserves pose
+ok 84 - viewmodel shooting and reload recover to idle, frozen time preserves pose
+  ---
+  duration_ms: 3.1829
+  ...
+# Subtest: OMOH requires the separate texture MDL; corrupt input is rejected
+ok 85 - OMOH requires the separate texture MDL; corrupt input is rejected
+  ---
+  duration_ms: 27.0036
+  ...
+# Subtest: m4-view: each character has a distinct arm shape using the native weapon rig, including team variants
+ok 86 - m4-view: each character has a distinct arm shape using the native weapon rig, including team variants
+  ---
+  duration_ms: 201.9978
+  ...
+# Subtest: ak-view: each character has a distinct arm shape using the native weapon rig, including team variants
+ok 87 - ak-view: each character has a distinct arm shape using the native weapon rig, including team variants
+  ---
+  duration_ms: 148.3816
+  ...
+# Subtest: death freezes at the final pose and can be reset for a new round
+ok 88 - death freezes at the final pose and can be reset for a new round
+  ---
+  duration_ms: 96.5204
+  ...
+# Subtest: accepted aim actions notify the HUD synchronously without compatibility-click duplicates
+ok 89 - accepted aim actions notify the HUD synchronously without compatibility-click duplicates
+  ---
+  duration_ms: 2.7575
+  ...
+# Subtest: second finger opens/closes scope while joystick movement continues without click
+ok 90 - second finger opens/closes scope while joystick movement continues without click
+  ---
+  duration_ms: 1.5989
+  ...
+# Subtest: synthesized pointer click does not close the scope again
+ok 91 - synthesized pointer click does not close the scope again
+  ---
+  duration_ms: 0.3587
+  ...
+# Subtest: moving, aiming and firing can be active together
+ok 92 - moving, aiming and firing can be active together
+  ---
+  duration_ms: 1.0803
+  ...
+# Subtest: secondary finger reloads and switches while movement is held
+ok 93 - secondary finger reloads and switches while movement is held
+  ---
+  duration_ms: 0.6053
+  ...
+# Subtest: mouse and keyboard activation remain available
+ok 94 - mouse and keyboard activation remain available
+  ---
+  duration_ms: 0.3411
+  ...
+# Subtest: paused, eliminated and completed games reject combat buttons
+ok 95 - paused, eliminated and completed games reject combat buttons
+  ---
+  duration_ms: 0.5369
+  ...
+# Subtest: only a legal scoped reload exits ADS, without moving ammunition before completion
+ok 96 - only a legal scoped reload exits ADS, without moving ammunition before completion
+  ---
+  duration_ms: 3.7023
+  ...
+# Subtest: paused, dead, full, empty-reserve, melee and non-live reloads do not change ADS or emit actions
+ok 97 - paused, dead, full, empty-reserve, melee and non-live reloads do not change ADS or emit actions
+  ---
+  duration_ms: 0.7584
+  ...
+# Subtest: shot events carry firing-time recoil while preserving weapon stats and pitch cap
+ok 98 - shot events carry firing-time recoil while preserving weapon stats and pitch cap
+  ---
+  duration_ms: 1.5678
+  ...
+# Subtest: late ADS changes do not reinterpret the shot recoil, and old event packets still work
+ok 99 - late ADS changes do not reinterpret the shot recoil, and old event packets still work
+  ---
+  duration_ms: 1.8873
+  ...
+# Subtest: initial and new-round snapshots do not kick twice, and death suppresses late shot impulses
+ok 100 - initial and new-round snapshots do not kick twice, and death suppresses late shot impulses
+  ---
+  duration_ms: 0.7855
+  ...
+# Subtest: network scoped reload shares the legal-action guard and auto reload events close the scope
+ok 101 - network scoped reload shares the legal-action guard and auto reload events close the scope
+  ---
+  duration_ms: 1.177
+  ...
+# Subtest: old profiles get compact controls and custom layouts survive the native profile round trip
+ok 102 - old profiles get compact controls and custom layouts survive the native profile round trip
+  ---
+  duration_ms: 2.3731
+  ...
+# Subtest: invalid saved sizes and locations cannot make controls invisible or place them outside safe bounds
+ok 103 - invalid saved sizes and locations cannot make controls invisible or place them outside safe bounds
+  ---
+  duration_ms: 0.6784
+  ...
+# Subtest: a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+ok 104 - a confirmed corpse surface sprays before a live victim without shortening or changing the live shot
+  ---
+  duration_ms: 3.8616
+  ...
+# Subtest: repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+ok 105 - repeat shots on a corpse produce repeat feedback with no damage, kills, rewards or score changes
+  ---
+  duration_ms: 0.8935
+  ...
+# Subtest: friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+ok 106 - friendly corpses and separate corpses spray once each while duplicate mesh hits are deduplicated
+  ---
+  duration_ms: 0.3859
+  ...
+# Subtest: native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+ok 107 - native walls and living friendly blockers cap the query and reject corpse points beyond the shot endpoint
+  ---
+  duration_ms: 0.5951
+  ...
+# Subtest: knife hits support friendly corpse feedback only within the actual melee range
+ok 108 - knife hits support friendly corpse feedback only within the actual melee range
+  ---
+  duration_ms: 0.3827
+  ...
+# Subtest: missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+ok 109 - missing, malformed, nonfinite, living and unknown corpse reports are ignored without breaking fire
+  ---
+  duration_ms: 0.6786
+  ...
+# Subtest: inactive combat never runs corpse queries or consumes ammunition
+ok 110 - inactive combat never runs corpse queries or consumes ammunition
+  ---
+  duration_ms: 0.6934
+  ...
+# Subtest: a round reset rejects stale corpse ids that now refer to living actors
+ok 111 - a round reset rejects stale corpse ids that now refer to living actors
+  ---
+  duration_ms: 0.5494
+  ...
+# Subtest: the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+ok 112 - the optional corpse query preserves original random draws, ammo, recoil and shot endpoints
+  ---
+  duration_ms: 0.7569
+  ...
+# Subtest: corpse raycasts use current deformed skin and refresh bounds after a bone moves
+ok 113 - corpse raycasts use current deformed skin and refresh bounds after a bone moves
+  ---
+  duration_ms: 6.6922
+  ...
+# Subtest: a corpse gun, living model, hidden body and a wall-limited ray cannot trigger blood
+ok 114 - a corpse gun, living model, hidden body and a wall-limited ray cannot trigger blood
+  ---
+  duration_ms: 1.5884
+  ...
+# Subtest: all six character variants can be hit on their displayed falling and settled death poses
+ok 115 - all six character variants can be hit on their displayed falling and settled death poses
+  ---
+  duration_ms: 424.376
+  ...
+# Subtest: corpse feedback plays the same blood animation without fabricating positive damage
+ok 116 - corpse feedback plays the same blood animation without fabricating positive damage
+  ---
+  duration_ms: 2.3576
+  ...
+# Subtest: confirmed head hits report the exact entering surface, incoming direction and actual damage
+ok 117 - confirmed head hits report the exact entering surface, incoming direction and actual damage
+  ---
+  duration_ms: 3.3405
+  ...
+# Subtest: body hits preserve ordinary damage and melee hits identify their close impact
+ok 118 - body hits preserve ordinary damage and melee hits identify their close impact
+  ---
+  duration_ms: 0.8812
+  ...
+# Subtest: fatal weapon impact precedes death and round end, and direct corpse damage remains ignored
+ok 119 - fatal weapon impact precedes death and round end, and direct corpse damage remains ignored
+  ---
+  duration_ms: 0.3709
+  ...
+# Subtest: friendly blockers, a wall, a missed aim and inactive combat never emit actorHit
+ok 120 - friendly blockers, a wall, a missed aim and inactive combat never emit actorHit
+  ---
+  duration_ms: 1.0353
+  ...
+# Subtest: environmental, unconfirmed, nonpositive and malformed impacts do not create blood events
+ok 121 - environmental, unconfirmed, nonpositive and malformed impacts do not create blood events
+  ---
+  duration_ms: 0.5371
+  ...
+# Subtest: bot-on-bot confirmed hits emit surface impacts while probabilistic misses emit only a shot
+ok 122 - bot-on-bot confirmed hits emit surface impacts while probabilistic misses emit only a shot
+  ---
+  duration_ms: 3.1367
+  ...
+# Subtest: a bot hit on the player retains hurt feedback and victim identity
+ok 123 - a bot hit on the player retains hurt feedback and victim identity
+  ---
+  duration_ms: 0.5745
+  ...
+# Subtest: a fatal hit emits one positional death event with the equipped player character
+ok 124 - a fatal hit emits one positional death event with the equipped player character
+  ---
+  duration_ms: 2.532
+  ...
+# Subtest: the last enemy death retains character metadata before round completion
+ok 125 - the last enemy death retains character metadata before round completion
+  ---
+  duration_ms: 0.571
+  ...
+# Subtest: a bot shot identifies its displayed weapon and source position for spatial audio
+ok 126 - a bot shot identifies its displayed weapon and source position for spatial audio
+  ---
+  duration_ms: 3.3317
+  ...
+# Subtest: music preference migrates old saves and remains separate from the master sound switch
+ok 127 - music preference migrates old saves and remains separate from the master sound switch
+  ---
+  duration_ms: 0.3981
+  ...
+# Subtest: complete community CF map keeps native geometry, every texture and baked lightmap
+ok 128 - complete community CF map keeps native geometry, every texture and baked lightmap
+  ---
+  duration_ms: 7.3449
+  ...
+# Subtest: all ten native spawn slots and both bomb sites connect through actual BSP stairs and slopes
+ok 129 - all ten native spawn slots and both bomb sites connect through actual BSP stairs and slopes
+  ---
+  duration_ms: 214.826
+  ...
+# Subtest: native upper and lower floors remain distinct and stop vertical shots
+ok 130 - native upper and lower floors remain distinct and stop vertical shots
+  ---
+  duration_ms: 0.7586
+  ...
+# Subtest: actual movement follows native sloped floor instead of flattening it
+ok 131 - actual movement follows native sloped floor instead of flattening it
+  ---
+  duration_ms: 9.3674
+  ...
+# Subtest: site guard slots are clear, separate and reachable on their own floor
+ok 132 - site guard slots are clear, separate and reachable on their own floor
+  ---
+  duration_ms: 2.0576
+  ...
+# Subtest: map batching preserves every native triangle, normal, diffuse UV and baked-light UV exactly
+ok 133 - map batching preserves every native triangle, normal, diffuse UV and baked-light UV exactly
+  ---
+  duration_ms: 380.8228
+  ...
+# Subtest: map batches keep independently disposable scene resources and avoid lightmap mip allocations
+ok 134 - map batches keep independently disposable scene resources and avoid lightmap mip allocations
+  ---
+  duration_ms: 18.7606
+  ...
+# Subtest: menus draw at 30Hz, paused scenes at 15Hz, and active gameplay never skips render calls
+ok 135 - menus draw at 30Hz, paused scenes at 15Hz, and active gameplay never skips render calls
+  ---
+  duration_ms: 0.9166
+  ...
+# Subtest: reduced menu cadence preserves accumulated animation time and resume draws immediately
+ok 136 - reduced menu cadence preserves accumulated animation time and resume draws immediately
+  ---
+  duration_ms: 0.1562
+  ...
+# Subtest: resolution changes only after sustained pressure and recovers slowly within the selected quality
+ok 137 - resolution changes only after sustained pressure and recovers slowly within the selected quality
+  ---
+  duration_ms: 1.826
+  ...
+# Subtest: a loading spike, invalid sample, pause reset or 60Hz display does not lower resolution
+ok 138 - a loading spike, invalid sample, pause reset or 60Hz display does not lower resolution
+  ---
+  duration_ms: 0.3231
+  ...
+# Subtest: profile rejects corrupt and obsolete values
+ok 139 - profile rejects corrupt and obsolete values
+  ---
+  duration_ms: 1.6306
+  ...
+# Subtest: map spawn and objectives are traversable
+ok 140 - map spawn and objectives are traversable
+  ---
+  duration_ms: 0.2188
+  ...
+# Subtest: movement does not tunnel through a native crate or map wall
+ok 141 - movement does not tunnel through a native crate or map wall
+  ---
+  duration_ms: 3.8951
+  ...
+# Subtest: bots can navigate from both spawns to both bomb sites
+ok 142 - bots can navigate from both spawns to both bomb sites
+  ---
+  duration_ms: 50.7508
+  ...
+# Subtest: walls block visibility and shots at the correct distance
+ok 143 - walls block visibility and shots at the correct distance
+  ---
+  duration_ms: 1.6265
+  ...
+# Subtest: ready phase counts down then starts live combat
+ok 144 - ready phase counts down then starts live combat
+  ---
+  duration_ms: 83.1732
+  ...
+# Subtest: plant requires holding within a site, interrupted progress resets
+ok 145 - plant requires holding within a site, interrupted progress resets
+  ---
+  duration_ms: 1.5126
+  ...
+# Subtest: cannot plant outside a site or as defender
+ok 146 - cannot plant outside a site or as defender
+  ---
+  duration_ms: 1.6133
+  ...
+# Subtest: bomb timer supersedes round timer and explosion awards attackers
+ok 147 - bomb timer supersedes round timer and explosion awards attackers
+  ---
+  duration_ms: 0.9296
+  ...
+# Subtest: defusing is cancelled by releasing and needs a full hold
+ok 148 - defusing is cancelled by releasing and needs a full hold
+  ---
+  duration_ms: 1.8224
+  ...
+# Subtest: round timeout awards defenders only once
+ok 149 - round timeout awards defenders only once
+  ---
+  duration_ms: 0.3044
+  ...
+# Subtest: elimination after planting keeps the bomb active
+ok 150 - elimination after planting keeps the bomb active
+  ---
+  duration_ms: 0.4345
+  ...
+# Subtest: elimination before planting ends the round
+ok 151 - elimination before planting ends the round
+  ---
+  duration_ms: 0.2742
+  ...
+# Subtest: first to three allows three seconds of movement then ends the match and stops simulation
+ok 152 - first to three allows three seconds of movement then ends the match and stops simulation
+  ---
+  duration_ms: 0.6328
+  ...
+# Subtest: reload transfers only available reserve and is cancelled by switching
+ok 153 - reload transfers only available reserve and is cancelled by switching
+  ---
+  duration_ms: 2.1585
+  ...
+# Subtest: a bullet cannot damage an enemy behind a wall
+ok 154 - a bullet cannot damage an enemy behind a wall
+  ---
+  duration_ms: 0.6937
+  ...
+# Subtest: precise close shot damages a visible target
+ok 155 - precise close shot damages a visible target
+  ---
+  duration_ms: 0.4142
+  ...
+# Subtest: paused games do not consume time or fire ammunition
+ok 156 - paused games do not consume time or fire ammunition
+  ---
+  duration_ms: 0.1566
+  ...
+# Subtest: semiautomatic requires a fresh trigger
+ok 157 - semiautomatic requires a fresh trigger
+  ---
+  duration_ms: 0.5681
+  ...
+# Subtest: a short touch tap fires even when released before the next frame
+ok 158 - a short touch tap fires even when released before the next frame
+  ---
+  duration_ms: 0.4709
+  ...
+# Subtest: bot attackers independently reach a site and plant
+ok 159 - bot attackers independently reach a site and plant
+  ---
+  duration_ms: 1254.9271
+  ...
+# Subtest: bot defenders find and defuse a bomb without wall traversal
+ok 160 - bot defenders find and defuse a bomb without wall traversal
+  ---
+  duration_ms: 448.8232
+  ...
+# Subtest: rifle grip contacts lie in the actual pistol grip and handguard geometry
+ok 161 - rifle grip contacts lie in the actual pistol grip and handguard geometry
+  ---
+  duration_ms: 182.5494
+  ...
+# Subtest: all character variants fit both palms to the rifle through idle, running and shooting
+ok 162 - all character variants fit both palms to the rifle through idle, running and shooting
+  ---
+  duration_ms: 217.4116
+  ...
+# Subtest: female palm targets come from the hand surface rather than the wrist origin
+ok 163 - female palm targets come from the hand surface rather than the wrist origin
+  ---
+  duration_ms: 12.5275
+  ...
+# Subtest: every warehouse primary weapon remains held at both palms across character variants
+ok 164 - every warehouse primary weapon remains held at both palms across character variants
+  ---
+  duration_ms: 356.8158
+  ...
+# Subtest: blood lands on the nearest floor below the hit, not the overhead floor or a zero-height plane
+ok 165 - blood lands on the nearest floor below the hit, not the overhead floor or a zero-height plane
+  ---
+  duration_ms: 8.349
+  ...
+# Subtest: ground projection follows a ramp and clips at its edge
+ok 166 - ground projection follows a ramp and clips at its edge
+  ---
+  duration_ms: 1.5153
+  ...
+# Subtest: corpse hits and local-player damage stain the ground; misses and invalid damage do not
+ok 167 - corpse hits and local-player damage stain the ground; misses and invalid damage do not
+  ---
+  duration_ms: 1.3459
+  ...
+# Subtest: blood has a landing delay, freezes while paused, fades, and releases bounded geometry
+ok 168 - blood has a landing delay, freezes while paused, fades, and releases bounded geometry
+  ---
+  duration_ms: 4.8003
+  ...
+# Subtest: 64 overlapping stains share a single draw mesh while retaining independent fades and cleanup
+ok 169 - 64 overlapping stains share a single draw mesh while retaining independent fades and cleanup
+  ---
+  duration_ms: 13.61
+  ...
+# Subtest: world rifle geometry puts the barrel forward and the magazine below the receiver
+ok 170 - world rifle geometry puts the barrel forward and the magazine below the receiver
+  ---
+  duration_ms: 168.7055
+  ...
+# Subtest: all character variants keep the held rifle forward and upright through animation and yaw
+ok 171 - all character variants keep the held rifle forward and upright through animation and yaw
+  ---
+  duration_ms: 267.5779
+  ...
+# Subtest: radar keeps living teammates but does not reveal enemies through buildings or outside range
+ok 172 - radar keeps living teammates but does not reveal enemies through buildings or outside range
+  ---
+  duration_ms: 2.4603
+  ...
+# Subtest: a dead player cannot provide radar vision and spectating uses the watched teammate
+ok 173 - a dead player cannot provide radar vision and spectating uses the watched teammate
+  ---
+  duration_ms: 0.3419
+  ...
+# Subtest: location names follow the real bomb sites and map lanes
+ok 174 - location names follow the real bomb sites and map lanes
+  ---
+  duration_ms: 0.3637
+  ...
+# Subtest: unchanged radar frames skip drawing, but online movement and bomb blinking still refresh
+ok 175 - unchanged radar frames skip drawing, but online movement and bomb blinking still refresh
+  ---
+  duration_ms: 7.3289
+  ...
+# Subtest: player can jump onto a native B-site crate and stand on its real top surface
+ok 176 - player can jump onto a native B-site crate and stand on its real top surface
+  ---
+  duration_ms: 3.0488
+  ...
+# Subtest: jump has gravity, lands once and cannot stack repeated presses in the air
+ok 177 - jump has gravity, lands once and cannot stack repeated presses in the air
+  ---
+  duration_ms: 0.7059
+  ...
+# Subtest: secondary finger can jump while movement, aiming and shooting continue
+ok 178 - secondary finger can jump while movement, aiming and shooting continue
+  ---
+  duration_ms: 1.0526
+  ...
+# Subtest: jumping button remains compact, customizable and inside the safe screen
+ok 179 - jumping button remains compact, customizable and inside the safe screen
+  ---
+  duration_ms: 0.2894
+  ...
+# Subtest: paused, dead and finished players reject jumps but round-end movement permits them
+ok 180 - paused, dead and finished players reject jumps but round-end movement permits them
+  ---
+  duration_ms: 0.5935
+  ...
+# Subtest: jump cannot pass through a native BSP ceiling
+ok 181 - jump cannot pass through a native BSP ceiling
+  ---
+  duration_ms: 10.2506
+  ...
+# Subtest: only confirmed opposing kills by the player generate personal rewards
+ok 182 - only confirmed opposing kills by the player generate personal rewards
+  ---
+  duration_ms: 2.1479
+  ...
+# Subtest: five opponents trigger all five rewards including the round-ending kill
+ok 183 - five opponents trigger all five rewards including the round-ending kill
+  ---
+  duration_ms: 1.2922
+  ...
+# Subtest: streak expires, resets on death and cannot carry across rounds
+ok 184 - streak expires, resets on death and cannot carry across rounds
+  ---
+  duration_ms: 0.4087
+  ...
+# Subtest: headshot and melee rewards use the attacker voice and preserve multi-kill priority
+ok 185 - headshot and melee rewards use the attacker voice and preserve multi-kill priority
+  ---
+  duration_ms: 0.3715
+  ...
+# Subtest: the weapon hit path passes lethal headshot information into the reward
+ok 186 - the weapon hit path passes lethal headshot information into the reward
+  ---
+  duration_ms: 1.1738
+  ...
+# Subtest: reward tier clamps safely above five while retaining the actual count
+ok 187 - reward tier clamps safely above five while retaining the actual count
+  ---
+  duration_ms: 0.1372
+  ...
+# Subtest: all seven images and fourteen non-silent PCM samples are offline and match their manifest
+ok 188 - all seven images and fourteen non-silent PCM samples are offline and match their manifest
+  ---
+  duration_ms: 7.0923
+  ...
+# Subtest: old saves gain secondary/melee defaults and cross-slot values cannot corrupt the loadout
+ok 189 - old saves gain secondary/melee defaults and cross-slot values cannot corrupt the loadout
+  ---
+  duration_ms: 1.5559
+  ...
+# Subtest: selected weapons enter each round, preserve separate magazines and melee never spends ammo
+ok 190 - selected weapons enter each round, preserve separate magazines and melee never spends ammo
+  ---
+  duration_ms: 2.5643
+  ...
+# Subtest: switch emits the chosen weapon once; same slot, paused, dead and invalid input are silent
+ok 191 - switch emits the chosen weapon once; same slot, paused, dead and invalid input are silent
+  ---
+  duration_ms: 0.3067
+  ...
+# Subtest: drawing locks firing until the weapon is raised
+ok 192 - drawing locks firing until the weapon is raised
+  ---
+  duration_ms: 1.2386
+  ...
+# Subtest: every imported weapon has usable action clips and every referenced sample is packaged
+ok 193 - every imported weapon has usable action clips and every referenced sample is packaged
+  ---
+  duration_ms: 0.5983
+  ...
+# Subtest: new native weapon actions stay finite and warehouse models contain no hand meshes
+ok 194 - new native weapon actions stay finite and warehouse models contain no hand meshes
+  ---
+  duration_ms: 414.2749
+  ...
+# Subtest: five players per side use ten clear separate native spawn positions
+ok 195 - five players per side use ten clear separate native spawn positions
+  ---
+  duration_ms: 2.6335
+  ...
+# Subtest: all native named route areas and assigned bot lanes connect to both sites
+ok 196 - all native named route areas and assigned bot lanes connect to both sites
+  ---
+  duration_ms: 217.885
+  ...
+# Subtest: actors share immutable poses and source pixels while keeping independent bones and geometry owners
+ok 197 - actors share immutable poses and source pixels while keeping independent bones and geometry owners
+  ---
+  duration_ms: 71.1574
+  ...
+# Subtest: disposing one character or disposing it twice leaves other texture users intact
+ok 198 - disposing one character or disposing it twice leaves other texture users intact
+  ---
+  duration_ms: 5.4403
+  ...
+# Subtest: world guns reuse baked geometry and materials until their final owner is released
+ok 199 - world guns reuse baked geometry and materials until their final owner is released
+  ---
+  duration_ms: 44.8826
+  ...
+# Subtest: cached character palm anchors retain native grip locations through independent animations
+ok 200 - cached character palm anchors retain native grip locations through independent animations
+  ---
+  duration_ms: 36.5449
+  ...
+# Subtest: each room member replaces one bot and sees their own actor as zero
+ok 201 - each room member replaces one bot and sees their own actor as zero
+  ---
+  duration_ms: 2.5445
+  ...
+# Subtest: round clock advances once and bots do not take over remote humans
+ok 202 - round clock advances once and bots do not take over remote humans
+  ---
+  duration_ms: 94.4899
+  ...
+# Subtest: per-player fire, damage, ammo, kill feedback and event remapping are isolated
+ok 203 - per-player fire, damage, ammo, kill feedback and event remapping are isolated
+  ---
+  duration_ms: 2.2774
+  ...
+# Subtest: weapon commands, jumping and stale input timeout apply only to sender
+ok 204 - weapon commands, jumping and stale input timeout apply only to sender
+  ---
+  duration_ms: 0.7332
+  ...
+# Subtest: remote player can plant and defuse, and new rounds restore human identities
+ok 205 - remote player can plant and defuse, and new rounds restore human identities
+  ---
+  duration_ms: 8.5004
+  ...
+# Subtest: client pause keeps receiving authoritative updates without locally advancing combat
+ok 206 - client pause keeps receiving authoritative updates without locally advancing combat
+  ---
+  duration_ms: 1.5645
+  ...
+# Subtest: server URL normalization works for browser, IPA and secure origins
+ok 207 - server URL normalization works for browser, IPA and secure origins
+  ---
+  duration_ms: 0.7009
+  ...
+# Subtest: client positions and health cannot override authority and backpack choice survives a round
+ok 208 - client positions and health cannot override authority and backpack choice survives a round
+  ---
+  duration_ms: 3.0014
+  ...
+# Subtest: online corpse feedback is visual only and does not double a fresh lethal hit
+ok 209 - online corpse feedback is visual only and does not double a fresh lethal hit
+  ---
+  duration_ms: 0.9357
+  ...
+# Subtest: real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+ok 210 - real sockets enforce rooms, readiness, host start, synchronization, leave and host migration
+  ---
+  duration_ms: 243.7126
+  ...
+# Subtest: rooms cap teams at five, reject the eleventh player and stay isolated
+ok 211 - rooms cap teams at five, reject the eleventh player and stay isolated
+  ---
+  duration_ms: 276.9154
+  ...
+# Subtest: source firearm attachments distinguish the barrel from shell ejection
+ok 212 - source firearm attachments distinguish the barrel from shell ejection
+  ---
+  duration_ms: 7.2298
+  ...
+# Subtest: conversion preserves every original firearm attachment bone and position
+ok 213 - conversion preserves every original firearm attachment bone and position
+  ---
+  duration_ms: 241.3784
+  ...
+# Subtest: all eleven first-person firearms anchor effects at the barrel attachment
+ok 214 - all eleven first-person firearms anchor effects at the barrel attachment
+  ---
+  duration_ms: 464.8396
+  ...
+# Subtest: rifle muzzle anchors follow female arms, mirrored views, recoil and aiming transforms
+ok 215 - rifle muzzle anchors follow female arms, mirrored views, recoil and aiming transforms
+  ---
+  duration_ms: 149.593
+  ...
+# Subtest: all eleven third-person firearms expose a finite muzzle at the barrel end
+ok 216 - all eleven third-person firearms expose a finite muzzle at the barrel end
+  ---
+  duration_ms: 148.985
+  ...
+# Subtest: bot muzzle anchors follow the animated held gun instead of a fixed chest offset
+ok 217 - bot muzzle anchors follow the animated held gun instead of a fixed chest offset
+  ---
+  duration_ms: 163.6417
+  ...
+# Subtest: melee weapons and arms-only rigs cannot expose a firearm muzzle
+ok 218 - melee weapons and arms-only rigs cannot expose a firearm muzzle
+  ---
+  duration_ms: 71.0194
+  ...
+# Subtest: m4-view: every adapted hand preserves native finger vertices and bone assignments
+ok 219 - m4-view: every adapted hand preserves native finger vertices and bone assignments
+  ---
+  duration_ms: 46.4367
+  ...
+# Subtest: ak-view: every adapted hand preserves native finger vertices and bone assignments
+ok 220 - ak-view: every adapted hand preserves native finger vertices and bone assignments
+  ---
+  duration_ms: 29.9191
+  ...
+# Subtest: bare M4 removes the outer jacket while OMOH retains it
+ok 221 - bare M4 removes the outer jacket while OMOH retains it
+  ---
+  duration_ms: 0.3517
+  ...
+# Subtest: bare AK arms connect shoulder, elbow and wrist with blended native bones and valid skin UVs
+ok 222 - bare AK arms connect shoulder, elbow and wrist with blended native bones and valid skin UVs
+  ---
+  duration_ms: 36.7669
+  ...
+# Subtest: female AK forearms have an oval section and taper before the glove instead of forming round pipes
+ok 223 - female AK forearms have an oval section and taper before the glove instead of forming round pipes
+  ---
+  duration_ms: 34.6987
+  ...
+# Subtest: bare AK wrists meet the native slanted glove cuff throughout reload without moving the fingers
+ok 224 - bare AK wrists meet the native slanted glove cuff throughout reload without moving the fingers
+  ---
+  duration_ms: 192.1269
+  ...
+# Subtest: adapted AK elbow weights reach the runtime skeleton and blend both bones during reload
+ok 225 - adapted AK elbow weights reach the runtime skeleton and blend both bones during reload
+  ---
+  duration_ms: 80.5252
+  ...
+# Subtest: cached grid candidates preserve native order, boundaries and stacked floors
+ok 226 - cached grid candidates preserve native order, boundaries and stacked floors
+  ---
+  duration_ms: 63.6194
+  ...
+# Subtest: navigation candidate cache remains bounded after travelling through many cells
+ok 227 - navigation candidate cache remains bounded after travelling through many cells
+  ---
+  duration_ms: 11.3775
+  ...
+# Subtest: native gun families have distinct, bounded visual kick without a melee kick
+ok 228 - native gun families have distinct, bounded visual kick without a melee kick
+  ---
+  duration_ms: 4.1037
+  ...
+# Subtest: critically damped recovery and aim transition agree at 30/60/120Hz
+ok 229 - critically damped recovery and aim transition agree at 30/60/120Hz
+  ---
+  duration_ms: 0.3339
+  ...
+# Subtest: pause and invalid time freeze motion while a fresh action can fully reset it
+ok 230 - pause and invalid time freeze motion while a fresh action can fully reset it
+  ---
+  duration_ms: 0.8207
+  ...
+# Subtest: shot-time recoil metadata determines scope strength even when aim changed before delivery
+ok 231 - shot-time recoil metadata determines scope strength even when aim changed before delivery
+  ---
+  duration_ms: 0.1842
+  ...
+# Subtest: fresh and legacy profiles hide Yun and cannot equip her before redemption
+ok 232 - fresh and legacy profiles hide Yun and cannot equip her before redemption
+  ---
+  duration_ms: 2.8278
+  ...
+# Subtest: empty and incorrect codes do not mutate unlocks or existing equipment
+ok 233 - empty and incorrect codes do not mutate unlocks or existing equipment
+  ---
+  duration_ms: 0.3163
+  ...
+# Subtest: 184771 unlocks once, persists across reloads, and keeps all five backpacks and current character
+ok 234 - 184771 unlocks once, persists across reloads, and keeps all five backpacks and current character
+  ---
+  duration_ms: 0.434
+  ...
+# Subtest: unlock sanitization discards unknown entries, deduplicates and does not share mutable state
+ok 235 - unlock sanitization discards unknown entries, deduplicates and does not share mutable state
+  ---
+  duration_ms: 0.2961
+  ...
+# Subtest: visual trail starts at the muzzle and ends at the actual eye-ray hit
+ok 236 - visual trail starts at the muzzle and ends at the actual eye-ray hit
+  ---
+  duration_ms: 1.7973
+  ...
+# Subtest: near-wall and behind-muzzle hits do not create backwards trails
+ok 237 - near-wall and behind-muzzle hits do not create backwards trails
+  ---
+  duration_ms: 0.2401
+  ...
+# Subtest: a wall along the muzzle path clips the visual independently of the sight ray
+ok 238 - a wall along the muzzle path clips the visual independently of the sight ray
+  ---
+  duration_ms: 0.2798
+  ...
+# Subtest: tracers travel in short segments and never overshoot the hit
+ok 239 - tracers travel in short segments and never overshoot the hit
+  ---
+  duration_ms: 0.4065
+  ...
+# Subtest: a fresh flash survives its first render and follows the animated muzzle
+ok 240 - a fresh flash survives its first render and follows the animated muzzle
+  ---
+  duration_ms: 10.0194
+  ...
+# Subtest: melee has no shooting effects, scoped firing hides the flame and switching clears it
+ok 241 - melee has no shooting effects, scoped firing hides the flame and switching clears it
+  ---
+  duration_ms: 2.8947
+  ...
+# Subtest: trails and flashes expire and dispose GPU objects without disposing a shared flame texture early
+ok 242 - trails and flashes expire and dispose GPU objects without disposing a shared flame texture early
+  ---
+  duration_ms: 2.3324
+  ...
+# Subtest: free camera moves independently of a dead body and cannot shoot or interact
+ok 243 - free camera moves independently of a dead body and cannot shoot or interact
+  ---
+  duration_ms: 2.7967
+  ...
+# Subtest: free camera remains within the map and height bounds; living players cannot enter it
+ok 244 - free camera remains within the map and height bounds; living players cannot enter it
+  ---
+  duration_ms: 0.6383
+  ...
+# Subtest: round result locks combat but permits movement for exactly three seconds before resetting
+ok 245 - round result locks combat but permits movement for exactly three seconds before resetting
+  ---
+  duration_ms: 1.5657
+  ...
+# Subtest: round-end movement still respects collision and pause while dead players can fly until reset
+ok 246 - round-end movement still respects collision and pause while dead players can fly until reset
+  ---
+  duration_ms: 0.5762
+  ...
+# Subtest: attack: 5v5 spawn, friend targeting and team survival
+ok 247 - attack: 5v5 spawn, friend targeting and team survival
+  ---
+  duration_ms: 2.3146
+  ...
+# Subtest: defend: 5v5 spawn, friend targeting and team survival
+ok 248 - defend: 5v5 spawn, friend targeting and team survival
+  ---
+  duration_ms: 0.4352
+  ...
+# Subtest: player cannot damage teammates, and allies do not count as player kills
+ok 249 - player cannot damage teammates, and allies do not count as player kills
+  ---
+  duration_ms: 0.3553
+  ...
+# Subtest: a friendly body blocks player bullets without taking damage
+ok 250 - a friendly body blocks player bullets without taking damage
+  ---
+  duration_ms: 0.9272
+  ...
+# Subtest: bots target opposing bots and never their own player
+ok 251 - bots target opposing bots and never their own player
+  ---
+  duration_ms: 3.8924
+  ...
+# Subtest: attacking teammate inherits planting after the player dies
+ok 252 - attacking teammate inherits planting after the player dies
+  ---
+  duration_ms: 170.3665
+  ...
+# Subtest: planting progress resets when the bot carrier dies
+ok 253 - planting progress resets when the bot carrier dies
+  ---
+  duration_ms: 139.3929
+  ...
+# Subtest: defending teammate completes the objective while player is dead
+ok 254 - defending teammate completes the objective while player is dead
+  ---
+  duration_ms: 175.2647
+  ...
+# Subtest: next round restores all ten actors and clears corpse state
+ok 255 - next round restores all ten actors and clears corpse state
+  ---
+  duration_ms: 0.7586
+  ...
+# Subtest: movement, independent view drag and fire drag coexist under three owned touch pointers
+ok 256 - movement, independent view drag and fire drag coexist under three owned touch pointers
+  ---
+  duration_ms: 3.8559
+  ...
+# Subtest: a second view finger cannot steal the first view or movement owner
+ok 257 - a second view finger cannot steal the first view or movement owner
+  ---
+  duration_ms: 0.4286
+  ...
+# Subtest: lost capture only clears its matching owner and a quick release preserves a queued semi-auto tap
+ok 258 - lost capture only clears its matching owner and a quick release preserves a queued semi-auto tap
+  ---
+  duration_ms: 0.3821
+  ...
+# Subtest: clear, background and capture-loss sequences release all touches without leaving movement or fire latched
+ok 259 - clear, background and capture-loss sequences release all touches without leaving movement or fire latched
+  ---
+  duration_ms: 1.1112
+  ...
+# Subtest: paused, dead-follow, finished, non-finite and non-left mouse or pen input cannot start gestures
+ok 260 - paused, dead-follow, finished, non-finite and non-left mouse or pen input cannot start gestures
+  ---
+  duration_ms: 1.1665
+  ...
+# Subtest: invalid drag coordinates cannot create a camera jump or NaN movement and capture failure is safe
+ok 261 - invalid drag coordinates cannot create a camera jump or NaN movement and capture failure is safe
+  ---
+  duration_ms: 0.3812
+  ...
+# Subtest: touch release respects an independent mouse hold and dispose removes every binding
+ok 262 - touch release respects an independent mouse hold and dispose removes every binding
+  ---
+  duration_ms: 0.2399
+  ...
+# Subtest: disabling a control or pausing mid-gesture releases its own input on the next move
+ok 263 - disabling a control or pausing mid-gesture releases its own input on the next move
+  ---
+  duration_ms: 0.2409
+  ...
+# Subtest: Yun normals smooth the curved body without deleting the heel or flattening the shoe sole
+ok 264 - Yun normals smooth the curved body without deleting the heel or flattening the shoe sole
+  ---
+  duration_ms: 53.6073
+  ...
+# Subtest: Yun is selectable and saved, but excluded from both bot teams in every round
+ok 265 - Yun is selectable and saved, but excluded from both bot teams in every round
+  ---
+  duration_ms: 2.7323
+  ...
+# Subtest: Yun rewards carry the player voice through all five kills and death preserves character metadata
+ok 266 - Yun rewards carry the player voice through all five kills and death preserves character metadata
+  ---
+  duration_ms: 1.087
+  ...
+# Subtest: recorded SKC/BNC model and seven voices match sources and the offline bundle
+ok 267 - recorded SKC/BNC model and seven voices match sources and the offline bundle
+  ---
+  duration_ms: 19.2606
+  ...
+# Subtest: Yun has finite standing/running geometry and a grounded frozen corpse that resets
+ok 268 - Yun has finite standing/running geometry and a grounded frozen corpse that resets
+  ---
+  duration_ms: 211.9197
+  ...
+# Subtest: Yun equips all first-person weapons without missing arm profiles or invalid skinning
+ok 269 - Yun equips all first-person weapons without missing arm profiles or invalid skinning
+  ---
+  duration_ms: 483.5814
+  ...
+1..269
+# tests 269
+# suites 0
+# pass 269
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 117709.8371

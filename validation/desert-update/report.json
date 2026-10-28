@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-04",
+  "tests": {
+    "total": 146,
+    "passed": 146,
+    "failed": 0,
+    "durationMs": 126736.293
+  },
+  "nativeMap": {
+    "source": "dustsanzo CF DUST2 GoldSrc community port",
+    "models": 26,
+    "faces": 13395,
+    "triangles": 39105,
+    "textures": 44,
+    "litFaces": 12945
+  },
+  "multitouch": {
+    "viewport": [
+      844,
+      390
+    ],
+    "sides": [
+      "attack",
+      "defend"
+    ],
+    "simultaneousTouches": 4,
+    "controls": [
+      "move",
+      "jump",
+      "aim",
+      "fire"
+    ],
+    "defaultJumpPx": 44,
+    "savedCustomJumpPx": 36
+  },
+  "bundle": {
+    "sha256": "033f88a1cfa334f6f941d5a06ef7bae71afa616377bf80bc15547f20a9de7e72",
+    "offline": true,
+    "browserStartupVerified": true
+  },
+  "limitations": [
+    "Chrome mobile simulation; no iPhone hardware/WebKit performance validation",
+    "No IPA built; no GitHub upload or publication",
+    "Map derivative publication requires author permission"
+  ]
+}

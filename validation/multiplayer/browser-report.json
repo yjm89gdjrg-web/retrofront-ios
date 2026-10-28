@@ -1,0 +1,28 @@
+{
+  "room": {
+    "code": "805458",
+    "createJoin": true,
+    "wrongCodeRejected": true,
+    "readyAndTeamSelection": true
+  },
+  "combat": {
+    "twoIndependentContexts": true,
+    "movementSynchronized": true,
+    "before": {
+      "x": 13.600000000000001,
+      "z": -34.4
+    },
+    "after": {
+      "x": 12.24770384319531,
+      "z": -34.7623466631435
+    },
+    "weaponSwitchSynchronized": true,
+    "jump": true,
+    "remoteShot": true,
+    "localPauseDoesNotPauseServer": true,
+    "rematch": true,
+    "offlineStillAvailable": true,
+    "disconnectNotice": true
+  },
+  "errors": []
+}

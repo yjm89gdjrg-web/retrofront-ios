@@ -1,0 +1,140 @@
+TAP version 13
+# Subtest: routes project blocked destinations and every segment clears the actor footprint
+ok 1 - routes project blocked destinations and every segment clears the actor footprint
+  ---
+  duration_ms: 87.5762
+  ...
+# Subtest: teammates advance on independent lanes when the player stays at spawn
+ok 2 - teammates advance on independent lanes when the player stays at spawn
+  ---
+  duration_ms: 906.7969
+  ...
+# Subtest: moving the player to another lane does not drag teammates or replace their assignments
+ok 3 - moving the player to another lane does not drag teammates or replace their assignments
+  ---
+  duration_ms: 567.1621
+  ...
+# Subtest: defenders hold different site positions without continually recalculating paths
+ok 4 - defenders hold different site positions without continually recalculating paths
+  ---
+  duration_ms: 454.843
+  ...
+# Subtest: planting or defusing bots do not shoot during the interaction
+ok 5 - planting or defusing bots do not shoot during the interaction
+  ---
+  duration_ms: 22.4627
+  ...
+# Subtest: one defender defuses while teammates cover, and progress resets on reassignment
+ok 6 - one defender defuses while teammates cover, and progress resets on reassignment
+  ---
+  duration_ms: 19.8515
+  ...
+# Subtest: planting triggers immediate retake even when an old guard route is active
+ok 7 - planting triggers immediate retake even when an old guard route is active
+  ---
+  duration_ms: 99.1308
+  ...
+# Subtest: bots remember a seen position briefly, without tracking an enemy behind cover
+ok 8 - bots remember a seen position briefly, without tracking an enemy behind cover
+  ---
+  duration_ms: 34.6195
+  ...
+# Subtest: rear contacts need awareness or damage and firing has a reaction delay
+ok 9 - rear contacts need awareness or damage and firing has a reaction delay
+  ---
+  duration_ms: 12.805
+  ...
+# Subtest: seeded rounds preserve walkability, finite positions and bounded replanning
+ok 10 - seeded rounds preserve walkability, finite positions and bounded replanning
+  ---
+  duration_ms: 91455.7467
+  ...
+# Subtest: short corner occlusions do not cause frame-by-frame combat and escort reversals
+ok 11 - short corner occlusions do not cause frame-by-frame combat and escort reversals
+  ---
+  duration_ms: 2044.7209
+  ...
+# Subtest: a stalled moving bot requests recovery then continues toward the objective
+ok 12 - a stalled moving bot requests recovery then continues toward the objective
+  ---
+  duration_ms: 124.1117
+  ...
+# Subtest: A-platform ledge corners remain mandatory until the next segment is walkable
+ok 13 - A-platform ledge corners remain mandatory until the next segment is walkable
+  ---
+  duration_ms: 17.3221
+  ...
+# Subtest: stationary shooters separate safely: coincident pair
+ok 14 - stationary shooters separate safely: coincident pair
+  ---
+  duration_ms: 6.3873
+  ...
+# Subtest: stationary shooters separate safely: near warehouse wall
+ok 15 - stationary shooters separate safely: near warehouse wall
+  ---
+  duration_ms: 4.1609
+  ...
+# Subtest: stationary shooters separate safely: coincident trio
+ok 16 - stationary shooters separate safely: coincident trio
+  ---
+  duration_ms: 4.4476
+  ...
+# Subtest: separation yields around a player without pushing the player or causing idle jitter
+ok 17 - separation yields around a player without pushing the player or causing idle jitter
+  ---
+  duration_ms: 489.8545
+  ...
+# Subtest: crowd separation preserves a defuser position and ignores dead bodies
+ok 18 - crowd separation preserves a defuser position and ignores dead bodies
+  ---
+  duration_ms: 13.8229
+  ...
+# Subtest: opposing teammates yield with stable priority and pass a one-person corridor without body or wall crossing
+ok 19 - opposing teammates yield with stable priority and pass a one-person corridor without body or wall crossing
+  ---
+  duration_ms: 9.253
+  ...
+# Subtest: same-direction followers queue without taking an alternating side or overtaking
+ok 20 - same-direction followers queue without taking an alternating side or overtaking
+  ---
+  duration_ms: 0.6304
+  ...
+# Subtest: open spaces do not become single-file routes and enemies or other floors do not cooperate
+ok 21 - open spaces do not become single-file routes and enemies or other floors do not cooperate
+  ---
+  duration_ms: 0.273
+  ...
+# Subtest: a stationary player has priority and yielding never changes the player or task path
+ok 22 - a stationary player has priority and yielding never changes the player or task path
+  ---
+  duration_ms: 0.3332
+  ...
+# Subtest: yield leases expire into normal recovery and release after death, passing or a new round
+ok 23 - yield leases expire into normal recovery and release after death, passing or a new round
+  ---
+  duration_ms: 0.3679
+  ...
+# Subtest: a queue behind a blocked leader eventually permits the normal stuck-recovery window
+ok 24 - a queue behind a blocked leader eventually permits the normal stuck-recovery window
+  ---
+  duration_ms: 0.184
+  ...
+# Subtest: real map open lane is unrestricted and projected narrow-lane advice remains walkable
+ok 25 - real map open lane is unrestricted and projected narrow-lane advice remains walkable
+  ---
+  duration_ms: 3.4104
+  ...
+# Subtest: real Game navigation yields at B-cave entrance and resumes both independent assignments with bounded safe steps
+ok 26 - real Game navigation yields at B-cave entrance and resumes both independent assignments with bounded safe steps
+  ---
+  duration_ms: 195.7592
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 97009.9444

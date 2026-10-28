@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-04",
+  "tests": {
+    "total": 189,
+    "passed": 189,
+    "failed": 0,
+    "newCorpseTests": 13,
+    "durationMs": 147801.9316,
+    "focusedDamageTests": 16,
+    "focusedDamagePassed": 16
+  },
+  "behavior": {
+    "surface": "currently displayed deformed SkinnedMesh; weapons and markers excluded",
+    "friendlyCorpses": true,
+    "firearmAndMelee": true,
+    "corpseDamage": false,
+    "repeatedKillAndChainAndScore": false,
+    "wallAndLivingActorRangeLimit": true,
+    "originalLivingDamageRayUnchanged": true,
+    "botsTargetLivingActors": true
+  },
+  "browser": {
+    "viewport": [
+      844,
+      390
+    ],
+    "settledCorpseHit": "passed",
+    "friendlyCorpse": "passed",
+    "standingGhostMiss": "passed",
+    "newRoundCleanup": "passed",
+    "killAndChainAndScoreUnchanged": "passed",
+    "errors": []
+  },
+  "actualMinifiedOfflineBundle": {
+    "sha256": "23e21f4699a11fa4f8cfe3b6709c1e3b179a9a156322e04e11643d9153ca4e89",
+    "warehouseAndStartup": "passed",
+    "bloodAtlasDecoded": [
+      512,
+      512
+    ],
+    "fireTouch": "dispatched",
+    "pauseResume": "passed",
+    "errors": [],
+    "externalRequests": []
+  },
+  "limitations": [
+    "Corpse feedback is available under existing live round and living-player firing rules.",
+    "Confirmed corpse surface visuals use source-exporting browser bundle; final minified bundle smoke checks startup and atlas loading.",
+    "iPhone and Safari/WebKit not verified; no new IPA build or upload."
+  ]
+}

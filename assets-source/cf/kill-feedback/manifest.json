@@ -1,0 +1,228 @@
+{
+  "retrieved": "2026-10-04",
+  "iconSet": "Hero Classic community set",
+  "revision": "c7a308bfc339d947dc2d805f80d140f307fcab84",
+  "audioArchive": {
+    "url": "https://gamebanana.com/dl/2603",
+    "sha256": "3f502f8a77f5535f11081cd769f2f513b52bbd66356d3681b9d2140faf9e9eeb"
+  },
+  "entries": [
+    {
+      "kind": "image",
+      "name": "kill-1",
+      "output": "src/assets/killmarks/kill-1.png",
+      "sha256": "dbd9235165ceec897bcd9e5a12ca01bc5b269f012c1c41cd7431c013ee4861d0",
+      "bytes": 43352,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_multi1.PNG",
+      "blob": "20a5db8bad4a090bea1dec490b79daec79f0f288"
+    },
+    {
+      "kind": "image",
+      "name": "kill-2",
+      "output": "src/assets/killmarks/kill-2.png",
+      "sha256": "999d7a59378c2f42aa5f13a42ba04d3dfbe1c20b9d582404aac7388a5a44491c",
+      "bytes": 43743,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_multi2.PNG",
+      "blob": "a536d2eb26117dbec3257a0a7fb76c0843e42d57"
+    },
+    {
+      "kind": "image",
+      "name": "kill-3",
+      "output": "src/assets/killmarks/kill-3.png",
+      "sha256": "0daeeef6a4c9342f3e87d785af9e8e54d0506a4fe8236c5f3a861a85110006bb",
+      "bytes": 44652,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_multi3.PNG",
+      "blob": "c9532f0614a1f69a309660534234addfdcbd2727"
+    },
+    {
+      "kind": "image",
+      "name": "kill-4",
+      "output": "src/assets/killmarks/kill-4.png",
+      "sha256": "1e93382a4ab62cc7bfd4bd097dfa5f0fb831c698f2882327884cfabf0b7cd36d",
+      "bytes": 45720,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_multi4.PNG",
+      "blob": "af5cfd59423fdd17278a1a82dde8647b59f11ce8"
+    },
+    {
+      "kind": "image",
+      "name": "kill-5",
+      "output": "src/assets/killmarks/kill-5.png",
+      "sha256": "36b191c1ec89356b973a9adb390a87e31d05f5ed2cb7b90f6190871f799051f3",
+      "bytes": 45903,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_multi5.PNG",
+      "blob": "6549e80e908534e26892ebf12ee213731d889d38"
+    },
+    {
+      "kind": "image",
+      "name": "headshot",
+      "output": "src/assets/killmarks/headshot.png",
+      "sha256": "cf7e69c617456336d9cc277bae3a0060a4fc611a3b20745b0e11c3097b03a4e1",
+      "bytes": 49153,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_headshot.PNG",
+      "blob": "d36cad1b85548f432b47c78db815387bc402e18a"
+    },
+    {
+      "kind": "image",
+      "name": "knife",
+      "output": "src/assets/killmarks/knife.png",
+      "sha256": "c69da1957b7e7bbc9e9a341ecb10b8927b8663ae11f1305d7c0b7e9ab67a3adc",
+      "bytes": 26832,
+      "source": "https://github.com/nta2005/CustomKillmark/blob/c7a308bfc339d947dc2d805f80d140f307fcab84/%23CustomKillmark/Hero_Classic_Killmark/badge_knife.PNG",
+      "blob": "a07c15b7eef0d57d63557f842bdc85133efd21aa"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_kill_1.wav",
+      "output": "assets-source/cf/audio/reward_male_kill_1.wav",
+      "sha256": "076106ed4b23d1ffc696ab6936d2292f2f9dfeeb2b4bfed14bd4eca913aa8c25",
+      "bytes": 40526,
+      "originalSha256": "bc9340e3f856e37ad8e93e89204365d5b13ca1a2cdfae87512caeeb7a931e08c",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/kill_1.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_kill_2.wav",
+      "output": "assets-source/cf/audio/reward_male_kill_2.wav",
+      "sha256": "4c3c008dcf84d4f4609c9c77587ba81ab5d75fe32a6e1e955fccef9d9dc18a3a",
+      "bytes": 43996,
+      "originalSha256": "842354d7d1e1fb8d567582d3a272707ae716bfb115fa0abefb1693bb2511dbf9",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/kill_2.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_kill_3.wav",
+      "output": "assets-source/cf/audio/reward_male_kill_3.wav",
+      "sha256": "9cc21e3178174946769ad7ff09e66e0a664b949e9c3da55c8998265a444de249",
+      "bytes": 65160,
+      "originalSha256": "d5f5614d225af77efad52023d050de754930de220b8f8d36683c62089e3c76ad",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/kill_3.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_kill_4.wav",
+      "output": "assets-source/cf/audio/reward_male_kill_4.wav",
+      "sha256": "8ecbe816badc825cf6d59d3f6e9baba1fdf718ae9f218203f5fbb706f2345c93",
+      "bytes": 54358,
+      "originalSha256": "d44e787afe68b78f781c479082369fb08eb4bf02ecd450e7249b746238f7fc2d",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/kill_4.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_kill_5.wav",
+      "output": "assets-source/cf/audio/reward_male_kill_5.wav",
+      "sha256": "c02345d10c6ea21fd4778b130d96880d975be38602b9cc39ddf5fd54b8695d46",
+      "bytes": 75192,
+      "originalSha256": "1b75eca955a111c1c42f0cdffb43f658175307ec76eb64e6b85341be1df9d2e6",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/kill_5.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_headshot.wav",
+      "output": "assets-source/cf/audio/reward_male_headshot.wav",
+      "sha256": "28440dc3652d3ff6c57c204099c24f2c284e5187f9596196e96be43321cc6108",
+      "bytes": 45410,
+      "originalSha256": "ae3dfadf493260432fb27e45dafa66b25a9a3c4b9ca6e38bea73befd9f328668",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/headshot.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_male_knife.wav",
+      "output": "assets-source/cf/audio/reward_male_knife.wav",
+      "sha256": "e63759adbe94a49ab8ed13139078460ed0732102101ad99dded78eee5e32c9a7",
+      "bytes": 24866,
+      "originalSha256": "9b1cc0b41d00ca6a49a56cdb5f9b891ad3709978a438bc1b07124a526bbb789c",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Male/sound/vox/kill/knife.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_kill_1.wav",
+      "output": "assets-source/cf/audio/reward_female_kill_1.wav",
+      "sha256": "1eb2761e50c9c15ce86af9f359dbab86fb71c98b4f95204c4a69ec543b9a95bf",
+      "bytes": 37334,
+      "originalSha256": "b518f9e7fb7f59502c0c31531b11642a089fb0a00b029f944fd03fb5ca1b067d",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/kill_1.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_kill_2.wav",
+      "output": "assets-source/cf/audio/reward_female_kill_2.wav",
+      "sha256": "3f9a9567f3948f6f82e748056f7d751ad7af1248cd0cebf95f1953d0014a4774",
+      "bytes": 154568,
+      "originalSha256": "89bc55c4311389d988ce0ec8f0fca8c7b60d7003bd8a8d8fbf3eb6cd65bfe24c",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/kill_2.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_kill_3.wav",
+      "output": "assets-source/cf/audio/reward_female_kill_3.wav",
+      "sha256": "54e3989f231b2a970f97e6f39b51f4574f46f9001f5ef513f1352eda0678512e",
+      "bytes": 154568,
+      "originalSha256": "16bd4d76e4fcbd1fd320ba7c8300d0a31bedce78dc5e28435c285517d65a3aff",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/kill_3.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_kill_4.wav",
+      "output": "assets-source/cf/audio/reward_female_kill_4.wav",
+      "sha256": "9be15e32bc0fa7ba9f5bcbc28e774e6d19cfd5ca700611a06c2e81cfbfaabe02",
+      "bytes": 154568,
+      "originalSha256": "84e149c9e4998e20c48ac9cfd97640060e7647b6c800d76ae6fdc8be0e663077",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/kill_4.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_kill_5.wav",
+      "output": "assets-source/cf/audio/reward_female_kill_5.wav",
+      "sha256": "ed7cf05d3f6aae3954dd524e8241fa745bffc6e76a37880749ed3a0a9f1f84a4",
+      "bytes": 154568,
+      "originalSha256": "7e8cd9427857c870dd16b8a652ed0fdfeb661e33032c2ecd4c9222924bba0072",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/kill_5.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_headshot.wav",
+      "output": "assets-source/cf/audio/reward_female_headshot.wav",
+      "sha256": "869bbf37948471519859a53be73ead968004d0e4310df22c837c6f36b24c2652",
+      "bytes": 53998,
+      "originalSha256": "4917834e605bf8cd1ded543ca281370aa90b196e13ab2c550b3dc67ee8ba4308",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/headshot.wav"
+    },
+    {
+      "kind": "audio",
+      "name": "reward_female_knife.wav",
+      "output": "assets-source/cf/audio/reward_female_knife.wav",
+      "sha256": "55e8e9ea81acefad858cbf48c97ef22797ecd4e72582aaa886279ad0e611518e",
+      "bytes": 58368,
+      "originalSha256": "58d95c280ff1040dc84c681082674c27531ace0442860b28025c92f0d5fdb5ef",
+      "source": "https://gamebanana.com/mods/39342",
+      "archive": "cf_kill_marks.rar",
+      "member": "Choose Voice/Female/sound/vox/kill/knife.wav"
+    }
+  ]
+}

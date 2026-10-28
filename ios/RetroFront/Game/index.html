@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#141b1b">
+  <title>旧战线 · RETRO FRONT</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./lobby.css">
+  <link rel="stylesheet" href="./hud.css">
+  <link rel="stylesheet" href="./backpacks.css">
+</head>
+<body>
+  <canvas id="scene" aria-label="3D 场景"></canvas>
+  <div id="app">
+    <section id="menu" class="screen classic-menu">
+      <div class="grain"></div>
+      <header class="topbar">
+        <div class="brand"><img class="cf-logo" src="./assets/lobby/cf-logo.png" alt="穿越火线"><div class="classic-title"><h1>怀旧大厅</h1><small>旧战线 · CLASSIC FPS</small></div></div>
+        <div class="account"><span class="status-dot"></span><span>好友联机频道</span><span class="divider"></span><span class="account-name">PLAYER 001</span><button id="help-open" class="utility-button" aria-label="操作指南">指南</button><button id="settings-open" class="utility-button" aria-label="设置">设置</button></div>
+      </header>
+      <nav class="tabs" aria-label="主导航"><button id="tab-lobby" class="active"><span class="tab-symbol">▤</span> 游戏大厅 <small>LOBBY</small></button><button id="tab-warehouse"><span class="tab-symbol">▣</span> 个人仓库 <small>INVENTORY</small></button><div class="channel-path">好友大区 <span>›</span> 爆破频道 <span>›</span> <b>频道 01</b></div></nav>
+      <main id="lobby">
+        <aside class="player-panel metal-panel">
+          <div class="panel-heading"><h2>我的信息</h2><span>PLAYER INFO</span></div>
+          <div class="player-identity"><span class="rank-badge" aria-label="新兵军衔"><i></i><i></i></span><div><strong>PLAYER 001</strong><small>新兵 · 本地档案</small></div><span class="identity-tag">RF</span></div>
+          <div id="lobby-preview" class="operator-preview" data-preview role="img" aria-label="拖动旋转当前角色"><div class="preview-corner top-left"></div><div class="preview-corner bottom-right"></div><span class="preview-watermark">CLASSIC<br>OPERATIONS</span><div class="operator-label"><strong id="operator-name">奥摩</strong><span id="operator-sub">OMOH</span></div><span class="rotation-hint">↔ 拖动查看角色</span></div>
+          <div class="player-results"><span>完成 <b id="lobby-matches">0</b></span><span>胜利 <b id="lobby-wins">0</b></span><span>胜率 <b id="lobby-winrate">—</b></span></div>
+          <div class="bag-heading"><b>背包 <span id="bag-number">1</span></b><div class="backpack-tabs lobby-bag-tabs" data-menu-bags aria-label="大厅背包"></div><button id="loadout-edit" aria-label="前往仓库更换装备">更换 ›</button></div>
+          <div class="bag-slots"><div class="bag-slot primary-slot"><span class="slot-index">1</span><img id="bag-image-primary" alt=""><strong id="bag-primary">M4A1</strong></div><div class="bag-slot"><span class="slot-index">2</span><img id="bag-image-secondary" alt=""><strong id="bag-secondary">USP</strong></div><div class="bag-slot"><span class="slot-index">3</span><img id="bag-image-melee" alt=""><strong id="bag-melee">战术匕首</strong></div></div>
+        </aside>
+        <section class="channel-panel">
+          <section class="room-browser metal-panel" aria-label="电脑强度预设">
+            <div class="panel-heading"><h2>选择电脑强度</h2><span>联机 / 单机 · 5 对 5</span><button id="mode-bomb" class="mode-filter">爆破模式 ▾</button></div>
+            <div class="room-columns" aria-hidden="true"><span>编号</span><span>训练预设</span><span>模式</span><span>电脑强度</span><span>状态</span></div>
+            <div class="room-list">
+              <button class="room-row" data-room="easy" aria-pressed="false"><span class="room-number">001</span><span class="room-title"><i class="room-level easy"></i>新兵热身 <small>熟悉路线，练习枪感</small></span><span>爆破</span><span>简单</span><span class="room-ready">可进入</span></button>
+              <button class="room-row selected" data-room="normal" aria-pressed="true"><span class="room-number">002</span><span class="room-title"><i class="room-level normal"></i>标准交锋 <small>经典装备，公平对抗</small></span><span>爆破</span><span>标准</span><span class="room-ready">可进入</span></button>
+              <button class="room-row" data-room="hard" aria-pressed="false"><span class="room-number">003</span><span class="room-title"><i class="room-level hard"></i>老兵挑战 <small>攻守配合，考验反应</small></span><span>爆破</span><span>困难</span><span class="room-ready">可进入</span></button>
+            </div>
+            <div class="room-list-note"><span>创建房间沿用所选强度</span><span>选择强度 → 联机房间 → 邀请朋友</span></div>
+          </section>
+          <section class="room-details metal-panel" aria-label="选中房间信息">
+            <div class="panel-heading"><h2>房间信息</h2><span id="selected-room-name">002 / 标准交锋</span></div>
+            <div class="room-detail-body"><div class="map-preview"><img id="lobby-map-scene" src="./assets/lobby/desert-grey.png" alt="沙漠灰地图实景"><canvas id="lobby-map" width="480" height="260" aria-label="沙漠灰 A B 点位俯视图" hidden></canvas><div class="map-view-tabs" aria-label="地图预览方式"><button id="map-view-scene" class="active" aria-pressed="true">实景</button><button id="map-view-route" aria-pressed="false">路线</button></div><div class="map-preview-caption"><strong>沙漠灰</strong><span>DEMOLITION</span></div></div><div class="room-settings"><div class="room-rule"><span>游戏模式</span><b>爆破模式 · 5 对 5</b></div><div class="room-rule"><span>胜利目标</span><b>先得 3 分</b></div><div class="room-rule"><span>回合时限</span><b>120 秒</b></div><div class="room-rule"><span>电脑强度</span><button id="difficulty-cycle">标准 ↻</button></div><div class="side-pick" aria-label="选择阵营"><button id="side-attack" class="active">潜伏者 <small>进攻</small></button><button id="side-defend">保卫者 <small>防守</small></button></div></div></div>
+          </section>
+          <section class="lobby-console metal-panel" aria-label="大厅系统消息"><div class="console-tabs"><span class="active">系统</span><span>本机频道</span><b>ROOMS</b></div><div id="lobby-message" role="status"><span>[系统]</span> 欢迎回到旧战线。选择房间，与四名队友并肩作战。</div></section>
+        </section>
+      </main>
+      <main id="warehouse" hidden>
+        <aside class="inventory"><div class="eyebrow">YOUR EQUIPMENT</div><h2>基础装备库</h2><div class="backpack-tabs warehouse-bag-tabs" data-menu-bags aria-label="仓库背包"></div><div class="inventory-tabs"><button id="inventory-guns" class="active">主武器</button><button id="inventory-secondary">副武器</button><button id="inventory-melee">近战</button><button id="inventory-operators">角色</button></div><div id="item-list"></div><div class="inventory-foot">永久拥有 · 无属性加成</div></aside>
+        <div id="warehouse-preview" class="warehouse-preview" data-preview role="img" aria-label="拖动旋转装备模型"><div class="preview-caption">拖动以旋转展示 <span>360° INSPECTION</span></div></div>
+        <aside class="item-detail"><div class="eyebrow" id="item-type">突击步枪</div><h2 id="item-name">M4A1</h2><p id="item-desc">均衡 · 稳定</p><div id="item-stats"></div><div class="included-note" id="item-note">弹匣 30 发 · 备用 120 发</div><button id="equip" class="primary-button">装备到主武器 <span>→</span></button></aside>
+      </main>
+      <footer class="bottom-bar"><div class="loadout"><span class="loadout-symbol">▣</span><div><small id="loadout-label">背包 1 / 当前配装</small><strong id="loadout-name">M4A1 <span>/ USP / 战术匕首</span></strong></div></div><div class="build-label"><b>房间联机 · 经典装备</b><span id="record">0 场完成 · 0 场胜利</span></div><button id="solo-start" class="secondary-button">单机练习</button><button id="start" class="start-button">联机房间 <span>▶</span></button></footer>
+    </section>
+    <section id="hud" class="screen" hidden>
+      <output id="frame-meter" hidden aria-label="实际绘制帧率" aria-live="off">测量中…</output>
+      <svg class="hud-symbols" aria-hidden="true" focusable="false"><defs>
+        <symbol id="hud-backpack" viewBox="0 0 40 40"><path d="M14 10V6h12v4M11 11h18l4 9v15H7V20zM7 21h26M12 26h16v6H12zM10 14l-5 4v13h2m23-17 5 4v13h-2M14 12v7m12-7v7"/></symbol>
+        <symbol id="hud-fire" viewBox="0 0 48 48"><path d="M24 3c-4 4-6 9-6 15v17h12V18c0-6-2-11-6-15Z"/><path d="M18 18h12M18 30h12M16 36h16v5H16zM9 19l-4-3M39 19l4-3M10 31l-5 2M38 31l5 2"/><path d="M23 10v12" stroke-width="2.6"/></symbol>
+        <symbol id="hud-scope" viewBox="0 0 40 40"><circle cx="20" cy="20" r="12"/><circle cx="20" cy="20" r="3"/><path d="M20 3v9m0 16v9M3 20h9m16 0h9"/></symbol>
+        <symbol id="hud-reload" viewBox="0 0 40 40"><path d="M11 16 15 7h11l-4 25H11l3-16M14 14h10M13 21h9M12 27h9M31 13c7 9 2 21-8 23M30 8v6h6"/></symbol>
+        <symbol id="hud-switch" viewBox="0 0 40 40"><path d="M6 11h27l-5-5M34 29H7l5 5M7 9v5m26 12v5M10 19h20v5H19l-2 5h-5l2-5h-4zM30 20h5"/></symbol>
+        <symbol id="hud-jump" viewBox="0 0 40 40"><circle cx="20" cy="7" r="3"/><path d="m20 12-2 11-7 10m7-10 10 10M18 15l-8 4m9-4 9-6M6 35h28M31 8l3-4 3 4m-3-4v11"/></symbol><symbol id="hud-pause" viewBox="0 0 32 32"><path d="M10 7h4v18h-4zM20 7h4v18h-4z" fill="currentColor" stroke="none"/></symbol>
+        <symbol id="hud-health" viewBox="0 0 42 48"><path d="m17 3 9-1 5 5-1 7-4 3 1 5 9 5 3 12-4 6H5l1-9 5-8 7-6v-6l-4-3V7z"/><path d="m16 6 13 1M16 11l12 1-1 4-6 1M19 22l8 1-2 15-10-2 2-9M9 30l8 2M7 39l9-3 14 5M24 28l11 4M13 44l-2-6M29 45l1-5"/><path d="m8 34 29 2 3 3-31-2z"/></symbol>
+        <symbol id="hud-rifle" viewBox="0 0 72 32"><path d="M4 12h13l5-4h7V5h8v4h19v3h12v4H49l-4 4h-7l-2 10h-8l3-10h-9l-6 7H5V12Z"/><path d="M40 19l6 9h8l-6-11M22 11h29M61 11V7"/></symbol>
+        <symbol id="hud-pistol" viewBox="0 0 72 32"><path d="M15 5h46v9H36l-4 16H18l5-16h-8zM36 15h11v7H34M18 9h40"/></symbol>
+        <symbol id="hud-knife" viewBox="0 0 48 48"><path d="M11 32 33 8l11-4-4 11-24 22M7 28l13 13M5 38l5 5 7-7-5-5zM18 31l18-20"/></symbol>
+      </defs></svg>
+      <div id="look-zone" aria-label="拖动转动视角"></div>
+      <div class="hud-top"><div class="radar-wrap"><div class="radar-heading"><span>沙漠灰</span><b>N</b></div><canvas id="radar" width="288" height="288" aria-label="战术小地图：固定北向，浅色通道，A/B 爆破点，蓝色队友与可见敌人"></canvas><span id="radar-zone">潜伏者基地</span></div><div class="scoreboard"><div><span class="attack-label">潜伏者</span><b id="score-a">0</b><span id="round">ROUND 01</span><b id="score-d">0</b><span class="defend-label">保卫者</span></div><strong id="timer">02:00</strong><span id="objective"></span></div><button id="pause" class="hud-button" aria-label="暂停"><svg class="hud-icon" aria-hidden="true"><use href="#hud-pause"/></svg></button></div>
+      <div id="feed"></div><div id="crosshair"><i></i><i></i><i></i><i></i></div><div id="hit-marker">×</div><div id="scope" hidden><div></div></div><div id="damage-overlay"></div>
+      <button id="hud-settings" class="hud-button" aria-label="自定义按键布局"><svg class="hud-icon" viewBox="0 0 32 32" aria-hidden="true"><path d="m13 3-1 4-4 2-4-1-2 5 4 3v4l-3 3 3 4 4-1 3 2 1 3h5l1-4 4-2 4 1 2-5-4-3v-4l3-3-3-4-4 1-3-2-1-3z"/><circle cx="16" cy="17" r="5"/></svg></button>
+      <div id="kill-badge" hidden role="status" aria-live="polite"><img alt="" width="88" height="88"><strong></strong><small></small></div>
+      <div id="center-message"></div>
+      <div class="hud-bottom"><div class="health"><svg class="hud-icon" aria-hidden="true"><use href="#hud-health"/></svg><small>HP</small><strong><b id="hp">100</b></strong><div><i id="hp-bar"></i></div></div><div class="weapon-info"><svg class="hud-icon" aria-hidden="true"><use id="weapon-icon" href="#hud-rifle"/></svg><div class="weapon-slots" aria-hidden="true"><i class="active"></i><i></i><i></i></div><small id="weapon-name">M4A1</small><strong><b id="ammo">30</b><span id="reserve">/ 120</span></strong><span id="reload-state"></span></div></div>
+      <div id="joystick" aria-label="移动摇杆"><div id="stick"></div><span>移动</span></div>
+      <div id="combat-buttons"><button id="backpack" class="touch-button" aria-label="背包 1，点击更换"><svg class="hud-icon" aria-hidden="true"><use href="#hud-backpack"/></svg><b id="hud-bag-number">1</b><small>背包</small></button><button id="aim" class="touch-button" aria-label="开镜瞄准" aria-pressed="false"><svg class="hud-icon" aria-hidden="true"><use href="#hud-scope"/></svg><small>开镜</small></button><button id="reload" class="touch-button" aria-label="换弹"><svg class="hud-icon" aria-hidden="true"><use href="#hud-reload"/></svg><small>换弹</small></button><button id="fire" class="fire-button" aria-label="开火，按住并拖动可瞄准"><svg class="hud-icon fire-icon" aria-hidden="true"><use href="#hud-fire"/></svg><svg class="hud-icon melee-icon" aria-hidden="true"><use href="#hud-knife"/></svg><small id="fire-label">开火</small></button><button id="jump" class="touch-button" aria-label="跳跃"><svg class="hud-icon" aria-hidden="true"><use href="#hud-jump"/></svg><small>跳跃</small></button><button id="switch" class="touch-button" aria-label="切换武器"><svg class="hud-icon" aria-hidden="true"><use href="#hud-switch"/></svg><small>切枪</small></button></div>
+      <button id="interact" hidden><span id="interact-label">长按安放</span><i id="interact-progress"></i></button>
+      <div id="spectator-controls" hidden><span id="spectator-status"></span><button id="spectator-toggle">切换自由视角</button><div id="spectator-flight" hidden><button id="spectator-up" aria-label="自由视角上升">↑<small>上升</small></button><button id="spectator-down" aria-label="自由视角下降">↓<small>下降</small></button></div></div>
+      <div id="desktop-hint">WASD 移动 · 空格 跳跃 · 按住左键开火 · 右键瞄准 · R 换弹 · 1/2/3 切枪 · B 背包 · 长按 E 安放/拆除 · Esc 暂停</div>
+    </section>
+    <div id="modal" hidden role="dialog" aria-modal="true"><div class="modal-card"><button id="modal-close" class="modal-close" aria-label="关闭">×</button><div class="eyebrow" id="modal-eyebrow">FIELD MANUAL</div><h2 id="modal-title"></h2><div id="modal-body"></div></div></div>
+    <div id="rotate"><span>↻</span><h2>横屏，进入战场</h2><p>请旋转设备以获得完整的操作视野</p></div>
+    <div id="toast" role="status"></div>
+    <div id="fatal" hidden></div>
+  </div>
+  <script src="./game.js"></script>
+</body>
+</html>

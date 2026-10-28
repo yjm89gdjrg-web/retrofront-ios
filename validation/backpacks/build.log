@@ -1,0 +1,30 @@
+omoh 1947 triangles idle1,walk,run,ref_aim_rifle,ref_shoot_rifle,death1,death2,head [{"name":"backpack","models":["blank","bomb"]},{"name":"studio","models":["Unknown"]}]
+fox-bl 3075 triangles idle1,walk,run,ref_aim_rifle,ref_shoot_rifle,death1,death2,head [{"name":"studio","models":["bl_fox"]},{"name":"backpack","models":["blank","WomanBackCM"]}]
+fox-gr 3166 triangles idle1,walk,run,ref_aim_rifle,ref_shoot_rifle,death1,death2,head [{"name":"studio","models":["GR_fox"]},{"name":"backpack","models":["blank","WomanBackCM"]}]
+star-bl 3154 triangles idle1,walk,run,ref_aim_rifle,ref_shoot_rifle,death1,death2,head [{"name":"studio","models":["bl_SOV"]},{"name":"backpack","models":["blank","WomanBackCM"]}]
+star-gr 3238 triangles idle1,walk,run,ref_aim_rifle,ref_shoot_rifle,death1,death2,head [{"name":"studio","models":["GR_SOV"]},{"name":"backpack","models":["blank","WomanBackCM"]}]
+m4-view 11565 triangles idle,shoot1,reload,draw,idle_unsil,shoot1_unsil,reload_unsil,draw_unsil [{"name":"studio","models":["hands"]},{"name":"studio","models":["camom4"]},{"name":"studio","models":["camom4_2"]},{"name":"studio","models":["3"]},{"name":"studio","models":["pmag"]}]
+m4-world 8071 triangles idle [{"name":"studio","models":["world_m4a1"]},{"name":"studio","models":["world_m4a1a"]},{"name":"studio","models":["pmag"]}]
+ak-view 2898 triangles idle,reload,draw,shoot1 [{"name":"Crossfire","models":["AK-47"]},{"name":"Bobito Pawner Animations","models":["HAND_REF"]}]
+usp-view 2517 triangles
+usp-world 1183 triangles
+mp5-view 3224 triangles
+mp5-world 1890 triangles
+scar-view 3136 triangles
+scar-world 1802 triangles
+anaconda-view 2624 triangles
+anaconda-world 1290 triangles
+axe-view 3300 triangles
+m700-view 2980 triangles
+m700-world 1646 triangles
+an94-view 3303 triangles
+an94-world 1969 triangles
+colt1911-view 2502 triangles
+colt1911-world 1168 triangles
+shovel-view 1616 triangles
+awm-view 4332 triangles
+awm-world 755 triangles
+deagle-view 1134 triangles
+Embedded blood hit animation: 16 frames, 41343 bytes.
+Embedded full CF_DUST2 map: 39105 triangles, 44 textures.
+Offline iOS game bundle ready.

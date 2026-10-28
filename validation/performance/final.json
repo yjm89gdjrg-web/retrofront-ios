@@ -1,0 +1,109 @@
+{
+  "stage": "final",
+  "viewport": [
+    844,
+    390
+  ],
+  "browser": "Chrome headless SwiftShader, not iPhone hardware",
+  "startup": {
+    "menuMs": 135.09999999403954,
+    "gameMs": 0.8000000044703484,
+    "sceneMs": 434.5
+  },
+  "menu": {
+    "renderedFrames": 12,
+    "requestedFrames": 24,
+    "renderMsMedian": 0.6000000014901161,
+    "renderMsP95": 0.7000000029802322,
+    "finishedFrameMsMedian": 0.6000000014901161,
+    "drawCalls": 25,
+    "triangles": 5558,
+    "geometries": 24,
+    "textures": 7,
+    "programs": 6,
+    "jsHeapBytes": 208942134,
+    "stains": 0
+  },
+  "match": {
+    "renderedFrames": 24,
+    "requestedFrames": 24,
+    "renderMsMedian": 1.1999999955296516,
+    "renderMsP95": 1.6000000014901161,
+    "finishedFrameMsMedian": 1.1999999955296516,
+    "drawCalls": 119,
+    "triangles": 99652,
+    "geometries": 127,
+    "textures": 86,
+    "programs": 13,
+    "jsHeapBytes": 204518623,
+    "stains": 0
+  },
+  "blood": {
+    "renderedFrames": 24,
+    "requestedFrames": 24,
+    "renderMsMedian": 1.1999999955296516,
+    "renderMsP95": 2.399999998509884,
+    "finishedFrameMsMedian": 1.1999999955296516,
+    "drawCalls": 120,
+    "triangles": 100625,
+    "geometries": 128,
+    "textures": 87,
+    "programs": 14,
+    "jsHeapBytes": 205139839,
+    "stains": 64
+  },
+  "simulation": {
+    "ticks": 600,
+    "totalMs": 852.8000000044703,
+    "medianMs": 1.1000000014901161,
+    "p95Ms": 3.5,
+    "maxMs": 83.20000000298023,
+    "outcome": "{\"round\":1,\"score\":{\"attack\":0,\"defend\":0},\"player\":{\"id\":0,\"team\":\"attack\",\"character\":\"fox\",\"weapon\":\"ak\",\"x\":-18.400000000000002,\"y\":3.2,\"z\":44.800000000000004,\"vy\":0,\"grounded\":true,\"hp\":100,\"yaw\":-1.2042771838760875,\"pitch\":0,\"dead\":false,\"kills\":0},\"bots\":[{\"id\":1,\"team\":\"defend\",\"formationIndex\":0,\"character\":\"omoh\",\"weapon\":\"m4\",\"x\":36.4146176949299,\"y\":0.6472794579764958,\"z\":-33.66167212961912,\"hp\":100,\"dead\":false,\"yaw\":-0.13811392122002886,\"cooldown\":-6.299999999999984,\"nav\":0,\"path\":[{\"x\":35.2,\"y\":2.99125,\"z\":-42.4},{\"x\":34.4,\"y\":3.19083,\"z\":-43.2},{\"x\":32.8,\"y\":3.19,\"z\":-43.2},{\"x\":28,\"y\":2.4,\"z\":-36.8}],\"site\":0,\"alert\":0,\"ai\":{\"state\":\"guard\",\"reason\":\"hold assigned site\",\"clock\":6.9999999999999805,\"scan\":0.16333333333333333,\"targetId\":null,\"reaction\":0.30333333333333334,\"memory\":null,\"goal\":{\"x\":28,\"y\":2.4,\"z\":-36.8},\"key\":\"guard\",\"arrived\":false,\"repath\":0,\"plans\":3,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":36.448301644330854,\"y\":0,\"z\":-30.885901907152356},\"history\":[{\"time\":0.016666666666666666,\"state\":\"guard\",\"reason\":\"hold assigned site\"}],\"assignment\":{\"site\":0,\"lane\":{\"x\":46.4,\"y\":1.6,\"z\":10.4},\"stage\":0,\"role\":\"anchor\"},\"request\":{\"x\":28,\"y\":2.4,\"z\":-36.8}}},{\"id\":2,\"team\":\"defend\",\"formationIndex\":1,\"character\":\"fox\",\"weapon\":\"m4\",\"x\":36.5875151095986,\"y\":0.31433131275928444,\"z\":-32.41311726984859,\"hp\":100,\"dead\":false,\"yaw\":-0.13805003953681952,\"cooldown\":-5.999999999999986,\"nav\":0,\"path\":[{\"x\":35.2,\"y\":2.99125,\"z\":-42.4},{\"x\":34.4,\"y\":3.19083,\"z\":-43.2},{\"x\":32.8,\"y\":3.19,\"z\":-43.2},{\"x\":31.2,\"y\":2.4,\"z\":-38.4}],\"site\":0,\"alert\":0,\"ai\":{\"state\":\"guard\",\"reason\":\"hold assigned site\",\"clock\":6.9999999999999805,\"scan\":0.15000000000000002,\"targetId\":null,\"reaction\":0.27,\"memory\":null,\"goal\":{\"x\":31.2,\"y\":2.4,\"z\":-38.4},\"key\":\"guard\",\"arrived\":false,\"repath\":0,\"plans\":3,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":35.4344321323942,\"y\":0,\"z\":-30.181330481853532},\"history\":[{\"time\":0.016666666666666666,\"state\":\"guard\",\"reason\":\"hold assigned site\"}],\"assignment\":{\"site\":0,\"lane\":{\"x\":16,\"y\":0,\"z\":1.6},\"stage\":0,\"role\":\"anchor\"},\"request\":{\"x\":31.2,\"y\":2.4,\"z\":-38.4}}},{\"id\":3,\"team\":\"defend\",\"formationIndex\":2,\"character\":\"star\",\"weapon\":\"m4\",\"x\":36.336116308965224,\"y\":0,\"z\":-30.919439802863863,\"hp\":100,\"dead\":false,\"yaw\":1.026849614572869,\"cooldown\":-5.699999999999986,\"nav\":0,\"path\":[{\"x\":36.8,\"y\":0.00375,\"z\":-31.2},{\"x\":35.2,\"y\":2.99125,\"z\":-42.4},{\"x\":34.4,\"y\":3.19083,\"z\":-43.2},{\"x\":32.8,\"y\":3.19,\"z\":-43.2},{\"x\":31.2,\"y\":2.4,\"z\":-34.4},{\"x\":32.8,\"y\":2.4,\"z\":-32}],\"site\":0,\"alert\":0,\"ai\":{\"state\":\"guard\",\"reason\":\"hold assigned site\",\"clock\":6.9999999999999805,\"scan\":0.01000000000000003,\"targetId\":null,\"reaction\":0.17000000000000004,\"memory\":null,\"goal\":{\"x\":32.8,\"y\":2.4,\"z\":-32},\"key\":\"guard\",\"arrived\":false,\"repath\":0,\"plans\":1,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":33.759867907341565,\"y\":0,\"z\":-29.621593513345452},\"history\":[{\"time\":0.016666666666666666,\"state\":\"guard\",\"reason\":\"hold assigned site\"}],\"assignment\":{\"site\":0,\"lane\":{\"x\":46.4,\"y\":1.6,\"z\":10.4},\"stage\":0,\"role\":\"anchor\"},\"request\":{\"x\":32.8,\"y\":2.4,\"z\":-32}}},{\"id\":4,\"team\":\"defend\",\"formationIndex\":3,\"character\":\"omoh\",\"weapon\":\"m4\",\"x\":-15.754734384239153,\"y\":-3.2,\"z\":-27.230818576902,\"hp\":100,\"dead\":false,\"yaw\":-1.515297821549167,\"cooldown\":-5.399999999999985,\"nav\":0,\"path\":[{\"x\":-29.6,\"y\":0,\"z\":-28},{\"x\":-31.2,\"y\":0,\"z\":-26.4},{\"x\":-32,\"y\":0,\"z\":-27.2},{\"x\":-34.4,\"y\":0,\"z\":-35.2}],\"site\":1,\"alert\":0,\"ai\":{\"state\":\"guard\",\"reason\":\"hold assigned site\",\"clock\":6.9999999999999805,\"scan\":0.16333333333333333,\"targetId\":null,\"reaction\":0.30333333333333334,\"memory\":null,\"goal\":{\"x\":-34.4,\"y\":0,\"z\":-35.2},\"key\":\"guard\",\"arrived\":false,\"repath\":0,\"plans\":1,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":-12.819260945815238,\"y\":-3.2,\"z\":-27.067736719211744},\"history\":[{\"time\":0.016666666666666666,\"state\":\"guard\",\"reason\":\"hold assigned site\"}],\"assignment\":{\"site\":1,\"lane\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"stage\":0,\"role\":\"anchor\"},\"request\":{\"x\":-34.4,\"y\":0,\"z\":-35.2}}},{\"id\":5,\"team\":\"defend\",\"formationIndex\":4,\"character\":\"fox\",\"weapon\":\"m4\",\"x\":-18.657246137608393,\"y\":-2.457168013548448,\"z\":-27.827733529766974,\"hp\":100,\"dead\":false,\"yaw\":-1.5550551117619948,\"cooldown\":-5.099999999999985,\"nav\":0,\"path\":[{\"x\":-29.6,\"y\":0,\"z\":-28},{\"x\":-31.2,\"y\":0,\"z\":-26.4},{\"x\":-32.8,\"y\":0,\"z\":-28},{\"x\":-37.6,\"y\":0,\"z\":-38.4},{\"x\":-39.2,\"y\":0,\"z\":-40.8}],\"site\":1,\"alert\":0,\"ai\":{\"state\":\"guard\",\"reason\":\"hold assigned site\",\"clock\":6.9999999999999805,\"scan\":0.15000000000000002,\"targetId\":null,\"reaction\":0.27,\"memory\":null,\"goal\":{\"x\":-39.2,\"y\":0,\"z\":-40.8},\"key\":\"guard\",\"arrived\":false,\"repath\":0,\"plans\":2,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":-15.717610375287725,\"y\":-3.2,\"z\":-27.781456268767265},\"history\":[{\"time\":0.016666666666666666,\"state\":\"guard\",\"reason\":\"hold assigned site\"}],\"assignment\":{\"site\":1,\"lane\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"stage\":0,\"role\":\"anchor\"},\"request\":{\"x\":-39.2,\"y\":0,\"z\":-40.8}}},{\"id\":6,\"team\":\"attack\",\"formationIndex\":1,\"character\":\"fox\",\"weapon\":\"ak\",\"x\":6.533374465778445,\"y\":0,\"z\":38.73677715929719,\"hp\":100,\"dead\":false,\"yaw\":0.5645693936680999,\"cooldown\":-5.999999999999986,\"nav\":0,\"path\":[{\"x\":18.4,\"y\":0,\"z\":20},{\"x\":19.2,\"y\":0,\"z\":16.8},{\"x\":18.4,\"y\":0,\"z\":8.8},{\"x\":16,\"y\":0,\"z\":1.6}],\"site\":0,\"alert\":0,\"ai\":{\"state\":\"advance\",\"reason\":\"take assigned attack lane\",\"clock\":6.9999999999999805,\"scan\":0.01000000000000003,\"targetId\":null,\"reaction\":0.17000000000000004,\"memory\":null,\"goal\":{\"x\":16,\"y\":0,\"z\":1.6},\"key\":\"advance\",\"arrived\":false,\"repath\":0,\"plans\":2,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":4.960321347096487,\"y\":0,\"z\":41.220545241426606},\"history\":[{\"time\":0.016666666666666666,\"state\":\"advance\",\"reason\":\"take assigned attack lane\"}],\"assignment\":{\"site\":0,\"lane\":{\"x\":16,\"y\":0,\"z\":1.6},\"stage\":0,\"role\":\"support\"},\"request\":{\"x\":16,\"y\":0,\"z\":1.6}}},{\"id\":7,\"team\":\"attack\",\"formationIndex\":2,\"character\":\"star\",\"weapon\":\"ak\",\"x\":6.962616267190237,\"y\":0,\"z\":37.70802312275072,\"hp\":100,\"dead\":false,\"yaw\":0.5649008655693077,\"cooldown\":-5.699999999999986,\"nav\":0,\"path\":[{\"x\":19.2,\"y\":0,\"z\":18.4},{\"x\":18.4,\"y\":0,\"z\":9.6},{\"x\":20,\"y\":0,\"z\":7.2},{\"x\":43.2,\"y\":1.59,\"z\":5.6},{\"x\":46.4,\"y\":1.6,\"z\":10.4}],\"site\":0,\"alert\":0,\"ai\":{\"state\":\"advance\",\"reason\":\"take assigned attack lane\",\"clock\":6.9999999999999805,\"scan\":0.16333333333333333,\"targetId\":null,\"reaction\":0.30333333333333334,\"memory\":null,\"goal\":{\"x\":46.4,\"y\":1.6,\"z\":10.4},\"key\":\"advance\",\"arrived\":false,\"repath\":0,\"plans\":1,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":5.3887399356135095,\"y\":0,\"z\":40.19126964553159},\"history\":[{\"time\":0.016666666666666666,\"state\":\"advance\",\"reason\":\"take assigned attack lane\"}],\"assignment\":{\"site\":0,\"lane\":{\"x\":46.4,\"y\":1.6,\"z\":10.4},\"stage\":0,\"role\":\"entry\"},\"request\":{\"x\":46.4,\"y\":1.6,\"z\":10.4}}},{\"id\":8,\"team\":\"attack\",\"formationIndex\":3,\"character\":\"omoh\",\"weapon\":\"ak\",\"x\":-43.24553503809495,\"y\":3.2,\"z\":43.23565530763326,\"hp\":100,\"dead\":false,\"yaw\":0.003547528036913159,\"cooldown\":-5.399999999999985,\"nav\":0,\"path\":[{\"x\":-43.2,\"y\":0.10625,\"z\":30.4},{\"x\":-40,\"y\":0.8,\"z\":7.2},{\"x\":-40,\"y\":0.8,\"z\":3.2},{\"x\":-41.6,\"y\":0.8,\"z\":2.4}],\"site\":1,\"alert\":0,\"ai\":{\"state\":\"advance\",\"reason\":\"take assigned attack lane\",\"clock\":6.9999999999999805,\"scan\":0.15000000000000002,\"targetId\":null,\"reaction\":0.27,\"memory\":null,\"goal\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"key\":\"advance\",\"arrived\":false,\"repath\":0,\"plans\":1,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":-41.619654183388185,\"y\":3.2,\"z\":45.308169826186734},\"history\":[{\"time\":0.016666666666666666,\"state\":\"advance\",\"reason\":\"take assigned attack lane\"}],\"assignment\":{\"site\":1,\"lane\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"stage\":0,\"role\":\"support\"},\"request\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4}}},{\"id\":9,\"team\":\"attack\",\"formationIndex\":4,\"character\":\"fox\",\"weapon\":\"ak\",\"x\":-43.053206065270444,\"y\":3.2,\"z\":44.52044023505779,\"hp\":100,\"dead\":false,\"yaw\":-1.2346233693517301,\"cooldown\":-5.099999999999985,\"nav\":0,\"path\":[{\"x\":-43.2,\"y\":0.10625,\"z\":30.4},{\"x\":-40,\"y\":0.8,\"z\":7.2},{\"x\":-40,\"y\":0.8,\"z\":3.2},{\"x\":-41.6,\"y\":0.8,\"z\":2.4}],\"site\":1,\"alert\":0,\"ai\":{\"state\":\"advance\",\"reason\":\"take assigned attack lane\",\"clock\":6.9999999999999805,\"scan\":0.01000000000000003,\"targetId\":null,\"reaction\":0.17000000000000004,\"memory\":null,\"goal\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"key\":\"advance\",\"arrived\":false,\"repath\":0,\"plans\":1,\"recoveries\":0,\"progressTime\":0.7000000000000005,\"progress\":{\"x\":-40.77751538959273,\"y\":3.2,\"z\":44.70954379264467},\"history\":[{\"time\":0.016666666666666666,\"state\":\"advance\",\"reason\":\"take assigned attack lane\"}],\"assignment\":{\"site\":1,\"lane\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4},\"stage\":0,\"role\":\"entry\"},\"request\":{\"x\":-41.6,\"y\":0.8,\"z\":2.4}}}],\"phase\":\"live\"}"
+  },
+  "cycles": [
+    {
+      "cycle": 0,
+      "ms": 1303.1000000014901,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 211102403
+    },
+    {
+      "cycle": 1,
+      "ms": 904.3999999985099,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210460027
+    },
+    {
+      "cycle": 2,
+      "ms": 820.7000000029802,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210525083
+    },
+    {
+      "cycle": 3,
+      "ms": 899.3999999985099,
+      "geometries": 127,
+      "textures": 86,
+      "heap": 210625835
+    }
+  ],
+  "exit": {
+    "supported": true,
+    "before": {
+      "geometries": 127,
+      "textures": 86
+    },
+    "after": {
+      "geometries": 24,
+      "textures": 7
+    },
+    "worldCleared": true,
+    "gunCleared": true,
+    "pending": 0,
+    "heap": 199467227
+  },
+  "errors": []
+}

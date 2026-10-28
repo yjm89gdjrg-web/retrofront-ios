@@ -1,0 +1,11 @@
+{
+  "initialMutations": 8,
+  "repeatedMutations": 0,
+  "centerNodesPreserved": true,
+  "externalWritesRestored": true,
+  "radarIdleRedraws": 1,
+  "onlinePausedMovementRedraw": true,
+  "bombBlinkRedraw": true,
+  "radarTotalRedraws": 4,
+  "beforeBlink": 3
+}
