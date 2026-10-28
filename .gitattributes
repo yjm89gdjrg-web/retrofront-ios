@@ -3,3 +3,21 @@
 *.yml text eol=lf
 *.swift text eol=lf
 *.png binary
+assets-source/** -text
+src/assets/** -text
+ios/RetroFront/Game/assets/** -text
+*.skc binary
+*.bnc binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.glb binary
+*.bin binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
